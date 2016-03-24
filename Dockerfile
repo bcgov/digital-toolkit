@@ -3,7 +3,7 @@ MAINTAINER sheaphillips <shea.phillips@gmail.com>
 
 RUN yum -y install nodejs && gem install jekyll --no-ri --no-rdoc && mkdir /toolkit
 
-COPY Gemfile* /toolkit/
+#COPY Gemfile* /toolkit/
 
 WORKDIR /toolkit
 
