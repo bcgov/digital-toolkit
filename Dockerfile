@@ -16,7 +16,7 @@ RUN apk update \
 
 WORKDIR /toolkit
 
-RUN bundler
+#RUN bundler
 
 ADD . /toolkit
 
