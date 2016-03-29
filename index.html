@@ -1,23 +1,688 @@
----
-layout: default
----
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 
-<div class="home">
+<title>OCIO Prototype</title>
+<link href="bootstrap-3.3.6-dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/ocio-prototype.css" rel="stylesheet" type="text/css" />
 
-  <h1 class="page-heading">Posts</h1>
+</head>
+<body>
+	<a name="top"></a>
+    <header>
+        <div class="app-header">
+        	<div class="app-header-inner clearfix">
+            	<div class="brand-img"></div>
+                <div class="dropdown pull-right">
+                    <button class="main-nav-toggle" data-toggle="dropdown" type="button" id="mainNavMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    	<span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <ul class="main-nav dropdown-menu pull-right" aria-labelledby="mainNavMenu">
+                        <li><a href="#">Faq</a></li>
+                        <li><a href="#">Guides</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    
+    <!-- BEGIN: INTRO -->
+    <section class="intro-section inverted">
+        <div class="section-inner">
+            <h1>The Public Service Toolkit</h1><small class="label label-warning">Alpha</small>
+            <p>Most British Columbians are online and have high expectations for what makes a good service experience. Citizens @ the Centre <link> paints a picture for how the BC Public Service can simplify, streamline and modernize to meet those expectations. This toolkit describes the steps that should be considered when contemplating and putting into action the Citizens @ the Centre vision of delivering next-generation services. It offers resources that all public servants can access, and shares stories of our peers who are experimenting with some of these approaches today.</p>
+            <div class="buttons clearfix">
+                <a href="#thetools" class="btn btn-custom smoothscroll">Show me the steps</a>
+                <a href="#" class="btn btn-custom">Browse Guides</a>
+                <button data-toggle="modal" data-target="#myModal" class="btn btn-custom">Help us improve the content</button>
+            </div>
+        </div>
+    </section>
+    <!-- END: INTRO -->
+    
+    <a class="anchor-offset" name="thetools"></a>
+    
+    <!-- BEGIN: TOOLS -->
+    <section class="tool-list">
+        <div class="section-inner">
+            <h3>The Steps...</h3>
+            <ul>
+                <li><a class="smoothscroll" href="#cat1"><span class="number">1</span>Understand your users' needs</a></li>
+                <li><a class="smoothscroll" href="#cat2"><span class="number">2</span>Put your users needs at the centre of your design </a></li>
+                <li><a class="smoothscroll" href="#cat3"><span class="number">3</span>Use modern approaches to building your solution</a></li>
+                <li><a class="smoothscroll" href="#cat4"><span class="number">4</span>Use modern tools</a></li>
+                <li><a class="smoothscroll" href="#cat5"><span class="number">5</span>Address legal policies, privacy issues &amp; security</a></li>
+                <li><a class="smoothscroll" href="#cat6"><span class="number">6</span>Default to open</a></li>
+                <li><a class="smoothscroll" href="#cat7"><span class="number">7</span>Use common solutions</a></li>
+                <li><a class="smoothscroll" href="#cat8"><span class="number">8</span>Use data to inform decisions</a></li>
+                <li><a class="smoothscroll" href="#cat10"><span class="number">10</span>Continuous improvement</a></li>
+            </ul>
+        </div>
+    </section>
+    <!-- END: TOOLS -->
+    
+    <a class="anchor-offset" name="cat1"></a>
+    
+    <!-- BEGIN: TOOL CATEGORIES -->
+    <section class="tool-section">
+        <div class="section-inner">
+            <h3>Understand your users’ needs</h3>
+            <p>Nothing is more important for building successful services than clearly understanding users’ needs. Whether a citizen or a government employee, users don’t care how long something takes to build or how many features it has, they care only if it serves their needs. Online or offline, digital or analog, the needs of people - not constraints of government structures or silos - should inform technical and design decisions.</p>
+            <p>Both qualitative and quantitative techniques are needed to glean the necessary insights into user needs. Some examples include the use of surveys, personas, interviews, field research, journey mapping, voice of the customer. It is; however, not enough to conduct one-off research at the start of a project; rather, services should be continually validated with users, either manually or by collecting digital evidence, and updated/improved as necessary based on that ongoing feedback. (See also below: data-driven and continuous improvement)</p>
+            <div class="panel-group" id="cat1accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="cat1resourceheading">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Resources
+                                <span class="state-indicator"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="cat1resourceheading">
+                        <div class="panel-body">
+                            <ul class="bullet-list">
+                                <li>
+                                    <a href="#">BC Segmentation Study</a>
+                                </li>
+                                <li>
+                                    <a href="http://www2.gov.bc.ca/gov/content/about-gov-bc-ca/citizen-centric/ux-toolbox/design-research/deliverables-and-communicating-your-research/journey-maps" target="_blank">Journey Maps</a>,
+                                    <a href="http://www2.gov.bc.ca/gov/content/about-gov-bc-ca/citizen-centric/ux-toolbox/design-research/deliverables-and-communicating-your-research/storyboards" target="_blank" >Storyboards</a>,
+                                    <a href="http://www2.gov.bc.ca/gov/content/about-gov-bc-ca/citizen-centric/ux-toolbox/design-research/deliverables-and-communicating-your-research/personas" target="_blank">Personas</a>
+                                </li>
+                                <li>
+                                    <a class="disabled">Conducting Surveys</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="cat1exampleheading">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                In-Practice Examples
+                                <span class="state-indicator"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="cat1exampleheading">
+                        <div class="panel-body">
+                            <ul class="bullet-list">
+                                <li>
+                                    <a class="disabled">My Self Serve</a>
+                                </li>
+                                <li>
+                                    <a class="disabled">Understanding the Student Journey</a>
+                                </li>
+                                <li>
+                                    <a class="disabled">Hired Equipment</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+   <a class="anchor-offset" name="cat2"></a>
+    
+    <section class="tool-section">
+        <div class="section-inner">
+            <h3>Put your user and their needs at the centre of your design</h3>
+            <p>Once we have developed an understanding of user needs, it is our job to design simple and intuitive services that are satisfying for the public to use. This means applying user-centred design approaches, addressing and supporting the public’s existing beliefs, attitudes, and behaviors as they relate to the service, rather than requiring them to adapt their attitudes and behaviors to learn and use the service.</p>
+            <p>In other words, we build services with the people who will be using them, as opposed to building services behind closed doors and hoping that they work. Doing so requires using plain language, co-designing with citizens in the real world to understand context and opportunities, and offering users the choice of channels that they prefer. It means gleaning insights that lead to rapid prototyping and iteration to try out new ideas quickly and inexpensively before committing to a full implementation.</p>
+            <div class="panel-group" id="cat2accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="cat2resourcheading">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" href="#cat2resources" aria-expanded="true" aria-controls="collapseOne">
+                                Resources
+                                <span class="state-indicator"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="cat2resources" class="panel-collapse collapse" role="tabpanel" aria-labelledby="cat2resourcheading">
+                        <div class="panel-body">
+                            <ul class="bullet-list">
+                                <li>
+                                    <a href="http://www2.gov.bc.ca/gov/content/about-gov-bc-ca/citizen-centric/service-design" target="_blank">Service Design Playbook</a>
+                                </li>
+                                <li>
+                                    <a href="http://www2.gov.bc.ca/gov/content/about-gov-bc-ca/web-presence/writing-for-the-web" target="_blank">Writing for the Web</a>
+                                </li>
+                                <li>
+                                    <a class="disabled">Mobile Developers Guide</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="cat2exampleheading">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" href="#cat2examples" aria-expanded="false" aria-controls="collapseTwo">
+                                In-Practice Examples
+                                <span class="state-indicator"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="cat2examples" class="panel-collapse collapse" role="tabpanel" aria-labelledby="cat2exampleheading">
+                        <div class="panel-body">
+                            <ul class="bullet-list">
+                                <li>
+                                    <a class="disabled">Reducing Red Tape</a>
+                                </li>
+                                <li>
+                                    <a class="disabled">Mobile Enabled Field Officers</a>
+                                </li>
+                                <li>
+                                    <a class="disabled">Aged Out</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <a class="anchor-offset" name="cat3"></a>
+    
+    <section class="tool-section">
+        <div class="section-inner">
+            <h3>Use modern approaches to building your solution</h3>
+            <p>Today, we build services in the context of uncertainty, but with expectations for fast delivery. Deadlines can change, needs can change and our original assumptions can turn out wrong. By building services using agile, iterative practices we can manage changing priorities and improve the likelihood of a service meeting user needs, avoiding project cost-overruns and accelerate service delivery. We get working software into users’ hands as early as possible to give the design and development team opportunities to adjust based on user feedback about the service. This requires that we work in multidisciplinary teams that work and communicate closely to build, operate and iterate the service. This team should be lead by an experienced service manager who has the authority and responsibility to assign tasks and work elements; make business, product, and technical decisions; and be accountable for the success or failure of the overall service. Complementing Agile, DevOps allows developers and operators to work in harmony so products and services can be updated, tested and shipped in quick succession.</p>
+            <div class="panel-group" id="cat3accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="cat3resourceheading">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" href="#cat3resources" aria-expanded="true" aria-controls="collapseOne">
+                                Resources
+                                <span class="state-indicator"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="cat3resources" class="panel-collapse collapse" role="tabpanel" aria-labelledby="cat3resourceheading">
+                        <div class="panel-body">
+                            <ul class="bullet-list">
+                                <li>
+                                    <a href="http://agile-guide.pathfinder.gov.bc.ca/" target="_blank">Agile Guidebook</a>
+                                </li>
+                                <li>
+                                    <a class="disabled">DevOps Guide</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="cat3exampleheading">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" href="#cat3examples" aria-expanded="false" aria-controls="collapseTwo">
+                                In-Practice Examples
+                                <span class="state-indicator"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="cat3examples" class="panel-collapse collapse" role="tabpanel" aria-labelledby="cat3exampleheading">
+                        <div class="panel-body">
+                            <ul class="bullet-list">
+                                <li>
+                                    <a class="disabled">Environmental Assessment Office</a>
+                                </li>
+                                <li>
+                                    <a class="disabled">Justice Tribunal Transformation</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <a class="anchor-offset" name="cat4"></a>
+    
+    <section class="tool-section">
+        <div class="section-inner">
+            <h3>Use modern tools</h3>
+            <p>The technology tools and platforms that we select should enable staff and contractors to work effectively and to build our services to scale easily and cost-effectively. Our choices for hosting infrastructure, databases, software frameworks, programming languages, automation and testing, community development platforms, source code, and transparent project management should seek to avoid vendor lock-in and match what successful modern consumer and enterprise software companies would choose today.</p>
+            <div class="panel-group" id="cat4accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="cat4resourceheading">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" href="#cat4resources" aria-expanded="true" aria-controls="collapseOne">
+                                Resources
+                                <span class="state-indicator"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="cat4resources" class="panel-collapse collapse" role="tabpanel" aria-labelledby="cat4resourceheading">
+                        <div class="panel-body">
+                            <ul class="bullet-list">
+                                <li>
+                                    <a href="https://github.com/bcgov/BC-Policy-Framework-For-GitHub" target="_blank">BC Github Guide</a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/bcgov/REST-API-Development-Guide" target="_blank">API Developers Guide</a>
+                                </li>
+                                <li>
+                                    <a class="disabled">DevOps Guide</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="cat4exampleheading">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" href="#cat4examples" aria-expanded="false" aria-controls="collapseTwo">
+                                In-Practice Examples
+                                <span class="state-indicator"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="cat4examples" class="panel-collapse collapse" role="tabpanel" aria-labelledby="cat4exampleheading">
+                        <div class="panel-body">
+                            <ul class="bullet-list">
+                                <li>
+                                    <a class="disabled">Open 511 API</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <a class="anchor-offset" name="cat5"></a>
+    
+    <section class="tool-section">
+        <div class="section-inner">
+            <h3>Address legal policies, privacy issues and security</h3>
+            <p>The best intentions for service outcomes are only as good as the legal and policy environment into which they are designed to be deployed. In the context of digital services, often accessed using wireless devices and located in the cloud, and which often necessarily involve the collection and sharing of data and personal information, a public service owner must be cognizant of the associated risks and opportunities. So evaluate what user data and information the service will be providing or storing, and address the security level, legal responsibilities, privacy issues and risks associated with the service in consultation with your Ministry Information Security Officer and other experts.</p>
+            <div class="panel-group" id="cat5accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="cat5resourceheading">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" href="#cat5resources" aria-expanded="true" aria-controls="collapseOne">
+                                Resources
+                                <span class="state-indicator"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="cat5resources" class="panel-collapse collapse" role="tabpanel" aria-labelledby="cat5resourceheading">
+                        <div class="panel-body">
+                            <ul class="bullet-list">
+                                <li>
+                                    <a href="http://www2.gov.bc.ca/gov/content/governments/services-for-government/information-technology/standards/nrs-system-development-life-cycle/new-development-phase-descriptions-deliverables/initiation-phase/security-threat-risk-assessment" target="_blank">STRA (security threat and risk assessment)</a>
+                                </li>
+                                <li>
+                                    <a href="http://www.cio.gov.bc.ca/cio/priv_leg/foippa/pia/pia_index.page" target="_blank">PIA (privacy impact assessment)</a>
+                                </li>
+                                <li>
+                                    <a class="disabled">Security for Mobile</a>
+                                </li>
+                                <li>
+                                    <a class="disabled">Security for Cloud</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="cat5exampleheading">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" href="#cat5examples" aria-expanded="false" aria-controls="collapseTwo">
+                                In-Practice Examples
+                                <span class="state-indicator"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="cat5examples" class="panel-collapse collapse" role="tabpanel" aria-labelledby="cat5exampleheading">
+                        <div class="panel-body">
+                            <ul class="bullet-list">
+                                <li>
+                                    <a class="disabled">Information Management Act</a>
+                                    <a class="disabled">Home Healthcare Monitoring</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <a class="anchor-offset" name="cat6"></a>
+    
+    <section class="tool-section">
+        <div class="section-inner">
+            <h3>Default to Open</h3>
+            <p>The nature of government, the complexity of services it delivers, the problems it must solve, means that, increasingly, we cannot solve these problems on our own. We must be open in our approaches, open where appropriate with our information, and open to outside contribution.</p>
+            <p>We have a history of leadership in sharing open data - as we evolve, we work with our partners to better generate public value from that data. When it comes to software, when we design it open from the first letter of code, it optimizes our capability to respond to user feedback. Where appropriate we will make all source code and application data available to the public and to our partners. We will seek out every opportunity to encourage and celebrate public and partner contributions to our projects.</p>
+            <div class="panel-group" id="cat6accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="cat6resourceheading">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" href="#cat6resources" aria-expanded="true" aria-controls="collapseOne">
+                                Resources
+                                <span class="state-indicator"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="cat6resources" class="panel-collapse collapse" role="tabpanel" aria-labelledby="cat6resourceheading">
+                        <div class="panel-body">
+                            <ul class="bullet-list">
+                                <li>
+                                    <a href="https://github.com/bcgov/BC-Policy-Framework-For-GitHub/tree/master/BC-Open-Source-Development-Employee-Guide" target="_blank">Open Source Developers Guide</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="cat6exampleheading">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" href="#cat6examples" aria-expanded="false" aria-controls="collapseTwo">
+                                In-Practice Examples
+                                <span class="state-indicator"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="cat6examples" class="panel-collapse collapse" role="tabpanel" aria-labelledby="cat6exampleheading">
+                        <div class="panel-body">
+                            <ul class="bullet-list">
+                                <li>
+                                    <a class="disabled">BC Trade and Investment (britishcolumbia.ca)</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <a class="anchor-offset" name="cat7"></a>
+    
+    <section class="tool-section">
+        <div class="section-inner">
+            <h3>Use Common Solutions</h3>
+            <p>To better deliver the services citizens expect, especially through digital channels, requires a coordinated, whole of government approach. By sharing capacities, ideas and resources across agencies, and taking a collaborative approach to building the systems and processes that underpin our services, we can accelerate delivery, reduce costs and offer consistency in how we fully utilize information. All of this reflects the principles of “government-as-a-platform” and “build-once, use many times”.</p>
+            <p>In order to implement these principles, we will seek out common services - like identity, payments, booking appointments and the development and sharing of software code - to be standardized as platform offerings. Wherever possible, we will Incorporate open standards and common government solution, building services that are consistent with the user experience of the rest of GOV.BC.CA, and publish content using the corporate content management system.</p>
+            <div class="panel-group" id="cat7accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="cat7resourceheading">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" href="#cat7resources" aria-expanded="true" aria-controls="collapseOne">
+                                Resources
+                                <span class="state-indicator"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="cat7resources" class="panel-collapse collapse" role="tabpanel" aria-labelledby="cat7resourceheading">
+                        <div class="panel-body">
+                            <ul class="bullet-list">
+                                <li>
+                                    <a href="http://www2.gov.bc.ca/gov/content/about-gov-bc-ca/web-presence/developers-guide" target="_blank">Corporate Branding</a>
+                                </li>
+                                <li>
+                                    <a href="http://www2.gov.bc.ca/gov/content/governments/government-id/bc-services-card" target="_blank">BC Services Card</a>
+                                </li>
+                                <li>
+                                    <a class="disabled">Gov2.0 CMS Lite Manual</a>
+                                </li>
+                                <li>
+                                    <a class="disabled">Pay BC</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="cat7exampleheading">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" href="#cat7examples" aria-expanded="false" aria-controls="collapseTwo">
+                                In-Practice Examples
+                                <span class="state-indicator"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="cat7examples" class="panel-collapse collapse" role="tabpanel" aria-labelledby="cat7exampleheading">
+                        <div class="panel-body">
+                            <ul class="bullet-list">
+                                <li>
+                                    <a class="disabled">Broadband for BC</a>
+                                </li>
+                                <li>
+                                    <a class="disabled">Procurement Transformation</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <a class="anchor-offset" name="cat8"></a>
+    
+    <section class="tool-section">
+        <div class="section-inner">
+            <h3>Use data to inform decisions</h3>
+            <p>Today, our capability to generate and analyze meaningful data is unparallelled. Being data-driven means using evidence to base the decisions made in the design of the services people need. It means measuring the performance of those services in real time and using those measurements to inform business decisions and the ways in which we continuously improve the service and respond to users’ changing needs. And it means gleaning insights into customer interactions with the service in the interest of pursuing a goal of offering personalized service experiences for each individual user, at the right time, and through the service channel of their choice.</p>
+            <p>To do all of this, we build data and measurement into every aspect of service design and delivery. Digital services can easily generate these types of analytics, offering insights into citizen needs at a deeper levels.</p>
+            <div class="panel-group" id="cat8accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="cat8resourceheading">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" href="#cat8resources" aria-expanded="true" aria-controls="collapseOne">
+                                Resources
+                                <span class="state-indicator"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="cat8resources" class="panel-collapse collapse" role="tabpanel" aria-labelledby="cat8resourceheading">
+                        <div class="panel-body">
+                            <ul class="bullet-list">
+                                <li>
+                                    <a href="http://www.data.gov.bc.ca/" target="_blank">DataBC</a>
+                                </li>
+                                <li>
+                                    <a href="http://eba-guide.pathfinder.gov.bc.ca/" target="_blank">EBA (Enterprise Business Architecture Guide)</a>
+                                </li>
+                                <li>
+                                    <a class="disabled">Web Analytics Guide</a>
+                                </li>
+                                <li>
+                                    <a class="disabled">Big Data Guide</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="cat8exampleheading">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" href="#cat8examples" aria-expanded="false" aria-controls="collapseTwo">
+                                In-Practice Examples
+                                <span class="state-indicator"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="cat8examples" class="panel-collapse collapse" role="tabpanel" aria-labelledby="cat8exampleheading">
+                        <div class="panel-body">
+                            <ul class="bullet-list">
+                                <li>
+                                    <a class="disabled">Broadband Mapping</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <a class="anchor-offset" name="cat9"></a>
+    
+    <section class="tool-section">
+        <div class="section-inner">
+            <h3>Flexible Deployment</h3>
+            <p>If we design, build and test in ways that aim to get services to market quickly, then it doesn’t make sense to spend months going through legacy hurdles to get the services up an running on systems that are inefficient of quickly adapting to changing needs. Building services on a flexible infrastructure, like cloud computing, will enable Ministries to quickly and easily purchase computing resources on demand, only pay for what they actually use, scale up or down depending on needs, and improve overall resiliency.</p>
+            <p>To enable this approach to deployment, we must explore more lightweight procurement processes that allow us to achieve as close to industry best practices as our regulatory requirements permit. By doing so, we will open up opportunities to do business with new vendors, small businesses and innovative start-ups who work in modern, agile ways, but don’t have the capacity or resources for long RFP processes.</p>
+            <div class="panel-group" id="cat9accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="cat9resourceheading">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" href="#cat9resources" aria-expanded="true" aria-controls="collapseOne">
+                                Resources
+                                <span class="state-indicator"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="cat9resources" class="panel-collapse collapse" role="tabpanel" aria-labelledby="cat9resourceheading">
+                        <div class="panel-body">
+                            <ul class="bullet-list">
+                                <li>
+                                    <a href="https://bcdevexchange.org/home" target="_blank">Developers Exchange</a>
+                                </li>
+                                <li>
+                                    <a href="http://www2.gov.bc.ca/gov/content/governments/services-for-government/bc-bid-resources/templates-and-tools/solicitation-templates/short-form-request-for-proposal" target="_blank">Short Form RFP</a>
+                                </li>
+                                <li>
+                                    <a class="disabled">Cloud Guide</a>
+                                </li>
+                                <li>
+                                    <a class="disabled">Approved Vendors List</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="cat9exampleheading">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" href="#cat9examples" aria-expanded="false" aria-controls="collapseTwo">
+                                In-Practice Examples
+                                <span class="state-indicator"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="cat9examples" class="panel-collapse collapse" role="tabpanel" aria-labelledby="cat9exampleheading">
+                        <div class="panel-body">
+                            <ul class="bullet-list">
+                                <li>
+                                    <a class="disabled">CloudBC</a>
+                                </li>
+                                <li>
+                                    <a class="disabled">Technology Exemptions</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <a class="anchor-offset" name="cat10"></a>
+    
+    <section class="tool-section">
+        <div class="section-inner">
+            <h3>Continuous Improvement</h3>
+            <p>Although services and processes don’t start out complex and difficult to navigate, over time inefficiencies can creep in. Without efficient and streamlined processes, it can be challenging to benefit from a transition to digital services. Continuous improvement practices - i.e. those delivered through LeanBC - offer a process to improve products, services, or processes in an ongoing fashion.</p>
+            <p>In the digital services context, this includes building in automated testing and deployment, ensuring that developers and those running and maintaining services are working closely together to avoid failure, a building in a continuous cycle of planning, delivery to users, gathering feedback and acting on that feedback. By doing so we can get services to citizens faster, reduce risks, eliminate wasteful steps and minimize project cost overruns.</p>
+            <div class="panel-group" id="cat10accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="cat10resourceheading">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" href="#cat10resources" aria-expanded="true" aria-controls="collapseOne">
+                                Resources
+                                <span class="state-indicator"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="cat10resources" class="panel-collapse collapse" role="tabpanel" aria-labelledby="cat10resourceheading">
+                        <div class="panel-body">
+                            <ul class="bullet-list">
+                                <li>
+                                    <a href="https://lean.gov.bc.ca/Tools_DMAIC/Forms/Master%20List%20of%20All%20Resources.aspx" target="_blank">LeanBC Toolkit</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="cat10exampleheading">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" href="#cat10examples" aria-expanded="false" aria-controls="collapseTwo">
+                                In-Practice Examples
+                                <span class="state-indicator"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="cat10examples" class="panel-collapse collapse" role="tabpanel" aria-labelledby="cat10exampleheading">
+                        <div class="panel-body">
+                            <ul class="bullet-list">
+                                <li>
+                                    <a class="disabled">Child and Youth Mental Health BC</a>
+                                </li>
+                                <li>
+                                    <a class="disabled">BC Palliative Care Program</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END: TOOL CATEGORIES -->
+    
+    <!-- BEGIN: CONTACT SECTION -->
+    <section class="contact-section inverted">
+        <div class="section-inner">
+            <h3>Didn't find what you need?</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem. Aliquam erat volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem. Aliquam erat volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem.</p>
+            <p>We recognize that not all projects are suitable for these approaches. If you have a project that is more suited to a traditional “waterfall” type of approach, please reference the following <a href="http://mode1-guide.pathfinder.gov.bc.ca/" target="_blank">guidebook.</a></p>
+            <div class="buttons clearfix">
+                <a href="#" class="btn btn-custom">Frequently Asked Questions</a>
+                <a href="#" class="btn btn-custom">Contact Us</a>
+            </div>
+        </div>
+    </section>  
+    <!-- END: CONTACT SECTION -->
+    
+	<footer>
+    	<div class="app-footer-inner">
+            <ul class="footer-nav">
+                <li><a href="#">Disclaimer</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Accessibility</a></li>
+                <li><a href="#">Copyright</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    <div class="scroll-top">
+    	<a class="smoothscroll" href="#top"></a>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/ocio-prototype.js"></script>
+    <script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>	
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+</body>
+</html>
