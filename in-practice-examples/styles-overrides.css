@@ -1,0 +1,149 @@
+
+@font-face {
+	font-family: 'Myriad-Pro';
+	src: url('../fonts/MyriadWebPro.ttf');
+}
+
+html {
+	font-size: 10px;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: Myriad-Pro, Calibri, Arial, Sans Serif;
+	/* font-family: Montserrat, sans-serif; */
+	font-weight: 600;
+}
+
+h2 {
+	margin-top: 2rem;
+	font-size: 2.4rem;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+p {
+	font-family: Myriad-Pro, Calibri, Arial, Sans Serif;
+	font-size: 1.8rem;
+	font-weight: 300;
+	color: #494949;
+	line-height: 3.2rem;
+}
+
+a, a:link, a:visited,
+p a, p a:link, p a:visited {
+	color: #1a5a96;
+}
+
+hr {
+	margin-top: 0.8rem;
+	color: #EEE;
+	border-style: solid;
+}
+
+aside {
+	margin-top: 0.5rem;
+}
+
+
+/* HEADER OVERRIDES 
+---------------------------------------- */
+header {
+	background-color: #036;
+	border-bottom: 3px solid #fcba19;
+}
+
+a.title-link,
+a.title-link:hover,
+a.title-link:active,
+a.title-link:focus {
+	font-family: Myriad-Pro, Calibri, Arial, Sans Serif;
+	font-size: 3rem;
+	font-weight: 400;
+	color: #FFF;
+}
+
+h1.site-title {
+	margin-top: 2rem;
+}
+
+header div.wrap div.back-link {
+	margin-top: 1rem;
+	font-family: Myriad-Pro, Calibri, Arial, Sans Serif;
+	font-weight: 400;
+	color: #FFF;
+}
+
+
+/* SEARCH BAR OVERRIDES
+---------------------------------------- */
+div.search-interface input {
+	font-size: 1.4rem;
+	background-color: #FFF;
+	border: none;
+}
+
+div.search-interface input:active,
+div.search-interface input:focus {
+	border:  none;
+}
+
+
+/* FOOTER OVERRIDES
+---------------------------------------- */
+footer {
+	font-family: Myriad-Pro, Calibri, Arial, Sans Serif;
+	font-size: 1.4rem;
+	font-weight: 400;
+	color: #FFF;
+	background-color: #036;
+	border-top: 2px solid #fcba19;
+}
+
+footer p {
+	font-size: 1.4rem;
+	color: #FFF;
+}
+
+footer a,
+footer a:link,
+footer a:visited {
+	color: #FFF;
+	border-bottom-color: #FFF;
+}
+
+
+/* SIDE NAVIGATION OVERRIDES 
+---------------------------------------- */
+.sidebar-nav .sidebar-nav-active > a,
+.sidebar-nav a:hover {
+	border-left: 4px solid #036;
+}
+
+.sidebar-nav .sidebar-nav-active > a {
+	font-weight: 700;
+}
+
+.sidebar-nav li {
+	font-size: 1.4rem;
+	border-bottom: 1px solid #EEE;
+}
+
+.sidebar-nav a,
+.sidebar-nav a:link,
+.sidebar-nav a:visited {
+	padding: 1rem;
+	color: #1a5a96;
+}
+
+.sidebar-nav .sidebar-nav-active > a,
+.sidebar-nav .sidebar-nav a:hover {
+	border-left: 4px solid #036;
+}
