@@ -276,6 +276,10 @@ section {
 		font-size: 1.5rem;
 		font-weight: 300;
 		line-height: 3rem;
+		
+		a {
+			font-style: italic;
+		}
 	}
 	
 	.buttons {
@@ -318,6 +322,10 @@ section {
 			.btn:last-child {
 				margin-left: 0;
 			}
+		}
+		
+		a, a:hover, a:active, a:visited {
+			color: #FFF;
 		}
 	}
 }
@@ -534,7 +542,7 @@ section {
 		}
 	}
 	
-	a, a:hover, a:active {
+	a, a:hover, a:active, a:visited {
 		color: #FFF;
 	}
 }
@@ -648,9 +656,27 @@ section {
 	}
 }
 
-
-/* IN-PRACTICE EXAMPLES MOCKUPS
----------------------------------------- */
-.inpractice-example {
+body.modal-open {
+	padding-right: 0 !important;
 	
+	.app-header,
+	footer,
+	section {
+		padding-right: 1.7rem;
+	}
+}
+
+.modal-body p {
+	padding: 2rem;
+	font-size: 1.6rem;
+}
+
+.modal-footer {
+	border-top: none;
+	
+	button {
+		font-family: Myriad-Pro, Calibri, Arial, sans serif;
+		font-weight: bold;
+		padding-bottom: 3px;
+	}
 }
