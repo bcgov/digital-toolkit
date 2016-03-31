@@ -1,4 +1,5 @@
 
+
 // SMOOTH SCROLL
 $(function() {
   $('.smoothscroll').click(function() {
@@ -40,3 +41,7 @@ $(window).scroll(function() {
 		$(".scroll-top").removeClass("visible");
 	}	
 }); 
+
+function comingSoon() {
+	alert("Coming soon");
+}
