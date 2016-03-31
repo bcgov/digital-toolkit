@@ -72,6 +72,10 @@ a.title-link:focus {
 
 h1.site-title {
 	margin-top: 2rem;
+	background-image: url(../images/gov3_bc_logo.png);
+	background-repeat: no-repeat;
+	padding-top: 0.6rem;
+	padding-left: 18rem;
 }
 
 header div.wrap div.back-link {
@@ -85,6 +89,7 @@ header div.wrap div.back-link {
 /* SEARCH BAR OVERRIDES
 ---------------------------------------- */
 div.search-interface input {
+	margin-top: 2.4rem;
 	font-size: 1.4rem;
 	background-color: #FFF;
 	border: none;
