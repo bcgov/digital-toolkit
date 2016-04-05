@@ -1,1 +1,592 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);@import url(https://fonts.googleapis.com/css?family=Oxygen:400,300);@font-face{font-family:Myriad-Pro;src:url(../fonts/MyriadWebPro.ttf)}*{box-sizing:border-box}html{-ms-overflow-style:scrollbar}body{font-family:Myriad-Pro,Calibri,Arial,sans serif;-webkit-font-smoothing:none;margin:0}h1{font-size:3.6rem;font-weight:700}h2{font-size:3.2rem;font-weight:700}p{font-weight:400}.btn-custom,a.btn-custom{display:inline-block;padding:.75rem 1.5rem;font-size:1.4rem;font-weight:700;color:#1a5a96;background:0 0;border:.2rem solid #1a5a96;border-radius:.3rem;text-decoration:none}.app-footer-inner,.app-header-inner{margin:0 auto;width:100%;max-width:1170px;padding-left:2rem;padding-right:2rem}header{position:fixed;top:0;left:0;width:100%;z-index:999}.app-header{background-color:#036}.app-header .app-header-inner{height:75px;border-bottom:1px solid rgba(84,117,167,.3)}.app-header .brand-img{float:left;margin-top:15px;width:155px;height:41px;background:url(../images/gov3_bc_logo.png)}.app-header.has-border{border-bottom:3px solid #fcba19}.app-header.has-border .app-header-inner{border:none}.main-nav-toggle{height:4rem;margin-top:1.6rem;padding-top:.5rem;font-size:2rem;color:#FFF;background:0 0;border:none}.main-nav-toggle .icon-bar{margin-bottom:.5rem;display:block;width:2.6rem;height:.2rem;background:#FFF;border-radius:.1rem}.main-nav.dropdown-menu{margin-top:1rem;background:#5475a7;border:none}.main-nav.dropdown-menu>li>a,.main-nav.dropdown-menu>li>a:active,.main-nav.dropdown-menu>li>a:hover{padding:1rem 1.5rem;font-size:1.5rem;color:#FFF;background:0 0}.main-nav.dropdown-menu:after{content:'';position:absolute;top:-1rem;right:.8rem;display:block;border-right:1.25rem solid transparent;border-bottom:1.25rem solid #5475a7;border-left:1.25rem solid transparent}@media (min-width:768px){.main-nav-toggle{display:none}.main-nav.dropdown-menu{margin-top:1rem;margin-left:-1rem;margin-right:-1rem;position:relative;display:block;background:0 0;box-shadow:none}.main-nav.dropdown-menu li{display:inline-block}.main-nav.dropdown-menu>li>a:hover{text-decoration:underline}.main-nav.dropdown-menu:after{display:none}}footer{background:#036}footer .footer-nav{margin:0;padding:0}footer .footer-nav li{display:inline-block}footer .footer-nav li a{padding:1rem;font-size:1.4rem;color:#FFF}.app-footer-inner{padding:2.5rem 1.5rem;border-top:1px solid rgba(84,117,167,.3)}section h3{margin-top:0;margin-bottom:2rem;font-size:2rem;font-weight:700}section p{font-size:1.5rem;line-height:3rem}section p:last-child{margin-bottom:0}@media (min-width:600px){section p{margin-bottom:2rem;font-size:1.8rem;line-height:3.2rem}}@media (min-width:768px){section h3{margin-bottom:3rem;font-size:3rem}}.section-inner{max-width:70rem;margin:0 auto;padding:4rem}@media (min-width:1024px){.section-inner{padding:6rem 0}}.intro-section{border-bottom:3px solid #fcba19}.intro-section .section-inner{padding-top:10rem}.intro-section h1{display:inline-block;margin-top:0;margin-bottom:2rem;font-size:3rem;font-weight:400}.intro-section p{margin:0;font-size:1.5rem;font-weight:300;line-height:3rem}.intro-section p a{font-style:italic}.intro-section .buttons{margin-top:2rem}.intro-section .buttons .btn{margin-bottom:1rem;display:block}.intro-section .buttons .btn:last-child{margin-bottom:0}.intro-section .label{margin-left:.5rem;vertical-align:top;padding:.3rem .5rem .2rem}@media (min-width:600px){.intro-section p{font-size:2rem;line-height:3.4rem}.intro-section .buttons .btn{display:inline-block}.intro-section .buttons .btn+.btn{margin-left:.5rem}.intro-section .buttons .btn:last-child{margin-left:0}.intro-section a,.intro-section a:active,.intro-section a:hover,.intro-section a:visited{color:#FFF}}@media (min-width:768px){.intro-section .section-inner{padding-top:12rem}.intro-section h1{margin-bottom:3.5rem;font-size:3.8rem}.intro-section .buttons{margin-top:4rem}.intro-section .buttons .btn:last-child{float:right;margin-top:0}}.tool-list .section-inner{border-bottom:2px solid #EEE}.tool-list ul{margin-bottom:-1.5rem;padding-left:0;list-style-type:none}.tool-list li{margin-bottom:1.25rem;position:relative}.tool-list li>a{position:relative;display:inline-block;padding:.5rem 1rem .5rem 4.5rem;font-family:Oxygen,sans-serif;font-size:1.6rem;font-weight:400;text-decoration:none;color:#1a5a96}.tool-list .number{position:absolute;top:0;left:0;width:3.25rem;height:3.25rem;padding-top:.25rem;padding-bottom:.25rem;font-family:Montserrat,sans-serif;font-size:1.6rem;font-weight:700;text-align:center;color:#1a5a96;border:.3rem solid #1a5a96}@media (min-width:600px){.tool-list li>a{padding-left:5.5rem;font-size:2rem}.tool-list .number{width:4.25rem;height:4rem;padding-top:.6rem;padding-bottom:.5rem;font-size:1.8rem}}.tool-tiles{background:#f2f2f2}.tiles{margin-left:-.5rem;margin-right:-.5rem}.tile-container{float:left;width:33.3333%;padding:.5rem}.tile{width:100%;height:200px;background:#DDD}.tool-section .section-inner{border-bottom:2px solid #EEE}.tool-section .panel-group{margin-top:2rem;margin-bottom:0}@media (min-width:768px){.tool-section .panel-group{margin-top:4rem}}.panel{border:none;border-radius:0;box-shadow:none}.panel-body{padding:1.5rem 2rem;border:none!important}.panel-heading{padding:0;border:none!important}.panel-heading a,.panel-heading h4{display:block}.panel-heading a{position:relative;padding:1.5rem 2rem;font-weight:700;text-decoration:none;cursor:pointer}.panel-title .state-indicator{position:absolute;top:0;right:0;padding:.55rem;width:4.5rem;height:100%;font-family:"Glyphicons Halflings";font-size:1.4rem;line-height:1;color:#FFF;text-align:center;background:#CCC}.panel-title .state-indicator:before{display:inline-block;margin-top:10px;content:"\2212"}.panel-title .collapsed .state-indicator:before{content:"\002b"}.contact-section{color:#FFF;background:#036;border-top:2px solid #fcba19}.contact-section .buttons{margin-top:2rem}.contact-section .buttons .btn{margin-bottom:1rem;display:block}.contact-section a,.contact-section a:active,.contact-section a:hover,.contact-section a:visited{color:#FFF}@media (min-width:600px){.contact-section .buttons .btn{display:inline-block}.contact-section .buttons .btn+.btn{margin-left:.5rem}}@media (min-width:768px){.contact-section .buttons{margin-top:4rem}}.inverted{color:#FFF;background:#036}.inverted p{color:#FFF}.inverted .btn{color:#FFF;border-color:#FFF}.scroll-top{position:fixed;right:1rem;bottom:-2rem;width:5.3rem;height:5.2rem;opacity:0;filter:alpha(opacity=0);transition:all ease-out .2s}.scroll-top a{display:block;width:5.3rem;height:5.2rem;background:url(../images/back-to-top.png);border:none}.scroll-top.visible{opacity:.5;filter:alpha(opacity=5);bottom:1rem}.scroll-top:hover{opacity:.75;filter:alpha(opacity=75)}.anchor-offset{display:block;height:70px;margin-top:-70px}.bullet-list{padding:0;list-style-type:none}.bullet-list li{padding-top:4px;padding-left:1.5rem;font-size:1.4rem;font-weight:700;background:url(../images/bullet.png) left center no-repeat}.bullet-list a,.bullet-list a:active,.bullet-list a:focus,.bullet-list a:hover{color:#1a5a96}.bullet-list a.disabled,.bullet-list a:hover.disabled{color:#999;cursor:default;text-decoration:none}body.modal-open{padding-right:0!important}body.modal-open .app-header,body.modal-open footer,body.modal-open section{padding-right:1.7rem}.modal-body p{padding:2rem;font-size:1.6rem}.modal-footer{border-top:none}.modal-footer button{font-family:Myriad-Pro,Calibri,Arial,sans serif;font-weight:700;padding-bottom:3px}
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Oxygen:400,300);
+
+@font-face {
+    font-family: Myriad-Pro;
+    src: url(../fonts/MyriadWebPro.ttf)
+}
+
+* {
+    box-sizing: border-box
+}
+
+html {
+    -ms-overflow-style: scrollbar
+}
+
+body {
+    font-family: Myriad-Pro, Calibri, Arial, sans serif;
+    /*-webkit-font-smoothing: none;*/
+    margin: 0
+}
+
+h1 {
+    font-size: 3.6rem;
+    font-weight: 700
+}
+
+h2 {
+    font-size: 3.2rem;
+    font-weight: 700
+}
+
+p {
+    font-weight: 400
+}
+
+.btn-custom, a.btn-custom {
+    display: inline-block;
+    padding: .75rem 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #1a5a96;
+    background: 0 0;
+    border: .2rem solid #1a5a96;
+    border-radius: .3rem;
+    text-decoration: none
+}
+
+.app-footer-inner, .app-header-inner {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1170px;
+    padding-left: 2rem;
+    padding-right: 2rem
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999
+}
+
+.app-header {
+    background-color: #036
+}
+
+.app-header .app-header-inner {
+    height: 75px;
+    border-bottom: 1px solid rgba(84, 117, 167, .3)
+}
+
+.app-header .brand-img {
+    float: left;
+    margin-top: 15px;
+    width: 155px;
+    height: 41px;
+    background: url(../images/gov3_bc_logo.png)
+}
+
+.app-header.has-border {
+    border-bottom: 3px solid #fcba19
+}
+
+.app-header.has-border .app-header-inner {
+    border: none
+}
+
+.main-nav-toggle {
+    height: 4rem;
+    margin-top: 1.6rem;
+    padding-top: .5rem;
+    font-size: 2rem;
+    color: #FFF;
+    background: 0 0;
+    border: none
+}
+
+.main-nav-toggle .icon-bar {
+    margin-bottom: .5rem;
+    display: block;
+    width: 2.6rem;
+    height: .2rem;
+    background: #FFF;
+    border-radius: .1rem
+}
+
+.main-nav.dropdown-menu {
+    margin-top: 1rem;
+    background: #5475a7;
+    border: none
+}
+
+.main-nav.dropdown-menu > li > a, .main-nav.dropdown-menu > li > a:active, .main-nav.dropdown-menu > li > a:hover {
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+    color: #FFF;
+    background: 0 0
+}
+
+.main-nav.dropdown-menu:after {
+    content: '';
+    position: absolute;
+    top: -1rem;
+    right: .8rem;
+    display: block;
+    border-right: 1.25rem solid transparent;
+    border-bottom: 1.25rem solid #5475a7;
+    border-left: 1.25rem solid transparent
+}
+
+@media (min-width: 768px) {
+    .main-nav-toggle {
+        display: none
+    }
+
+    .main-nav.dropdown-menu {
+        margin-top: 1rem;
+        margin-left: -1rem;
+        margin-right: -1rem;
+        position: relative;
+        display: block;
+        background: 0 0;
+        box-shadow: none
+    }
+
+    .main-nav.dropdown-menu li {
+        display: inline-block
+    }
+
+    .main-nav.dropdown-menu > li > a:hover {
+        text-decoration: underline
+    }
+
+    .main-nav.dropdown-menu:after {
+        display: none
+    }
+}
+
+footer {
+    background: #036
+}
+
+footer .footer-nav {
+    margin: 0;
+    padding: 0
+}
+
+footer .footer-nav li {
+    display: inline-block
+}
+
+footer .footer-nav li a {
+    padding: 1rem;
+    font-size: 1.4rem;
+    color: #FFF
+}
+
+.app-footer-inner {
+    padding: 2.5rem 1.5rem;
+    border-top: 1px solid rgba(84, 117, 167, .3)
+}
+
+section h3 {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 700
+}
+
+section p {
+    font-size: 1.5rem;
+    line-height: 3rem
+}
+
+section p:last-child {
+    margin-bottom: 0
+}
+
+@media (min-width: 600px) {
+    section p {
+        margin-bottom: 2rem;
+        font-size: 1.8rem;
+        line-height: 3.2rem
+    }
+}
+
+@media (min-width: 768px) {
+    section h3 {
+        margin-bottom: 3rem;
+        font-size: 3rem
+    }
+}
+
+.section-inner {
+    max-width: 70rem;
+    margin: 0 auto;
+    padding: 4rem
+}
+
+@media (min-width: 1024px) {
+    .section-inner {
+        padding: 6rem 0
+    }
+}
+
+.intro-section {
+    border-bottom: 3px solid #fcba19
+}
+
+.intro-section .section-inner {
+    padding-top: 10rem
+}
+
+.intro-section h1 {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: 400
+}
+
+.intro-section p {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 3rem
+}
+
+.intro-section p a {
+    font-style: italic
+}
+
+.intro-section .buttons {
+    margin-top: 2rem
+}
+
+.intro-section .buttons .btn {
+    margin-bottom: 1rem;
+    display: block
+}
+
+.intro-section .buttons .btn:last-child {
+    margin-bottom: 0
+}
+
+.intro-section .label {
+    margin-left: .5rem;
+    vertical-align: top;
+    padding: .3rem .5rem .2rem
+}
+
+@media (min-width: 600px) {
+    .intro-section p {
+        font-size: 2rem;
+        line-height: 3.4rem
+    }
+
+    .intro-section .buttons .btn {
+        display: inline-block
+    }
+
+    .intro-section .buttons .btn + .btn {
+        margin-left: .5rem
+    }
+
+    .intro-section .buttons .btn:last-child {
+        margin-left: 0
+    }
+
+    .intro-section a, .intro-section a:active, .intro-section a:hover, .intro-section a:visited {
+        color: #FFF
+    }
+}
+
+@media (min-width: 768px) {
+    .intro-section .section-inner {
+        padding-top: 12rem
+    }
+
+    .intro-section h1 {
+        margin-bottom: 3.5rem;
+        font-size: 3.8rem
+    }
+
+    .intro-section .buttons {
+        margin-top: 4rem
+    }
+
+    .intro-section .buttons .btn:last-child {
+        float: right;
+        margin-top: 0
+    }
+}
+
+.tool-list .section-inner {
+    border-bottom: 2px solid #EEE
+}
+
+.tool-list ul {
+    margin-bottom: -1.5rem;
+    padding-left: 0;
+    list-style-type: none
+}
+
+.tool-list li {
+    margin-bottom: 1.25rem;
+    position: relative
+}
+
+.tool-list li > a {
+    position: relative;
+    display: inline-block;
+    padding: .5rem 1rem .5rem 4.5rem;
+    font-family: Oxygen, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: #1a5a96
+}
+
+.tool-list .number {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3.25rem;
+    height: 3.25rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+    color: #1a5a96;
+    border: .3rem solid #1a5a96
+}
+
+@media (min-width: 600px) {
+    .tool-list li > a {
+        padding-left: 5.5rem;
+        font-size: 2rem
+    }
+
+    .tool-list .number {
+        width: 4.25rem;
+        height: 4rem;
+        padding-top: .6rem;
+        padding-bottom: .5rem;
+        font-size: 1.8rem
+    }
+}
+
+.tool-tiles {
+    background: #f2f2f2
+}
+
+.tiles {
+    margin-left: -.5rem;
+    margin-right: -.5rem
+}
+
+.tile-container {
+    float: left;
+    width: 33.3333%;
+    padding: .5rem
+}
+
+.tile {
+    width: 100%;
+    height: 200px;
+    background: #DDD
+}
+
+.tool-section .section-inner {
+    border-bottom: 2px solid #EEE
+}
+
+.tool-section .panel-group {
+    margin-top: 2rem;
+    margin-bottom: 0
+}
+
+@media (min-width: 768px) {
+    .tool-section .panel-group {
+        margin-top: 4rem
+    }
+}
+
+.panel {
+    border: none;
+    border-radius: 0;
+    box-shadow: none
+}
+
+.panel-body {
+    padding: 1.5rem 2rem;
+    border: none !important
+}
+
+.panel-heading {
+    padding: 0;
+    border: none !important
+}
+
+.panel-heading a, .panel-heading h4 {
+    display: block
+}
+
+.panel-heading a {
+    position: relative;
+    padding: 1.5rem 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.panel-title .state-indicator {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: .55rem;
+    width: 4.5rem;
+    height: 100%;
+    font-family: "Glyphicons Halflings";
+    font-size: 1.4rem;
+    line-height: 1;
+    color: #FFF;
+    text-align: center;
+    background: #CCC
+}
+
+.panel-title .state-indicator:before {
+    display: inline-block;
+    margin-top: 10px;
+    content: "\2212"
+}
+
+.panel-title .collapsed .state-indicator:before {
+    content: "\002b"
+}
+
+.contact-section {
+    color: #FFF;
+    background: #036;
+    border-top: 2px solid #fcba19
+}
+
+.contact-section .buttons {
+    margin-top: 2rem
+}
+
+.contact-section .buttons .btn {
+    margin-bottom: 1rem;
+    display: block
+}
+
+.contact-section a, .contact-section a:active, .contact-section a:hover, .contact-section a:visited {
+    color: #FFF
+}
+
+@media (min-width: 600px) {
+    .contact-section .buttons .btn {
+        display: inline-block
+    }
+
+    .contact-section .buttons .btn + .btn {
+        margin-left: .5rem
+    }
+}
+
+@media (min-width: 768px) {
+    .contact-section .buttons {
+        margin-top: 4rem
+    }
+}
+
+.inverted {
+    color: #FFF;
+    background: #036
+}
+
+.inverted p {
+    color: #FFF
+}
+
+.inverted .btn {
+    color: #FFF;
+    border-color: #FFF
+}
+
+.scroll-top {
+    position: fixed;
+    right: 1rem;
+    bottom: -2rem;
+    width: 5.3rem;
+    height: 5.2rem;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transition: all ease-out .2s
+}
+
+.scroll-top a {
+    display: block;
+    width: 5.3rem;
+    height: 5.2rem;
+    background: url(../images/back-to-top.png);
+    border: none
+}
+
+.scroll-top.visible {
+    opacity: .5;
+    filter: alpha(opacity=5);
+    bottom: 1rem
+}
+
+.scroll-top:hover {
+    opacity: .75;
+    filter: alpha(opacity=75)
+}
+
+.anchor-offset {
+    display: block;
+    height: 70px;
+    margin-top: -70px
+}
+
+.bullet-list {
+    padding: 0;
+    list-style-type: none
+}
+
+.bullet-list li {
+    padding-top: 4px;
+    padding-left: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    background: url(../images/bullet.png) left center no-repeat
+}
+
+.bullet-list a, .bullet-list a:active, .bullet-list a:focus, .bullet-list a:hover {
+    color: #1a5a96
+}
+
+.bullet-list a.disabled, .bullet-list a:hover.disabled {
+    color: #999;
+    cursor: default;
+    text-decoration: none
+}
+
+body.modal-open {
+    padding-right: 0 !important
+}
+
+body.modal-open .app-header, body.modal-open footer, body.modal-open section {
+    padding-right: 1.7rem
+}
+
+.modal-body p {
+    padding: 2rem;
+    font-size: 1.6rem
+}
+
+.modal-footer {
+    border-top: none
+}
+
+.modal-footer button {
+    font-family: Myriad-Pro, Calibri, Arial, sans serif;
+    font-weight: 700;
+    padding-bottom: 3px
+}
