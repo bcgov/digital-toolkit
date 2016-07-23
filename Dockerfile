@@ -10,12 +10,7 @@ RUN apk update \
   && gem install bundler -N \
   && apk add ruby-json
 
-ADD Gem* /toolkit/
-
 WORKDIR /toolkit
-
-RUN bundler && apk del --purge ruby-dev \
-                     libgcc gcc make libc-dev libffi-dev zlib-dev libxml2-dev libxslt-dev
 
 ADD . /toolkit
 
