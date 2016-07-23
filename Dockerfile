@@ -4,19 +4,18 @@ MAINTAINER sheaphillips <shea.phillips@gmail.com>
 RUN apk update \
   && apk add ruby-dev libpq libgcc ca-certificates make gcc libc-dev libffi-dev \
              nodejs 'python<3' zlib-dev libxml2 libxml2-dev libxslt libxslt-dev \
-  && gem install nokogiri -- --use-system-libraries -N \
+  && gem install nokogiri -N \
   && gem install jekyll -N \
   && gem install github-pages -N \
   && gem install bundler -N \
-  && apk del --purge ruby-dev \
-                     libgcc gcc make libc-dev libffi-dev zlib-dev libxml2-dev libxslt-dev \
   && apk add ruby-json
 
-#ADD Gem* /toolkit/
+ADD Gem* /toolkit/
 
 WORKDIR /toolkit
 
-#RUN bundler
+RUN bundler && apk del --purge ruby-dev \
+                     libgcc gcc make libc-dev libffi-dev zlib-dev libxml2-dev libxslt-dev
 
 ADD . /toolkit
 
