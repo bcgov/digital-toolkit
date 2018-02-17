@@ -1,2 +1,8 @@
-_site
-.sass-cache
+# Jekyll build folder
+_site/
+
+# SASS cache folder
+.sass-cache/
+
+# Front-end tooling
+node_modules/
