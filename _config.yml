@@ -40,9 +40,8 @@ defaults:
 #       layout: "project" # overrides previous default layout
 #       author: "Mr. Hyde"
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
+# Exclude these from processing.
+# Do not remove.
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -53,3 +52,10 @@ exclude:
   - vendor/ruby/
   - package.json
   - package-lock.json
+  - src
+  - workfiles
+  - NOTES
+  - CONTRIBUTING.md
+  - LICENCE
+  - README.md
+  - webpack.config.js
