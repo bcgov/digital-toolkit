@@ -20,9 +20,7 @@ layout: default
       <h3 class="list-group-item-heading">
         <a href="{{ step.url }}">{{ step.title }}</a>
       </h3>
-      <p class="list-group-item-text">
-        {{ step.excerpt | strip_html | truncatewords:75 }}
-      </p>
+      <p class="list-group-item-text">{{ step.excerpt | strip_html | rstrip }}.</p>
     </div>
 
   {% endfor %}

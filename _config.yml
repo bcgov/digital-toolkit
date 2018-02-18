@@ -1,9 +1,16 @@
 # Site settings
 title: "Government of BC - Innovator's Toolkit"
-#email: your-email@domain.com
+
+# Site description
 description: "This toolkit offers a set of steps that can be followed when developing a digital service."
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+# Site paths - set these in production!
+#baseurl: "" # the subpath of your site, e.g. /blog/
+#url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+# Excerpt the first sentence and use that for the .excerpt
+# Alternatively, we could pipe the excerpt to truncatewords:75
+excerpt_separator: .
 
 # Build settings
 markdown: kramdown
@@ -19,7 +26,7 @@ collections:
   steps:
     output: true
     permalink: /steps/:path/
-  examples:
+  in-practice-examples:
     output: true
     permalink: /steps/in-practice-examples/:name/
 

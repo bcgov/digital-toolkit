@@ -30,14 +30,18 @@ Comming soon.
 
 ### Contributing to the steps
 
-The digital innovation steps are organized sequentially. The files are numbered 1-10 like this: `01-title-of-step.md`
+The digital innovation steps are organized sequentially. The files are numbered 1-10 like this: `01-title-of-step.md`. The numbering is important, because this is how we determine their order.
 
 1. [Visit the `_steps` folder](https://github.com/bcgov/innovation-toolkit/tree/master/_steps).
 1. Click the step that you would like to edit, then select the pencil icon (top-right)
 1. The repository will be automatically forked to your repository and you will be able to edit the file.
 1. When you are finished making all of your edits to the file, click the green "commit" button at the bottom of the page. Be sure to add a descriptive "commit message" detailing what was changed.
 1. Now, on your forked repository's homepage, click "Pull Request".
-1. Follow the instructions giving reasons for your changes, then click submit in order to submit your request!
+1. Follow the instructions giving reasons for your changes, then click submit in order to submit your request.
+
+### Contributing to the examples
+
+Comming soon.
 
 ## Developer Installation
 

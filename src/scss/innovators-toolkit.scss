@@ -17,6 +17,11 @@
   padding: 1rem;
 }
 
+#main-content {
+  @media screen and (max-width: 768px) {
+    margin-top: 1rem;
+  }
+}
 
 .numbered.list-group,
 .leftNav {
