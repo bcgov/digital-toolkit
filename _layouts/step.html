@@ -1,14 +1,207 @@
----
-layout: default
----
-<div class="post">
+<!DOCTYPE html>
+<html lang="en">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
+<head>
 
-  <article class="post-content">
-    {{ content }}
-  </article>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="HandheldFriendly" content="true" />
 
-</div>
+  <meta name="description" content="{% if page.description %}{{page.description}}{% else %}{{site.description}}{% endif %}" />
+  <meta name="keywords" content="digital, toolkit, government, bc, innovators" />
+
+  <link rel="icon" type="image/png" href="{{site.baseurl}}/images/favicon.ico" />
+
+  <title>
+    {% if page.title %}
+      {{page.title}} - Province of British Columbia
+    {% else %}
+      {{site.title}} - Province of British Columbia
+    {% endif %}
+  </title>
+
+  <link type="text/css" href="{{site.baseurl}}/css/main.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <div id="header" role="banner">
+    <div id="header-main" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div id="header-main-row" class="row">
+
+          <div class="col-sm-3 col-md-2 col-lg-2 header-main-left">
+            <div id="logo">
+              <a href="http://gov.bc.ca">
+                <img src="images/gov3_bc_logo.png" alt="Province of British Columbia" title="Province of British Columbia logo" />
+              </a>
+            </div>
+            <div id="access">
+              <ul>
+                <li aria-label="Keyboard Tab Skip">
+                  <a accesskey="0" href="#main-content-anchor" aria-label="Skip to main content">Skip to main content</a>
+                </li>
+                <li aria-label="Keyboard Tab Skip">
+                  <a accesskey="0" href="#navigation-anchor" aria-label="Skip to navigation" aria-label="Skip to navigation">Skip to navigation</a>
+                </li>
+                <li aria-label="Keyboard Tab Skip">
+                  <a accesskey="0" href="http://gov.bc.ca/webaccessibility/" aria-label="Accessibility Statement">Accessibility Statement</a>
+                </li>
+              </ul>
+            </div>
+            <button type="button" class="navbar-toggle gov-button-custom collapsed" data-toggle="collapse"
+              data-target="#navbar" aria-expanded="true" aria-label="Burger Navigation">
+              <img src="images/menu-open-mobile.png" />
+            </button>
+          </div>
+
+          <div class="col-sm-8 col-md-8 col-lg-6 hidden-xs">
+            <div class="bcgov-title">
+              <h1>Innovator's Toolkit</h1>
+            </div>
+          </div>
+
+          <!-- COLLAPSING NAVBAR -->
+          <div id="navbar" class="collapse navbar-collapse" role="navigation">
+            <a id="navigation-anchor"></a>
+            <ul class="nav navbar-nav">
+              <li>
+                <a href="#">Take Action</a>
+              </li>
+              <li>
+                <a href="#">Contribute</a>
+              </li>
+              <li>
+                <a href="#">View Innovation Guides</a>
+              </li>
+              <li>
+                <a href="#">FAQ</a>
+              </li>
+            </ul>
+          </div><!-- /#navbar -->
+
+        </div><!-- /#header-main-row -->
+      </div><!-- /.container -->
+      <div class="navigationRibbon">
+        <div class="level2Navigation">
+          <div class="container">
+            <a href="#">Take Action</a>
+            <a href="#">Contribute</a>
+            <a href="#">View Innovation Guides</a>
+            <a href="#">FAQ</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- /#header -->
+
+  <div id="topicTemplate" class="template container gov-container">
+
+    <!-- BREADCRUMBS -->
+    <div id="breadcrumbContainer">
+      <ol class="breadcrumb">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Breadcrumb Link</a>
+        </li>
+        <li>
+          <a href="#">Breadcrumb Link</a>
+        </li>
+        <li>
+          <a href="#">Breadcrumb Link</a>
+        </li>
+      </ol>
+    </div>
+
+    <!-- PAGE CONTENT -->
+    <div class="row">
+
+      <div id="main-content" role="main" class="contentPageMainColumn col-md-8 col-lg-9">
+        <a id="main-content-anchor"></a>
+
+        <h1>{{site.title}}</h1>
+        {% if page.tagline %}
+          <p class="lead">{{page.tagline}}</p>
+        {% endif %}
+        {{content}}
+
+      </div><!-- /#main-content -->
+
+      <div id="rightcolumn" role="complementary" class="contentPageRightColumn col-sm-12 col-md-4 col-lg-3">
+
+        <div data-order="0">
+          <h2 class="blue-heading-bar">Contributions</h2>
+          <div class="promoBox rightColumnBox">
+            <p>This project is open by default. Anyone can contribute. More words about
+              being open source and inviting to go here. Have an improvement?
+              <a href="#" target="_self">Submit your change request.</a>
+            </p>
+          </div>
+        </div>
+
+        <div data-order="0">
+          <h2 class="blue-heading-bar">Partners</h2>
+          <div class="promoBox rightColumnBox">
+            <p>This open source project was made possible by
+              <a href="#" target="_self">OCIO Communications</a>.
+            </p>
+          </div>
+        </div>
+
+      </div><!-- /#rightcolumn -->
+
+    </div><!-- /.row -->
+  </div><!-- /#topicTemplate -->
+
+  <!-- FOOTER -->
+  <div id="footer" role="contentinfo">
+    <img class="back-to-top" src="images/back-to-top.png" alt="Back to top" title="Back to top" style="display: inline;" />
+    <div id="footerWrapper">
+      <div id="footerAdminSection">
+        <div id="footerAdminLinksContainer" class="container">
+          <div id="footerAdminLinks" class="row">
+            <ul class="inline">
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <!--<li>
+                <a href="#">About this site</a>
+              </li>-->
+              <li>
+                <a href="http://gov.bc.ca/disclaimer/">Disclaimer</a>
+              </li>
+              <li>
+                <a href="http://gov.bc.ca/privacy/">Privacy</a>
+              </li>
+              <li>
+                <a href="http://gov.bc.ca/webaccessibility/">Accessibility</a>
+              </li>
+              <li>
+                <a href="http://gov.bc.ca/copyright">Copyright</a>
+              </li>
+              <li>
+                <a href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- /#footer -->
+
+  <!-- SCRIPTS -->
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="{{site.baseurl}}/js/bootstrap.min.js"></script>
+  <script src="js/misc.js"></script>
+  <script src="js/navMenu.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+</body>
+</html>

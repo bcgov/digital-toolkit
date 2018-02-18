@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+{% include head.html %}
+
+<body>
+
+  {% include header.html %}
+
+  <div id="topicTemplate" class="template container gov-container">
+
+    <!-- PAGE CONTENT - This is the main Bootstrap ".row" on the page :) -->
+    <div class="row">
+
+      <!-- Include left sidebar here if... -->
+
+      <div id="main-content" role="main" class="contentPageMainColumn col-md-8 col-lg-9">
+        <a id="main-content-anchor"></a>
+
+        {{ content }}
+
+      </div>
+      <!-- /#main-content -->
+
+      {% include sidebar_right.html %}
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /#topicTemplate -->
+
+  {% include footer.html %}
+
+  <script src="{{ site.baseurl }}/static/js/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}/dist/bundle.js"></script>
+
+</body>
+
+</html>

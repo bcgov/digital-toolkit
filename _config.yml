@@ -1,14 +1,55 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: "Government of BC - Innovator's Toolkit"
+#email: your-email@domain.com
+description: "This toolkit offers a set of steps that can be followed when developing a digital service."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+# URL settings
+permalink: pretty
+
+# Collections
+collections:
+  guides:
+    output: true
+    permalink: /guides/:path/
+  steps:
+    output: true
+    permalink: /steps/:path/
+  examples:
+    output: true
+    permalink: /steps/in-practice-examples/:name/
+
+# Defaults
+# https://jekyllrb.com/docs/configuration/#front-matter-defaults
+defaults:
+  -
+    scope:
+      path: "steps/*"
+      type: "pages"
+    values:
+      layout: "step"
+#   -
+#     scope:
+#       path: "projects"
+#       type: "pages" # previously `page` in Jekyll 2.2.
+#     values:
+#       layout: "project" # overrides previous default layout
+#       author: "Mr. Hyde"
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - package.json
+  - package-lock.json

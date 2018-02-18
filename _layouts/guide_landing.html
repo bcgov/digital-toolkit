@@ -1,0 +1,35 @@
+this is guide_landing.html
+<br>
+<br> {{page.title}}
+<br> {{content}}
+
+<!--
+    Loops though every collection you defined in _config.yml and grabs the pages they contain; outputting title and full text with good basic html semantics.
+    Use page.excerpt instead of page.content to grab the first paragraph, blog list style. Markdownify is optional, depends how you authored content in your collections; I typically use Markdown.
+-->
+
+<ul>
+{% for collection in site.collections %}
+
+  {% assign name = collection.label %}
+
+    <li><span style="font-weight: bold">{{ collection.label }}</span>
+
+      <ul>
+        {% for page in site[name] %}
+          <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+        {% endfor %}
+      </ul>
+
+    </li>
+
+{% endfor %}
+</ul>
+
+<ul>
+{% for post in site.posts %}
+
+  <li>{{ post.title }}</li>
+
+{% endfor %}
+</ul>

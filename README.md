@@ -8,6 +8,10 @@ By developing this material in the open, we hope to encourage expert review and 
 
 ## Contribution Instructions
 
+## Contributing to the guides
+
+## Contributing to the steps
+
 [Contribution instructions go here - JB to write]
 
 - How to use the `_pages` folder and structure
