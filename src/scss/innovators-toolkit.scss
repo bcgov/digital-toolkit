@@ -1,3 +1,26 @@
+/**
+ * Custom edits to the theme found here: https://github.com/bcgov/Gov-2.0-Bootstrap-Skeleton
+ */
+
+// HEADER
+#header #logo img {
+  @media (max-width: 767px) {
+    width: auto;
+    height: auto;
+  }
+}
+.navbar-toggle.topic-menu-trigger {
+  @media screen and (max-width: 768px) {
+    margin-top: 2rem;
+  }
+}
+
+// SEARCH
+#main-search {
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
 .search-trigger {
   margin-top: -5.75rem;
   cursor: pointer;
@@ -6,92 +29,80 @@
   right: 6px;
   float: right;
   width: 30px;
-  background-image: url('https://www2.gov.bc.ca/StaticWebResources/static/gov3/images/search-ico.png');
+  background-image: url('../images/search-ico.png');
   background-position: 98% center;
   background-repeat: no-repeat;
 }
 
-#main-search {
-  width: 100%;
-  margin-bottom: 2rem;
-  padding: 1rem;
+// BREADCRUMBS
+.breadcrumb>li:last-of-type::after, .breadcrumb>li+li:last-of-type::after {
+  content: ' ';
+}
+ol.breadcrumb {
+  bottom: 0.5rem;
+  // padding-left: 1.666rem;
 }
 
+// MAIN CONTENT
 #main-content {
   @media screen and (max-width: 768px) {
     margin-top: 1rem;
   }
 }
+.contentPageMainColumn ul>li {
+  padding-left: 15px;
+  background: url('../images/bullet.png') no-repeat scroll 0 8px transparent;
+  margin-bottom: 3px;
+}
+#main-content>h1:first-of-type,
+#main-content>h2:first-of-type,
+#main-content>h3:first-of-type {
+  margin-top: 0;
+}
 
+
+// SIDEBAR LOVE
 .numbered.list-group,
 .leftNav {
 	counter-reset: my-badass-counter;
 }
 .numbered.list-group h3:before {
 	content: counter(my-badass-counter);
-    counter-increment: my-badass-counter;
-    width: 4.0rem;
-    height: 4rem;
-    padding-top: .75rem;
-    /* padding-bottom: 0.5rem; */
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center;
-    color: #1a5a96;
-    border: .3rem solid #1a5a96;
-    display: inline-block;
-    margin-right: 0.5rem;
+  counter-increment: my-badass-counter;
+  width: 4.0rem;
+  height: 4rem;
+  padding-top: .75rem;
+  /* padding-bottom: 0.5rem; */
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #1a5a96;
+  border: .3rem solid #1a5a96;
+  display: inline-block;
+  margin-right: 0.5rem;
 }
-
 @media screen and (min-width: 768px) {
   .leftNav li ul li:before {
     content: counter(my-badass-counter);
       counter-increment: my-badass-counter;
-      /* display: inline-block; */
       float: left;
       padding-right: 0.25rem;
       position: relative;
       top: 1px;
   }
 }
-
-
-.breadcrumb>li:last-of-type::after, .breadcrumb>li+li:last-of-type::after {
-  content: ' ';
-}
-
-ol.breadcrumb {
-  /* padding-top: 3rem; */
-  bottom: 0.5rem;
-}
-
 @media (max-width: 767px) {
   .contentPageLeftNavigation ul.leftNav li a {
-      padding: 3px;
+    padding: 3px;
   }
 }
 
-/* ol.breadcrumb {
-  padding-left: 1.666rem;
-} */
-
+// NEXT PREVIOUS "STEP" LINKS
 .next-prev.step {
   text-align: right;
 }
 
-@media (max-width: 767px) {
-
-  #header #logo img {
-    width: auto;
-    height: auto;
-  }
-
-}
-
+// CUSTOM "GUIDE" STYLING
 .guide.page .leftNav li ul li:before {
   content: '';
-}
-
-.guide.page .leftNav li ul li {
-  /* list-style: square; */
 }

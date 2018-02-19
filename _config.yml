@@ -5,8 +5,8 @@ title: "Government of BC - Innovator's Toolkit"
 description: "This toolkit offers a set of steps that can be followed when developing a digital service."
 
 # Site paths - set these in production!
-#baseurl: "" # the subpath of your site, e.g. /blog/
-#url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # Excerpt the first sentence and use that for the .excerpt
 # Alternatively, we could pipe the excerpt to truncatewords:75
@@ -20,32 +20,47 @@ permalink: pretty
 
 # Collections
 collections:
-  guides:
-    output: true
-    permalink: /guides/:path/
   steps:
     output: true
     permalink: /steps/:path/
   in-practice-examples:
     output: true
     permalink: /steps/in-practice-examples/:name/
+  guides:
+    output: true
+    permalink: /guides/:path/
 
 # Defaults
 # https://jekyllrb.com/docs/configuration/#front-matter-defaults
 defaults:
   -
     scope:
-      path: "steps/*"
+      path: ""
       type: "pages"
     values:
+      layout: "default"
+  -
+    scope:
+      type: "steps"
+    values:
       layout: "step"
-#   -
-#     scope:
-#       path: "projects"
-#       type: "pages" # previously `page` in Jekyll 2.2.
-#     values:
-#       layout: "project" # overrides previous default layout
-#       author: "Mr. Hyde"
+  -
+    scope:
+      type: "in-practice-example"
+    values:
+      layout: "step"
+  -
+    scope:
+      type: "guides"
+    values:
+      layout: "guide"
+# -
+#   scope:
+#     path: "projectz" # glob patterns are possible: https://jekyllrb.com/docs/configuration/#glob-patterns-in-front-matter-defaults
+#     type: "pages" # can be: pages, posts, drafts or any collection name in your site
+#   values:
+#     layout: "step" # overrides any previously declared default layout
+#     author: "Mr. Hyde" # custom vars are possible too! :)
 
 # Exclude these from processing.
 # Do not remove.
@@ -66,3 +81,6 @@ exclude:
   - LICENCE
   - README.md
   - webpack.config.js
+
+# Global site variables
+nav-trigger-text: "Select Navigation"

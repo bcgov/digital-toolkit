@@ -12,17 +12,23 @@
     <!-- PAGE CONTENT - This is the main Bootstrap ".row" on the page :) -->
     <div class="row">
 
-      <!-- Include left sidebar here if... -->
+      <!-- Left sidebar here in other templates. -->
 
       <div id="main-content" role="main" class="contentPageMainColumn col-md-8 col-lg-9">
         <a id="main-content-anchor"></a>
 
-        {{ content }}
+        {% if page.title %}
+          <h2>{{ page.title }}</h2>
+        {% endif %}
 
+        {{ content }}
       </div>
       <!-- /#main-content -->
 
-      {% include sidebar_right.html %}
+      <div id="rightcolumn" role="complementary" class="contentPageRightColumn col-sm-12 col-md-4 col-lg-3">
+        {% include sidebar_right.html %}
+      </div>
+      <!-- /#rightcolumn -->
 
     </div>
     <!-- /.row -->
@@ -32,8 +38,7 @@
 
   {% include footer.html %}
 
-  <script src="{{ site.baseurl }}/static/js/jquery.min.js"></script>
-  <script src="{{ site.baseurl }}/dist/bundle.js"></script>
+  {% include scripts.html %}
 
 </body>
 
