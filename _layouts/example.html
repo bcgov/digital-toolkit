@@ -3,7 +3,7 @@
 
 {% include head.html %}
 
-<body class="step page">
+<body class="in-practice-example page">
 
   {% include header.html %}
 
@@ -27,18 +27,18 @@
 
                 <li class="open current">
                   <div class="leftNav-item-wrapper">
-                    <a style="cursor: default;" href="#">Steps</a>
+                    <a id="in-practice-examples" style="cursor: default;" href="#">In Practice Examples</a>
                   </div>
                   <ul>
 
-                    {% for step in site.steps %}
-                      {% if page.url == step.url %}
+                    {% for example in site.in-practice-examples %}
+                      {% if page.url == example.url %}
                         <li class="current">
                       {% else %}
                         <li>
                       {% endif %}
                         <div class="leftNav-item-wrapper">
-                          <a href="{{ step.url }}">{{ step.title }}</a>
+                          <a href="{{ example.url }}">{{ example.title }}</a>
                         </div>
                       </li>
                     {% endfor %}
@@ -67,14 +67,14 @@
         <a id="main-content-anchor"></a>
 
         {% if page.title %}
-          <h2>{{ page.title }}</h2>
+          <h2>In Practice Example: {{ page.title }}</h2>
         {% endif %}
 
         {{ content }}
 
         <div class="next-prev step">
           {% if page.previous %}
-            <a title="{{ page.previous.title | escape }}" class="prev" href="{{ page.previous.url }}">Previous Step</a>
+            <a title="{{ page.previous.title | escape }}" class="prev" href="{{ page.previous.url }}">Previous Example</a>
           {% endif %}
 
           {% if page.previous and page.next %}
@@ -82,7 +82,7 @@
           {% endif %}
 
           {% if page.next %}
-            <a title="{{ page.next.title | escape }}" class="next" href="{{ page.next.url }}">Next Step</a>
+            <a title="{{ page.next.title | escape }}" class="next" href="{{ page.next.url }}">Next Example</a>
           {% endif %}
         </div>
 

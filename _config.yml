@@ -1,5 +1,5 @@
 # Site settings
-title: "Government of BC - Innovator's Toolkit"
+title: "Innovator's Toolkit"
 
 # Site description
 description: "This toolkit offers a set of steps that can be followed when developing a digital service."
@@ -46,9 +46,9 @@ defaults:
       layout: "step"
   -
     scope:
-      type: "in-practice-example"
+      type: "in-practice-examples"
     values:
-      layout: "step"
+      layout: "example"
   -
     scope:
       type: "guides"

@@ -1,6 +1,5 @@
 ---
 title: Achieve continuous improvement
-previous: 09-leverage-flexible-development
 ---
 
 Without efficient and streamlined processes, it can be challenging to benefit from a transition to digital services. Continuous improvement practices offer ways to improve products, services, or processes in an ongoing fashion. In the digital services context, this includes building in automated testing and deployment, ensuring that developers and those running and maintaining services are working closely together to avoid failure, a building in a continuous cycle of planning, delivery to users, gathering feedback and acting on that feedback. By doing so we can get services to citizens faster, reduce risks, eliminate wasteful steps and minimize project cost overruns.

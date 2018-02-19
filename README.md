@@ -12,7 +12,10 @@ By developing this material in the open, we hope to encourage expert review and 
   - [Editing Markdown](#editing-markdown)
   - [Contributing to the guides](#contributing-to-the-guides)
   - [Contributing to the steps](#contributing-to-the-steps)
+  - [Contributing to the examples](#contributing-to-the-examples)
 - [Developer Installation](#developer-installation)
+  - [Static assets and binary files](#static-assets-and-binary-files)
+  - [Modifications made to the default BC Gov theme](#modifications-made-to-the-default-bc-gov-theme)
 
 <!-- /TOC -->
 
@@ -57,3 +60,14 @@ In order to install this website and the collection of digital use guides onto y
 `npm run watch` will watch SCSS and JS and re-compile CSS and JS when the files are saved.
 
 Run `bundle exec jekyll serve --watch` in order to serve the site locally. Pull requests to the source code are welcomed and appriciated.
+
+### Static assets and binary files
+
+Static images and CSS, JS, etc. are served from the `/static` folder off of the root of the project. Move any static files to this directory and when Jekyll builds the site the files will end up at: `<example-site.com>/static/...` For example, if you place `foo.jpg` inside `/static/img`, the file will be served from `example-site.com/static/img/foo.jpg`
+
+### Modifications made to the default BC Gov theme
+
+Some changes made to the [BC Gov Skeleton](https://github.com/bcgov/Gov-2.0-Bootstrap-Skeleton) (of which this site is based off):
+
+1. Line 302 of `src/js/bc-gov/misc.js` is commented out - This line intentionally offset the scroll position when scrolling to an anchor on the page. This was done because the default theme has a "sticky" header/navigation.
+1. The "square" numbers used for the numbered list on the homepage "steps". The default theme doesn't have a default large, "heavy border", format.

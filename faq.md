@@ -1,7 +1,21 @@
 ---
-title: FAQ
+title: Frequently Asked Questions
 layout: default
 ---
+
+<!-- TOC -->
+
+- [What is this?](#what-is-this)
+- [Who's it for?](#whos-it-for)
+- [Why do we need it?](#why-do-we-need-it)
+- [What's in it?](#whats-in-it)
+- [Who built it? How?](#who-built-it-how)
+- [Will it answer all my questions?](#will-it-answer-all-my-questions)
+  - [Didn't find what you need?](#didnt-find-what-you-need)
+- [Who can contribute to its evolution? Can I? How?](#who-can-contribute-to-its-evolution-can-i-how)
+- [Who's responsible for it? Who's at the other end of that Contact Us link?](#whos-responsible-for-it-whos-at-the-other-end-of-that-contact-us-link)
+
+<!-- /TOC -->
 
 ### What is this?
 

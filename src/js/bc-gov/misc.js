@@ -299,7 +299,7 @@ $(document).ready(function (event) {
 			// adjust the anchor position because of the header
 			anchorTimer = setTimeout(function () {
 				// fix the position if needed
-				scroll_if_anchor(href)
+				//scroll_if_anchor(href) // Commented out because our nav is not actually "sticky" -- See the README
 			}, 300);
 		}
 	});

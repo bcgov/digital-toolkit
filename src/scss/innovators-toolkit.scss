@@ -66,34 +66,40 @@ ol.breadcrumb {
 .leftNav {
 	counter-reset: my-badass-counter;
 }
-.numbered.list-group h3:before {
+.numbered.list-group h3:before { // This is also on the homepage, used for the "steps"
 	content: counter(my-badass-counter);
   counter-increment: my-badass-counter;
   width: 4.0rem;
   height: 4rem;
-  padding-top: .75rem;
-  /* padding-bottom: 0.5rem; */
+  padding-top: 0.75rem;
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
   color: #1a5a96;
-  border: .3rem solid #1a5a96;
+  border: 0.3rem solid #1a5a96;
   display: inline-block;
   margin-right: 0.5rem;
 }
-@media screen and (min-width: 768px) {
-  .leftNav li ul li:before {
+.step.page .leftNav li ul li:before {
+  @media screen and (min-width: 768px) {
     content: counter(my-badass-counter);
-      counter-increment: my-badass-counter;
-      float: left;
-      padding-right: 0.25rem;
-      position: relative;
-      top: 1px;
+    counter-increment: my-badass-counter;
+    float: left;
+    padding-right: 0.25rem;
+    position: relative;
+    top: 1px;
   }
 }
-@media (max-width: 767px) {
-  .contentPageLeftNavigation ul.leftNav li a {
-    padding: 3px;
+.contentPageLeftNavigation ul.leftNav li a {
+  @media (max-width: 767px) {
+    padding: 1rem;
+  }
+}
+.contentPageLeftNavigation ul.leftNav li li a {
+  @media (max-width: 767px) {
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }
 
