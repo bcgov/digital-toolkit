@@ -1,35 +1,36 @@
-this is guide_landing.html
-<br>
-<br> {{page.title}}
-<br> {{content}}
 
-<!--
-    Loops though every collection you defined in _config.yml and grabs the pages they contain; outputting title and full text with good basic html semantics.
-    Use page.excerpt instead of page.content to grab the first paragraph, blog list style. Markdownify is optional, depends how you authored content in your collections; I typically use Markdown.
--->
+{% assign agile_guides = site.guides | where: "guide", "agile" %}
 
-<ul>
+{% for page in site.guides %}
+
+  Title: {{ page.title }}<br>
+  Slug: {{ page.slug }}<br>
+  Catagories: {{ page.categories }}<br>
+  Path: {{ page.path }}<br>
+  Tags: {{ page.tags }}<br>
+  Sub Guide: {{ page.subguide }}<br>
+  <br>
+
+{% endfor %}
+
+<hr>
+
 {% for collection in site.collections %}
 
-  {% assign name = collection.label %}
+    {% assign name = collection.label %}
 
-    <li><span style="font-weight: bold">{{ collection.label }}</span>
+    {% if name == "guides" %}
 
-      <ul>
-        {% for page in site[name] %}
-          <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-        {% endfor %}
-      </ul>
+      <li><span style="font-weight: bold">{{ name | upcase | replace: "-", " " }}</span>
 
-    </li>
+          <ul>
+            {% for page in site[name] %}
+              <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+            {% endfor %}
+          </ul>
 
-{% endfor %}
-</ul>
+      </li>
 
-<ul>
-{% for post in site.posts %}
+    {% endif %}
 
-  <li>{{ post.title }}</li>
-
-{% endfor %}
-</ul>
+  {% endfor %}

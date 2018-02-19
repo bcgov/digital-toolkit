@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<h1>Site Map</h1>
+
+<ul>
+  {% for collection in site.collections %}
+
+    {% assign name = collection.label %}
+
+    {% if name != "posts" %}
+
+      <li><span style="font-weight: bold">{{ name | upcase | replace: "-", " " }}</span>
+
+          <ul>
+            {% for page in site[name] %}
+              <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+            {% endfor %}
+          </ul>
+
+      </li>
+
+    {% endif %}
+
+  {% endfor %}
+</ul>
