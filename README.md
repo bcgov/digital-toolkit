@@ -31,6 +31,10 @@ In order to contribute to this project, basic knowledge of the [Markdown syntax]
 
 Comming soon.
 
+#### Adding a new guide
+
+Comming soon.
+
 ### Contributing to the steps
 
 The digital innovation steps are organized sequentially. The files are numbered 1-10 like this: `01-title-of-step.md`. The numbering is important, because this is how we determine their order.
