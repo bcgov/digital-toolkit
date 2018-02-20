@@ -102,6 +102,12 @@ ol.breadcrumb {
     padding-bottom: 1rem;
   }
 }
+li.open.current>.leftNav-item-wrapper {
+  font-size: 112.5%;
+}
+li.open.current>.leftNav-item-wrapper>a:hover {
+  color: #1a5a96;
+}
 
 // NEXT PREVIOUS "STEP" LINKS
 .next-prev.step {
@@ -111,4 +117,17 @@ ol.breadcrumb {
 // CUSTOM "GUIDE" STYLING
 .guide.page .leftNav li ul li:before {
   content: '';
+}
+
+// EXPERIMENTAL ////////////////////////////////////////////////////////////////
+
+.navigationRibbon .level2Navigation {
+  @media screen and (min-width: 768px) {
+    max-height: 40px;
+    overflow-y: hidden;
+  }
+}
+
+.contentPageLeftNavigation .leftNav ul li {
+  padding-left: 0;
 }
