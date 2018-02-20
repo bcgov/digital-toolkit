@@ -10,16 +10,17 @@ target: {{ url_components[2] }}
 
 {% for guide in site.guides %}
 
-  {% if guide.url contains url_components[2] %}
+  {% if guide.url contains url_components[2] and guide.slug != "introduction" %}
     {{ guide.title }}
 
     {% if guide.url == page.url %}
-      CURRENT --
+      --- CURRENT ---
     {% endif %}
-
-    <br>{{ guide.next }}
 
     <br>
   {% endif %}
 
 {% endfor %}
+
+<hr>
+<a href="/guides/index">Back to guides</a>
