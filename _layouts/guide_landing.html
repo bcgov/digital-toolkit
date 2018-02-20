@@ -1,36 +1,57 @@
+---
+title: This be a guide landing page
+layout: default
+---
 
-{% assign agile_guides = site.guides | where: "guide", "agile" %}
+<!-- Citizens @ the Centre -->
+{% assign citizens_guides = site.guides | where: "guide", "Citizens @ the Centre" %}
 
-{% for page in site.guides %}
-
-  Title: {{ page.title }}<br>
-  Slug: {{ page.slug }}<br>
-  Catagories: {{ page.categories }}<br>
-  Path: {{ page.path }}<br>
-  Tags: {{ page.tags }}<br>
-  Sub Guide: {{ page.subguide }}<br>
-  <br>
-
+{% for page in citizens_guides %}
+  {% if page.slug == "introduction" %}
+    <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+  {% endif %}
 {% endfor %}
 
-<hr>
+<ul>
+{% for page in citizens_guides %}
+  {% if page.slug != "introduction" %}
+    <li>
+      <a href="{{ page.url }}">{{ page.title }}</a>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
 
-{% for collection in site.collections %}
+<!-- Agile Scrum -->
+{% assign agile_guides = site.guides | where: "guide", "Agile Scrum" %}
 
-    {% assign name = collection.label %}
+{% for page in agile_guides %}
+  {% if page.slug == "introduction" %}
+    <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+  {% endif %}
+{% endfor %}
 
-    {% if name == "guides" %}
+<ul>
+{% for page in agile_guides %}
+  {% if page.slug != "introduction" %}
+    <li>
+      <a href="{{ page.url }}">{{ page.title }}</a>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
 
-      <li><span style="font-weight: bold">{{ name | upcase | replace: "-", " " }}</span>
+<!-- Github -->
+{% assign github_guides = site.guides | where: "guide", "BC Policy Framework for GitHub" %}
 
-          <ul>
-            {% for page in site[name] %}
-              <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-            {% endfor %}
-          </ul>
+{% for page in github_guides %}
+  {% if page.url contains "github/introduction" %}
+    <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+  {% endif %}
+{% endfor %}
 
-      </li>
-
-    {% endif %}
-
+<ul>
+  {% for page in github_guides %}
+    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
   {% endfor %}
+</ul>

@@ -1,20 +1,25 @@
-<!DOCTYPE html>
-<html>
+{% assign url_components = page.url | split: "/" %}
 
-  {% include head.html %}
+target: {{ url_components[2] }}
 
-  <body>
+<hr>
+{{ content }}
+<hr>
 
-    {% include header.html %}
+<h3>{{ page.guide }}</h3>
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+{% for guide in site.guides %}
 
-    {% include footer.html %}
+  {% if guide.url contains url_components[2] %}
+    {{ guide.title }}
 
-  </body>
+    {% if guide.url == page.url %}
+      CURRENT --
+    {% endif %}
 
-</html>
+    <br>{{ guide.next }}
+
+    <br>
+  {% endif %}
+
+{% endfor %}

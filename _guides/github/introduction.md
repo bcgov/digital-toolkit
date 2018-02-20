@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: BC Policy Framework for GitHub
 guide: BC Policy Framework for GitHub
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: About This Guide
+title: Agile
 guide: Agile Scrum
 ---
 
