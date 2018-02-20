@@ -1,5 +1,6 @@
 ---
 title: Pay BC
+example-of: Use common solutions
 ---
 
 The PayBC vision is to streamline and standardize payment processes for government, providing one consistent online payment solution for citizens and businesses. With the support of a multi-ministry project advisory committee comprised of representatives from FLNRO, Finance, Justice and MTICS, the project team is currently completing end user testing and working on a proof of concept to provide mobile access and functionality on their platform.

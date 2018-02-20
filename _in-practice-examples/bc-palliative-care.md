@@ -1,5 +1,6 @@
 ---
 title: BC Palliative Care Program
+example-of: Leverage flexible deployment
 ---
 
 When someone close is dying – a parent or grandparent, a husband or wife, a favorite aunt or uncle, you wonder what will happen, you want to give them comfort, you want their wishes to be respected. The Ministry of Health is committed to ensuring that during end of life, for patients who wish to stay at home, BC Palliative Care support and benefits are delivered as efficiently as possible. Unfortunately, administrative inefficiencies throughout the system were impacting the timely receipt of support and benefits for Palliative Care patients, causing undue stress and, at times, financial hardships.

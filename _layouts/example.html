@@ -72,20 +72,31 @@
 
         {{ content }}
 
-        <div class="next-prev step">
-          {% if page.previous %}
-            <a title="{{ page.previous.title | escape }}" class="prev" href="{{ page.previous.url }}">Previous Example</a>
-          {% endif %}
+        <!--
+          <div class="next-prev step">
+            {% if page.previous %}
+              <a title="{{ page.previous.title | escape }}" class="prev" href="{{ page.previous.url }}">Previous Example</a>
+            {% endif %}
 
-          {% if page.previous and page.next %}
-            |
-          {% endif %}
+            {% if page.previous and page.next %}
+              |
+            {% endif %}
 
-          {% if page.next %}
-            <a title="{{ page.next.title | escape }}" class="next" href="{{ page.next.url }}">Next Example</a>
-          {% endif %}
-        </div>
+            {% if page.next %}
+              <a title="{{ page.next.title | escape }}" class="next" href="{{ page.next.url }}">Next Example</a>
+            {% endif %}
+          </div>
+        -->
 
+        {% if page.example-of %}
+
+          {% assign examplesback = site.steps | where: "title", page.example-of %}
+
+          <div style="margin-top: 1rem;" class="next-prev step">
+            Example of step: <a href="{{ examplesback[0].url }}">{{ examplesback[0].title }}</a>
+          </div>
+
+        {% endif %}
       </div>
       <!-- /#main-content -->
 

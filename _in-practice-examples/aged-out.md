@@ -1,5 +1,6 @@
 ---
 title: Aged Out
+example-of: Put your user and their needs at the centre of your design
 ---
 
 [Agedout.com](https://agedout.com) offers resources and services available to young adults, and a learning tool to help people feel empowered as they leave government care. It was developed in a partnership amongst stakeholders including the Ministry of Children and Family Development to be an accessible, comprehensive, engaging platform for former youth in care. The platform now helps by sharing resources that meet these youths’ needs as they transition out of care, and to connect them with available online and in person supports. Taking a customer-centric approach, including adding gamification elements to the platform to enhance engagement with its target demographic, agedout.com was co-developed with youth and young adults with lived in care experiences to provide up to-date access to services available in British Columbia.

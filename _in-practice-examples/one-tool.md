@@ -1,5 +1,6 @@
 ---
 title: The "One Tool" (britishcolumbia.ca)
+example-of: Use data to inform decisions
 ---
 
 When the BC Public Service is looking for data on the communities we serve, or looking for a way to help a community gain access to international trade, we and the citizens of British Columbia now need look no further than [BritishColumbia.ca](http://www.britishcolumbia.ca/), B.C.'s Trade and Investment website.

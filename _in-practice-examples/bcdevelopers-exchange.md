@@ -1,5 +1,6 @@
 ---
 title: BC Developers Exchange
+example-of: Default to open
 ---
 
 How does government collaborate with the BC Technology Sector to innovate on digital products and services? This was the question behind the idea that sparked the BC Developers’ Exchange (DevExchange). DevExchange’s focus was to grow the tech sector, and to do so, it was clear that BC’s digital resources need to be made available in ways that tech companies can use. So DevExchange is being co-created with the tech sector and with public sector organizations. The work is being done in the open, on the internet, using the language that software developers understand: gitHub, agile SCRUM methodologies, rapid prototyping, open data, APIs and cloud computing.

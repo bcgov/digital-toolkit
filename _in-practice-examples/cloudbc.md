@@ -1,5 +1,6 @@
 ---
 title: Cloud BC
+example-of: Leverage flexible deployment
 ---
 
 Cloud computing offers many benefits including: business agility, better time to market, fewer operational issues and less capital expense. Organizations at all levels share common challenges when it comes to getting their services to the cloud. Recognizing this, the BC Council of CIOs (CCIO) - including representatives from the BC Government and Broader Public Sector - developed and launched CloudBC. The intent is to help drive the successful adoption of cloud-based computing services in the BC public sector.

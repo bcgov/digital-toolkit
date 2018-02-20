@@ -1,5 +1,6 @@
 ---
 title: Home Healthcare Monitoring
+example-of: Security and privacy by design
 ---
 
 Through a partnership between the Ministry of Health and Telus Health, the Home Health Monitoring Project (HHM) is helping BC citizens living with heart failure to better manage their condition at home through the use of innovative monitoring technology and providing self-management coaching and support.
