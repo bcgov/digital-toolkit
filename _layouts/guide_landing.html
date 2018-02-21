@@ -24,7 +24,7 @@ layout: default
 
       <div class="tile col-sm-6">
         <h3 class="title">
-          <a href="agile.html">{{ guide_name }}</a>
+          <a href="{{ currentguide[0].url }}">{{ guide_name }}</a>
         </h3>
         <p class="bc_paragraph">
           {{ currentguide[0].excerpt | strip_html | rstrip | lstrip }}.

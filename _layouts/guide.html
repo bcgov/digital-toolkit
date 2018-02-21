@@ -27,11 +27,18 @@
 
                 <li class="open current">
                   <div class="leftNav-item-wrapper">
-                    <a id="in-practice-examples" style="cursor: default;" href="#">In Practice Examples</a>
+
+                    {% assign url_components = page.url | split: "/" %}
+
+                    {% for guide in site.guides %}
+                      {% if guide.url contains url_components[2] and guide.slug == "introduction" %}
+                        <a id="in-practice-examples" href="{{ guide.url }}">{{ guide.title }}</a>
+                      {% endif %}
+                    {% endfor %}
+
                   </div>
                   <ul>
 
-                    {% assign url_components = page.url | split: "/" %}
                     {% for guide in site.guides %}
 
                       {% if guide.url contains url_components[2] and guide.slug != "introduction" %}
@@ -69,7 +76,7 @@
 
         {% if page.title %}
           <h2>
-            {% if page.guide %}
+            {% if page.guide and page.slug != "introduction" %}
               {{ page.guide }}:
             {% endif %}
             {{ page.title }}
