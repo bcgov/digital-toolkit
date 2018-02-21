@@ -1,26 +1,105 @@
-{% assign url_components = page.url | split: "/" %}
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
 
-target: {{ url_components[2] }}
+{% include head.html %}
 
-<hr>
-{{ content }}
-<hr>
+<body class="in-practice-example page">
 
-<h3>{{ page.guide }}</h3>
+  {% include header.html %}
 
-{% for guide in site.guides %}
+  <div id="topicTemplate" class="template container gov-container">
 
-  {% if guide.url contains url_components[2] and guide.slug != "introduction" %}
-    {{ guide.title }}
+    <!-- PAGE CONTENT - This is the main Bootstrap ".row" on the page :) -->
+    <div class="row">
 
-    {% if guide.url == page.url %}
-      --- CURRENT ---
-    {% endif %}
+      <!-- LEFT SIDEBAR (custom) -->
+      <div class="contentPageLeftNavigation col-sm-4 col-md-3">
+        <div id="topicLeftNav" class="navbar" role="navigation" aria-label="secondary">
 
-    <br>
-  {% endif %}
+          <div class="navbar-header">
+            <button class="navbar-toggle topic-menu-trigger " aria-expanded="true" type="button" data-toggle="collapse" data-target="#topicLeftNav .navbar-collapse">{{ site.nav-trigger-text }}</button>
+          </div>
 
-{% endfor %}
+          <div class="row navbar-collapse collapse">
+            <div><!-- Removed class  -->
 
-<hr>
-<a href="/guides/index">Back to guides</a>
+              <ul class="leftNav nav navbar-nav">
+
+                <li class="open current">
+                  <div class="leftNav-item-wrapper">
+                    <a id="in-practice-examples" style="cursor: default;" href="#">In Practice Examples</a>
+                  </div>
+                  <ul>
+
+                    {% assign url_components = page.url | split: "/" %}
+                    {% for guide in site.guides %}
+
+                      {% if guide.url contains url_components[2] and guide.slug != "introduction" %}
+
+                        {% if guide.url == page.url %}
+                          <li class="current">
+                        {% else %}
+                          <li>
+                        {% endif %}
+
+                        <div class="leftNav-item-wrapper">
+                          <a href="{{ guide.url }}">{{ guide.title }}</a>
+                        </div>
+
+                      {% endif %}
+
+                    {% endfor %}
+
+                  </ul>
+                </li>
+
+              </ul>
+              <!-- /.leftNav.nav -->
+
+            </div>
+          </div>
+
+        </div>
+        <!-- /#topicLeftNav -->
+      </div>
+      <!-- /.contentPageLeftNavigation -->
+
+      <div id="main-content" role="main" class="contentPageMainColumn col-sm-8 col-md-6 col-lg-6">
+        <a id="main-content-anchor"></a>
+
+        {% if page.title %}
+          <h2>
+            {% if page.guide %}
+              {{ page.guide }}:
+            {% endif %}
+            {{ page.title }}
+          </h2>
+        {% endif %}
+
+        {{ content }}
+
+        <div style="margin-top: 3rem;" class="next-prev step">
+          <a href="{{ site.baseurl }}/guides/index">Back to the guides</a>
+        </div>
+
+      </div>
+      <!-- /#main-content -->
+
+      <div id="rightcolumn" role="complementary" class="contentPageRightColumn col-sm-offset-4 col-md-offset-0 col-sm-8 col-md-3 col-lg-3">
+        {% include sidebar_right.html %}
+      </div>
+      <!-- /#rightcolumn -->
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /#topicTemplate -->
+
+  {% include footer.html %}
+
+  {% include scripts.html %}
+
+</body>
+
+</html>

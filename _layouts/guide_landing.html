@@ -1,57 +1,59 @@
 ---
-title: This be a guide landing page
 layout: default
 ---
 
-<!-- Citizens @ the Centre -->
-{% assign citizens_guides = site.guides | where: "guide", "Citizens @ the Centre" %}
+{{ content }}
 
-{% for page in citizens_guides %}
-  {% if page.slug == "introduction" %}
-    <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
-  {% endif %}
+{% assign guide_types_str = '' %}
+{% for g in site.guides %}
+  {% assign guide_types_str = guide_types_str | append: g.guide | append: '|' %}
 {% endfor %}
 
-<ul>
-{% for page in citizens_guides %}
-  {% if page.slug != "introduction" %}
-    <li>
-      <a href="{{ page.url }}">{{ page.title }}</a>
-    </li>
-  {% endif %}
-{% endfor %}
-</ul>
+{% assign guide_types = guide_types_str | split: "|" | uniq %}
 
-<!-- Agile Scrum -->
-{% assign agile_guides = site.guides | where: "guide", "Agile Scrum" %}
+<div class="table-responsive">
+  <div class="table tiles-container tiles-container-2col level2">
+    {% for guide_name in guide_types %}
 
-{% for page in agile_guides %}
-  {% if page.slug == "introduction" %}
-    <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
-  {% endif %}
-{% endfor %}
+      {% assign mod = forloop.index | modulo: 2 %}
+      {% if mod != 0 %}
+        <div class="tiles-row"><!-- odd -->
+      {% endif %}
 
-<ul>
-{% for page in agile_guides %}
-  {% if page.slug != "introduction" %}
-    <li>
-      <a href="{{ page.url }}">{{ page.title }}</a>
-    </li>
-  {% endif %}
-{% endfor %}
-</ul>
+      {% assign currentguide = site.guides | where: "title", guide_name %}
 
-<!-- Github -->
-{% assign github_guides = site.guides | where: "guide", "BC Policy Framework for GitHub" %}
+      <div class="tile col-sm-6">
+        <h3 class="title">
+          <a href="agile.html">{{ guide_name }}</a>
+        </h3>
+        <p class="bc_paragraph">
+          {{ currentguide[0].excerpt | strip_html | rstrip | lstrip }}.
+        </p>
+        <div tabindex="0" class="explore excludeKeywordHighlight">
+          <div class="explore-within">
+            Explore Within
+            <span class="caret"></span>
+          </div>
+          <ul style="display: none;">
 
-{% for page in github_guides %}
-  {% if page.url contains "github/introduction" %}
-    <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
-  {% endif %}
-{% endfor %}
+            {% assign sub_guides = site.guides | where: "guide", currentguide[0].title %}
 
-<ul>
-  {% for page in github_guides %}
-    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-  {% endfor %}
-</ul>
+            {% for sub_guide in sub_guides %}
+              <li class="group" style="background: transparent;">
+                <a href="{{sub_guide.url}}" title="{{ sub_guide.title }}">{{ sub_guide.title }}</a>
+              </li>
+            {% endfor %}
+
+          </ul>
+        </div>
+      </div>
+
+      {% assign floopindex = forloop.index | plus: 1 %}
+      {% assign guide_types_length = guide_types | size %}
+      {% if mod == 0 or floopindex >= guide_types_length %}
+        </div><!-- even or end of loop -->
+      {% endif %}
+
+    {% endfor %}
+  </div>
+</div>

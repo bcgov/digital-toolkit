@@ -11,6 +11,7 @@ By developing this material in the open, we hope to encourage expert review and 
 - [Contribution Instructions](#contribution-instructions)
   - [Editing Markdown](#editing-markdown)
   - [Contributing to the guides](#contributing-to-the-guides)
+    - [Adding a new guide](#adding-a-new-guide)
   - [Contributing to the steps](#contributing-to-the-steps)
   - [Contributing to the examples](#contributing-to-the-examples)
 - [Developer Installation](#developer-installation)
@@ -29,7 +30,9 @@ In order to contribute to this project, basic knowledge of the [Markdown syntax]
 
 ### Contributing to the guides
 
-There are a couple of ways to contribute: Either a) fork a repository, modify or create new content, and submit a pull request, or reach out to one of the contacts mentioned within the toolkit to begin a discussion of alternate ways.  One way may be as simple as a Word document.  
+There are a couple of ways to contribute: Either a) fork a repository, modify or create new content, and submit a pull request, or reach out to one of the contacts mentioned within the toolkit to begin a discussion of alternate ways.  One way may be as simple as a Word document.
+
+`introduction.md` is special. Be sure to name the `guide` and the `title` the same way
 
 #### Adding a new guide
 
