@@ -72,6 +72,10 @@
 
         {{ content }}
 
+        {% if page.last-edit %}
+          <p class="last-edit">Last updated: {{ page.last-edit }}</p>
+        {% endif %}
+
         <div class="next-prev step">
           {% if page.previous %}
             <a title="{{ page.previous.title | escape }}" class="prev" href="{{ page.previous.url }}">Previous Step</a>

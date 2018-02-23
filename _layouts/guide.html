@@ -87,6 +87,10 @@
 
         {{ content }}
 
+        {% if page.last-edit %}
+          <p class="last-edit">Last updated: {{ page.last-edit }}</p>
+        {% endif %}
+
         <div style="margin-top: 3rem;" class="next-prev step">
           <a href="{{ site.baseurl }}/guides/index">Back to the guides</a>
         </div>

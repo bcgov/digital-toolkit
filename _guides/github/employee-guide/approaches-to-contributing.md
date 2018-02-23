@@ -2,6 +2,7 @@
 title: Approaches to Collaborating/Contributing
 guide: BC Policy Framework for GitHub
 subsection: Employee Guide
+last-edit: February 20, 2018
 ---
 
 ### Approval Requirements
