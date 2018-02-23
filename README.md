@@ -38,24 +38,24 @@ There are a couple of ways to contribute: Either a) fork a repository, modify or
 
 Reach out to a contact mentioned within the toolkit to begin discussion.
 
-### Contributing to the steps
+### Contributing to the practises
 
-The digital innovation steps are organized sequentially. The files are numbered 1-10 like this: `01-title-of-step.md`. The numbering is important, because this is how we determine their order.
+Though the "practises" are not numbered on the site, they are organized sequentially. The files are numbered 1-10 like this: `01-title-of-step.md`. The numbering is important, because this is how we determine their order.
 
 1. [Visit the `_steps` folder](https://github.com/bcgov/innovation-toolkit/tree/master/_steps).
 1. Click the step that you would like to edit, then select the pencil icon (top-right)
 1. The repository will be automatically forked to your repository and you will be able to edit the file.
-1. When you are finished making all of your edits to the file, click the green "commit" button at the bottom of the page. Be sure to add a descriptive "commit message" detailing what was changed.
+1. When you are finished making all of your edits to the file, click the green "commit" button at the bottom of the page. There will be a place to provide a description of your change; this is to describe to the site steward, the nature of the change, and helps expedite the process.
 1. Now, on your forked repository's homepage, click "Pull Request".
 1. Follow the instructions giving reasons for your changes, then click submit in order to submit your request.
 
 ### Contributing to the examples
 
-Comming soon.
+Follow the examples within existing code, and add a new link.  Submit the change as a pull request, just like contributing other content.
 
 ## Developer Installation
 
-In order to install this website and the collection of digital use guides onto your local computer, follow the instructions below. Please note that while contributions to the guides and front-end code of the website are welcome, the Government of British Columbia does not authorize the public publication of this website on any top level domains external to `gov.bc.ca`
+In order to install this website and the collection of digital guides onto your local computer, follow the instructions below. Please note that while contributions to the guides and front-end code of the website are welcome, the Government of British Columbia does not authorize the public publication of this website on any top level domains external to `gov.bc.ca`
 
 1. Ensure you have [Node](https://nodejs.org/en/), NPM, [Ruby](https://www.ruby-lang.org/en/documentation/installation/) and [Jekyll](https://jekyllrb.com/docs/installation/) installed.
 1. Clone this repository: `git clone https://github.com/bcgov/innovation-toolkit.git`
@@ -77,4 +77,4 @@ Static images and CSS, JS, etc. are served from the `/static` folder off of the 
 Some changes made to the [BC Gov Skeleton](https://github.com/bcgov/Gov-2.0-Bootstrap-Skeleton) (of which this site is based off):
 
 1. Line 302 of `src/js/bc-gov/misc.js` is commented out - This line intentionally offset the scroll position when scrolling to an anchor on the page. This was done because the default theme has a "sticky" header/navigation.
-1. The "square" numbers used for the numbered list on the homepage "steps". The default theme doesn't have a default large, "heavy border", format.
+1. The "square" numbers used for the numbered list on the homepage "steps". The default theme doesn't have a default large, "heavy border", format.  (Although, these numbers will be removed from the "steps" which will be referred to as "good practises", and to un-numbered.)
