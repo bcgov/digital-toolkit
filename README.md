@@ -11,6 +11,8 @@ By developing this material in the open, we hope to encourage expert review and 
 * [Contribution Instructions](#contribution-instructions)
   * [Adding an entire new guide](#adding-an-entire-new-guide)
 * [Developer Installation](#developer-installation)
+  * [Running Webpack](#running-webpack)
+  * [Pull requests for website changes](#pull-requests-for-website-changes)
   * [Static assets and binary files](#static-assets-and-binary-files)
   * [Modifications made to the default BC Gov theme](#modifications-made-to-the-default-bc-gov-theme)
 
@@ -28,16 +30,23 @@ Reach out to a contact mentioned within the toolkit to begin the process of addi
 
 In order to install this website and the collection of digital guides onto your local computer, follow the instructions below. Please note that while contributions to the guides and front-end code of the website are welcome, the Government of British Columbia does not authorize the public publication of this website on any top level domains external to `gov.bc.ca` or internal domains other than `.bcgov`
 
-1. Ensure you have [Node](https://nodejs.org/en/), NPM, [Ruby](https://www.ruby-lang.org/en/documentation/installation/) and [Jekyll](https://jekyllrb.com/docs/installation/) installed.
+1. Ensure you have [Node](https://nodejs.org/en/), NPM, [Ruby](https://www.ruby-lang.org/en/documentation/installation/), [Bundler](http://bundler.io) and [Jekyll](https://jekyllrb.com/docs/installation/) installed.
 1. Clone this repository: `git clone https://github.com/bcgov/innovation-toolkit.git`
 1. Change directory into the project root: `cd innovation-toolkit`
-1. Install dev dependancies: `npm install`
+1. Install dev dependancies: `npm install && npm run build`
+1. Serve the site locally: `bundle exec jekyll serve --watch`
+
+### Running Webpack
 
 `npm run build` will run [Webpack](https://webpack.js.org) into order to compile SCSS and JS.
 
-`npm run watch` will watch SCSS and JS and re-compile CSS and JS when the files are saved.
+`npm run watch` will watch SCSS and JS files in the `src` directory and re-compile CSS and JS when the files are saved.
 
-Run `bundle exec jekyll serve --watch` in order to serve the site locally. Pull requests to the source code are welcomed and appriciated.
+Run `bundle exec jekyll serve --watch` in order to serve the site locally.
+
+### Pull requests for website changes
+
+Pull requests to the source code of the website are welcomed and appriciated. In order to contribute to the content of the site [see the wiki](https://github.com/bcgov/innovation-toolkit/wiki).
 
 ### Static assets and binary files
 
