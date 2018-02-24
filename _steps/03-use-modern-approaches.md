@@ -7,10 +7,10 @@ Today, we build services in the context of uncertainty, with expectations for fa
 
 ### Resources
 
-* How do I get started with [Agile](http://agile-guide.pathfinder.bcgov/)?
-* How do I get started with DevOps?
+* [How do I get started with Agile?]({{ site.baseurl }}/guides/agile/introduction)
+* [How do I get started with DevOps?]({{ site.baseurl }}/guides/devops/introduction)
+* Use the [Agile vs Waterfall Methodology Decision Tool]({{ site.baseurl }}/static/ms-office/Methodology_Decision_Tool.xlsx) (XLS)
 
 ### In-Practice Examples
 
 * [Environmental Assessment Office]({{ site.baseurl }}/steps/in-practice-examples/eao)
-* Justice Tribunal Transformation

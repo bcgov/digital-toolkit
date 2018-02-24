@@ -6,9 +6,8 @@ Building good services starts with a clear understanding of users' needs. Whethe
 
 ### Resources
 
-* I'm looking to design a [Citizen Engagement](http://www2.gov.bc.ca/assets/gov/about-gov-bc-ca/citizen-centric/ux-toolbox-better-web-for-citizens/citizen-engagement-social-media/citizen_engagement_planning_handbook.pdf) initiative
-* I want to learn about key groups in BC and [population segmentation](http://segmentation-guide.pathfinder.bcgov/)
-* I want to use tools like [Journey Maps](http://www2.gov.bc.ca/gov/content/about-gov-bc-ca/citizen-centric/ux-toolbox/design-research/deliverables-and-communicating-your-research/journey-maps), [Storyboards](http://www2.gov.bc.ca/gov/content/about-gov-bc-ca/citizen-centric/ux-toolbox/design-research/deliverables-and-communicating-your-research/storyboards), and [Personas](http://www2.gov.bc.ca/gov/content/about-gov-bc-ca/citizen-centric/ux-toolbox/design-research/deliverables-and-communicating-your-research/personas) to better understand my users
+* I want to learn about key groups in BC and [population segmentation](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/bc_mtic_-_target_segment_thumbnail_sketch-_2015_06_30.pdf)
+* I want to use tools like [the Citizen Engagement Handbook](https://www2.gov.bc.ca/gov/content/governments/services-for-government/service-experience-digital-delivery/citizen-engagement/ce-handbook)
 
 ### In Practice Examples
 

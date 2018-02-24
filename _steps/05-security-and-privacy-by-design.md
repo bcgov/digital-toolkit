@@ -6,11 +6,10 @@ The best intentions for service outcomes are only as good as the legal and polic
 
 ### Resources
 
-* What are the considerations for securing digital services?
-* How do I conduct a [Security Threat and Risk Assessment (STRA)](http://www2.gov.bc.ca/gov/content/governments/services-for-government/information-technology/standards/nrs-system-development-life-cycle/new-development-phase-descriptions-deliverables/initiation-phase/security-threat-risk-assessment)?
+* How do I conduct a [Security Threat and Risk Assessment (STRA)](https://www2.gov.bc.ca/gov/content/governments/services-for-government/information-management-technology/information-security/security-threat-and-risk-assessment)?
 * How do I conduct a [Privacy Impact Assessment (PIA)](http://www.cio.gov.bc.ca/cio/priv_leg/foippa/pia/pia_index.page)?
 
 ### In-Practice Examples
 
-* [Home Healthcare Monitoring]({{ site.baseurl }}/steps/in-practice-examples/home-heathcare-monitoring)
-* Information Management Act
+* [Home Healthcare Monitoring]({{ site.baseurl }}/steps/in-practice-examples/home-healthcare-monitoring)
+* [Information Management Act](http://www.bclaws.ca/civix/document/id/lc/statreg/15027)

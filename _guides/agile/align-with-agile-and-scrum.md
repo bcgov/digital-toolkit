@@ -38,7 +38,7 @@ Setting up a scrum team is half the equation as operating in an agile fashion re
 * Open to the concept of transparency on a number of levels as described in the Government’s Open By Default \[TBD\] initiative
 * Accepting of the fact that their project artifacts (including code) and methodologies will be open to inspection by people within and outside of their organization
 
-These are critical behaviours that will improve the understanding of business needs as well as the overall quality of the products produced. Preparing and working to instill these values into the daily functions of the product team is critical. Training resources and links can be found in the Agile Wiki \[TBD\].
+These are critical behaviours that will improve the understanding of business needs as well as the overall quality of the products produced. Preparing and working to instill these values into the daily functions of the product team is critical.
 
 ### Align Your Team with Scrum
 

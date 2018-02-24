@@ -9,9 +9,8 @@ By sharing capacities, ideas and resources across agencies, and by re-using comm
 * I want to use or create a common [Government-as-a-Platform]({{ site.baseurl }}/steps/in-practice-examples/gov-as-a-platform) service
 * I want to ensure that I adhere to [Corporate Branding](http://www2.gov.bc.ca/gov/content/about-gov-bc-ca/web-presence/developers-guide)
 * I want my users to use verify their identity using the [BC Services Card](http://www2.gov.bc.ca/gov/content/governments/government-id/bc-services-card)
-* I want to use the Gov2.0 Web Platform
 
 ### In-Practice Examples
 
 * [Pay BC]({{ site.baseurl }}/steps/in-practice-examples/paybc)
-* BC Services Card
+* [BC Services Card](https://www2.gov.bc.ca/gov/content/governments/government-id/bc-services-card)

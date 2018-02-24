@@ -13,4 +13,3 @@ Being data-driven is about using evidence to base the decisions made in the desi
 ### In-Practice Examples
 
 * [The "One Tool" (britishcolumbia.ca)]({{ site.baseurl }}/steps/in-practice-examples/one-tool)
-* Broadband Mapping

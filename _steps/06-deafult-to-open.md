@@ -6,8 +6,8 @@ The nature of government, the complexity of services we deliver, and increasing 
 
 ### Resources
 
-* I want to make data openly available [(DataBC)](http://www.data.gov.bc.ca/)?
-* I want to [develop openly on Github](http://github-guide.pathfinder.bcgov/) so others can collaborate with me
+* I want to [make data openly available](http://www.data.gov.bc.ca/)
+* I want to [develop openly on Github]({{ site.baseurl }}/guides/github/introduction) so others can collaborate with me
 * What should I consider when [developing Open Source](https://github.com/bcgov/BC-Policy-Framework-For-GitHub/tree/master/BC-Open-Source-Development-Employee-Guide)?
 
 ## In-Practice Examples

@@ -6,7 +6,7 @@ Once we have developed an understanding of user needs, it is our job to design s
 
 ### Resources
 
-* I'm looking for a [Playbook](http://www2.gov.bc.ca/gov/content/about-gov-bc-ca/citizen-centric/service-design) that can help me to design my service
+* I'm looking for a [Playbook](https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/services-policies-for-government/service-experience-digital-delivery/service-design-playbook-beta.pdf) that can help me to design my service
 * I want to [write good content for the Web](http://www2.gov.bc.ca/gov/content/about-gov-bc-ca/web-presence/writing-for-the-web)
 
 ### In Practice Examples

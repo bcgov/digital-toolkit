@@ -6,9 +6,9 @@ The technology tools and platforms that we select should enable staff and contra
 
 ### Resources
 
-* I want to [develop APIs](http://api-guide.pathfinder.bcgov/) so that others can reuse and integrate with my service
-* I want to manage my project using Agile tools
-* I want to use open version control, a modern Technology Stack, continous integration, etc
+* I want to [develop APIs]({{ site.baseurl }}/guides/rest-api/introduction) so that others can reuse and integrate with my service
+* I want to [manage my project using Agile tools]({{ site.baseurl }}/guides/agile/introduction)
+* I want to [use open version control]({{ site.baseurl }}/guides/github/introduction), a modern Technology Stack, and [continous integration]({{ site.baseurl }}/steps/10-achieve-continuous-improvement)
 
 ### In-Practice Examples
 

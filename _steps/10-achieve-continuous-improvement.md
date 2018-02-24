@@ -11,4 +11,4 @@ Without efficient and streamlined processes, it can be challenging to benefit fr
 ### In-Practice Examples
 
 * [BC Palliative Care Program]({{ site.baseurl }}/steps/in-practice-examples/bc-palliative-care)
-* Child and Youth Mental Health BC
+* [Child and Youth Mental Health BC](https://www2.gov.bc.ca/gov/content/health/managing-your-health/mental-health-substance-use/child-teen-mental-health)
