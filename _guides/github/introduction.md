@@ -15,8 +15,8 @@ This repo's content is focused on providing information, examples and guidelines
 
 This guide is organized into two main sections:
 
-* Employee Guide
-* How To Info
+* [Employee Guide]({{ site.baseurl }}/guides/github/employee-guide/index/)
+* [How To Info]({{ site.baseurl }}/guides/github/how-to-info/index/)
 
 ### Project Status
 

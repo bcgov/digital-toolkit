@@ -7,4 +7,6 @@ We make services simple and personalized, even anticipating citizen needs so tha
 
 It's clear that while the 2010 principles of citizen participation, self-service and business innovation, established in the original version of C@C, endure, they also continue to evolve. Today, when contemplating our work and the way we deliver services, we consider the following refreshed principles:
 
-![How We Put Citizens @ the Centre]({{ site.baseurl }}/static/img/catc_table1.png)
+| Simplify  | "I want to find what I need when I need it, and make the process easy to follow" | Citizen service, experience that is predictable, consistent and intuitve. |
+| Modernize  | "I want government services to be similar to what I get from other organizations"  | Digital services that citizens expect.  |
+| Streamline  | "I want government to function efficently and that's demonstrated in the quality of its services"  | Efficient processes that underpin our services.  |

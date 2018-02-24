@@ -4,7 +4,7 @@ guide: BC Policy Framework for GitHub
 subsection: How To Info
 ---
 
-### Contributor Code of Conduct
+### CODE OF CONDUCT.md
 
 ```markdown
 As contributors and maintainers of this project, and in the interest of fostering an open and welcoming community, we pledge to respect all people who contribute through reporting issues, posting feature requests, updating documentation, submitting pull requests or patches, and other activities.

@@ -11,4 +11,4 @@ With this in mind, we have identified 20 key steps that, if followed together, w
 
 ### Key Steps to Agile Scrum Development in the BC Government
 
-![20 Key Steps]({{site.baseurl}}/static/img/20steps.jpg)
+[![20 Key Steps]({{site.baseurl}}/static/img/20steps.jpg)]({{site.baseurl}}/static/img/20steps.jpg)

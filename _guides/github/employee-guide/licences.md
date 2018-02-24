@@ -45,11 +45,11 @@ IPP's approval process involves an examination of the development history of the
 
 The overview provided is intended to inform, not replace, the licensing review for each project.
 
-![License Tree]({{ site.baseurl }}/static/img/License-Tree.png)
+[![License Tree]({{ site.baseurl }}/static/img/License-Tree.png)]({{ site.baseurl }}/static/img/License-Tree.png)
 
 If your project is related to a community that typically uses a different licence than one of the preferred licences described above, or if you have any questions about which licence best applies to your project, contact IPP.
 
-![GitHub Ready]({{ site.baseurl }}/static/img/GitHub-Ready.png)
+[![GitHub Ready]({{ site.baseurl }}/static/img/GitHub-Ready.png)]({{ site.baseurl }}/static/img/GitHub-Ready.png)
 
 ### Applying the License to your Code/Project
 
