@@ -2,15 +2,13 @@
 layout: default
 ---
 
-<h1>Digital Innovators Toolkit</h1>
-
 <div id="introduction">
-  <p class="lead">
-    {{ content }}
+  <p style="margin-top: 0" class="lead">
+    {{ content | strip_html }}
   </p>
 </div>
 
-<h2 id="get-started">Get Started: Review the Steps</h2>
+<h2 id="get-started">Get Started: Review the {{ site.steps-name-text }}</h2>
 
 <div class="list-group numbered">
 

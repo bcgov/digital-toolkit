@@ -64,34 +64,6 @@ ol.breadcrumb {
 }
 
 // SIDEBAR LOVE
-.numbered.list-group,
-.leftNav {
-	counter-reset: my-badass-counter;
-}
-.numbered.list-group h3:before { // This is also on the homepage, used for the "steps"
-	content: counter(my-badass-counter);
-  counter-increment: my-badass-counter;
-  width: 4.0rem;
-  height: 4rem;
-  padding-top: 0.75rem;
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
-  color: #1a5a96;
-  border: 0.3rem solid #1a5a96;
-  display: inline-block;
-  margin-right: 0.5rem;
-}
-.step.page .leftNav li ul li:before {
-  @media screen and (min-width: 768px) {
-    content: counter(my-badass-counter);
-    counter-increment: my-badass-counter;
-    float: left;
-    padding-right: 0.25rem;
-    position: relative;
-    top: 1px;
-  }
-}
 .contentPageLeftNavigation ul.leftNav li a {
   @media (max-width: 767px) {
     padding: 1rem;
@@ -106,9 +78,6 @@ ol.breadcrumb {
 }
 li.open.current>.leftNav-item-wrapper {
   font-size: 112.5%;
-}
-li.open.current>.leftNav-item-wrapper>a:hover {
-  color: #1a5a96;
 }
 
 // NEXT PREVIOUS "STEP" LINKS
@@ -133,3 +102,33 @@ li.open.current>.leftNav-item-wrapper>a:hover {
 .contentPageLeftNavigation .leftNav ul li {
   padding-left: 0;
 }
+
+// // numbering for the steps sidebar
+// .numbered.list-group,
+// .leftNav {
+// 	counter-reset: my-badass-counter;
+// }
+// .numbered.list-group h3:before { // This is also on the homepage, used for the "steps"
+// 	content: counter(my-badass-counter);
+//   counter-increment: my-badass-counter;
+//   width: 4.0rem;
+//   height: 4rem;
+//   padding-top: 0.75rem;
+//   font-size: 2rem;
+//   font-weight: bold;
+//   text-align: center;
+//   color: #1a5a96;
+//   border: 0.3rem solid #1a5a96;
+//   display: inline-block;
+//   margin-right: 0.5rem;
+// }
+// .step.page .leftNav li ul li:before {
+//   @media screen and (min-width: 768px) {
+//     content: counter(my-badass-counter);
+//     counter-increment: my-badass-counter;
+//     float: left;
+//     padding-right: 0.25rem;
+//     position: relative;
+//     top: 1px;
+//   }
+// }
