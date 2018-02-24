@@ -1,15 +1,17 @@
-# Site settings
+# Site settings and variables
 title: "Innovator's Toolkit"
+nav-trigger-text: "Select Navigation"
+contribute-link-text: "Contribute"
 
 # Site description
-description: "This toolkit offers a set of steps that can be followed when developing a digital service."
+description: "This toolkit offers a set of steps that can be followed when developing a digital service inside (or outside) the British Columbia Public Service."
 
 # Site paths - set these in production!
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # Excerpt the first sentence and use that for the .excerpt
-# Alternatively, we could pipe the excerpt to truncatewords:75
+# Alternatively, we could pipe the excerpt to | truncatewords:75
 excerpt_separator: .
 
 # Build settings
@@ -81,6 +83,3 @@ exclude:
   - LICENCE
   - README.md
   - webpack.config.js
-
-# Global site variables
-nav-trigger-text: "Select Navigation"
