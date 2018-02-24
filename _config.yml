@@ -1,11 +1,15 @@
 # Site settings and string variables
 title: "Digital Toolkit"
 nav-trigger-text: "Select Navigation"
-contribute-link-text: "Contribute"
+contribute-link-text: "Contribute on GitHub"
 steps-name-text: "Good Practises"
+contribute-link: "https://github.com/bcgov/innovation-toolkit/wiki/Contributing-to-the-Digital-Toolkit"
 
 # Site description
 description: "This toolkit offers a set of steps that can be followed when developing a digital service inside (or outside) the British Columbia Public Service."
+
+# Site emails and contacts
+main-email: "bcdevexchange@gov.bc.ca"
 
 # Site paths - set these in production!
 baseurl: "" # the subpath of your site, e.g. /blog/
