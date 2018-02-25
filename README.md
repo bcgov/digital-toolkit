@@ -8,13 +8,14 @@ By developing this material in the open, we hope to encourage expert review and 
 
 <!-- TOC -->
 
-* [Contribution Instructions](#contribution-instructions)
-  * [Adding an entire new guide](#adding-an-entire-new-guide)
-* [Developer Installation](#developer-installation)
-  * [Running Webpack](#running-webpack)
-  * [Pull requests for website changes](#pull-requests-for-website-changes)
-  * [Static assets and binary files](#static-assets-and-binary-files)
-  * [Modifications made to the default BC Gov theme](#modifications-made-to-the-default-bc-gov-theme)
+- [Contribution Instructions](#contribution-instructions)
+  - [Adding an entire new guide](#adding-an-entire-new-guide)
+- [Developer Installation](#developer-installation)
+  - [Running Webpack](#running-webpack)
+  - [Pull requests for website changes](#pull-requests-for-website-changes)
+  - [Static assets and binary files](#static-assets-and-binary-files)
+  - [Modifications made to the default BC Gov theme](#modifications-made-to-the-default-bc-gov-theme)
+  - [When you are ready to publish the site](#when-you-are-ready-to-publish-the-site)
 
 <!-- /TOC -->
 
@@ -57,3 +58,9 @@ Static images and CSS, JS, etc. are served from the `/static` folder off of the 
 Some changes made to the [BC Gov Skeleton](https://github.com/bcgov/Gov-2.0-Bootstrap-Skeleton) (of which this site is based off):
 
 1. Line 302 of `src/js/bc-gov/misc.js` is commented out - This line intentionally offset the scroll position when scrolling to an anchor on the page. This was done because the default theme has a "sticky" header/navigation while this site does not.
+
+### When you are ready to publish the site
+
+**Important!** Set the `JEKYLL_ENV` variable to `production` via the command line by adding it to your build command, like this: `JEKYLL_ENV=production bundle exec jekyll serve` or `JEKYLL_ENV=production jekyll build`
+
+Setting the `JEKYLL_ENV` to `production` will compile the site with certain features enabled, such as analytics.

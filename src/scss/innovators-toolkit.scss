@@ -43,6 +43,12 @@ ol.breadcrumb {
   // padding-left: 1.666rem;
 }
 
+// BUTTONS
+a.btn {
+  text-decoration: none;
+  border-radius: 4px;
+}
+
 // MAIN CONTENT
 #main-content {
   @media screen and (max-width: 768px) {

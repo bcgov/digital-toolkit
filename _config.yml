@@ -10,6 +10,7 @@ description: "This toolkit offers a set of steps that can be followed when devel
 
 # Site emails and contacts
 main-email: "bcdevexchange@gov.bc.ca"
+feedback-email: "jim.rabb@gov.bc.ca"
 
 # Site paths - set these in production!
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -85,6 +86,8 @@ exclude:
   - workfiles
   - NOTES
   - CONTRIBUTING.md
+  - CODE OF CONDUCT.md
   - LICENCE
   - README.md
   - webpack.config.js
+  - sync-local-dev.bash # workfile that syncs local to dev site
