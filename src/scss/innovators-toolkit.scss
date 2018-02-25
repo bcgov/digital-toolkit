@@ -55,7 +55,8 @@ a.btn {
     margin-top: 1rem;
   }
 }
-.contentPageMainColumn ul>li {
+.contentPageMainColumn ul>li, // main content
+.contentPageRightColumn ul>li { // right sidebar
   padding-left: 15px;
   background: url('../images/bullet.png') no-repeat scroll 0 8px transparent;
   margin-bottom: 3px;
