@@ -1,3 +1,18 @@
+{% assign ctype = "" %}
+{% assign url_components = page.url | split: "/" %}
+
+{% if url_components[1] == "guides" %}
+  {% assign ctype = " on this guide" %}
+{% endif %}
+
+{% if url_components[1] == "practices" %}
+  {% assign ctype = " on this practice" %}
+{% endif %}
+
+{% if url_components[1] == "in-practice-examples" %}
+  {% assign ctype = " on this example" %}
+{% endif %}
+
 <p style="text-align: right;">
-  <a class="btn btn-primary" href="mailto:{{ site.feedback-email }}{% if page.title %}?subject=Feedback%20regarding:%20{{ page.title | replace: " ", "%20" }}%20({{ site.url }}{{ page.url }}){% endif %}">Provide feedback on this page</a>
+  <a class="btn btn-primary" href="mailto:{{ site.feedback-email }}{% if page.title %}?subject=Feedback%20regarding:%20{{ page.title | replace: " ", "%20" }}%20({{ site.url }}{{ page.url }}){% endif %}">Provide feedback{{ ctype }}</a>
 </p>

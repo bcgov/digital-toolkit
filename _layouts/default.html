@@ -9,6 +9,21 @@
 
   <div id="topicTemplate" class="template container gov-container">
 
+    {% if page.url == "/guides/index/" %}
+      <!-- BREADCRUMBS -->
+      <div class="row" id="breadcrumbContainer">
+        <ol class="breadcrumb">
+          <li>
+            <a href="{{ site.baseurl }}/">Home</a>
+          </li>
+          <li>
+            <a href="{{ site.baseurl }}/guides/index/">Innovation Guides</a>
+          </li>
+        </ol>
+      </div>
+      <!-- /#breadcrumbs -->
+    {% endif %}
+
     <!-- PAGE CONTENT - This is the main Bootstrap ".row" on the page :) -->
     <div class="row">
 

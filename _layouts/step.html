@@ -37,7 +37,7 @@
                   </div>
                   <ul>
 
-                    {% for step in site.steps %}
+                    {% for step in site.practices %}
                       {% if page.url == step.url %}
                         <li class="current">
                       {% else %}
@@ -84,7 +84,7 @@
 
         <div class="next-prev step">
           {% if page.previous %}
-            <a title="{{ page.previous.title | escape }}" class="prev" href="{{ page.previous.url }}">Previous Step</a>
+            <a title="{{ page.previous.title | escape }}" class="prev" href="{{ page.previous.url }}">Previous Practice</a>
           {% endif %}
 
           {% if page.previous and page.next %}
@@ -92,7 +92,7 @@
           {% endif %}
 
           {% if page.next %}
-            <a title="{{ page.next.title | escape }}" class="next" href="{{ page.next.url }}">Next Step</a>
+            <a title="{{ page.next.title | escape }}" class="next" href="{{ page.next.url }}">Next Practice</a>
           {% endif %}
         </div>
 

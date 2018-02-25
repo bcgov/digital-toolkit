@@ -5,6 +5,10 @@ layout: default
 
 <ul>
   {% for example in site.in-practice-examples %}
-    <li><a href="{{ example.url }}">{{ example.title }}</a></li>
+    {% if example.slug != "index" %}
+      <li>
+        <a href="{{ example.url }}">{{ example.title }}</a>
+      </li>
+    {% endif %}
   {% endfor %}
 <ul>

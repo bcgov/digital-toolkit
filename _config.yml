@@ -49,7 +49,7 @@ defaults:
       layout: "default"
   -
     scope:
-      type: "steps"
+      type: "practices"
     values:
       layout: "step"
   -

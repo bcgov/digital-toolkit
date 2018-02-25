@@ -33,7 +33,7 @@
 
                 <li class="open current">
                   <div class="leftNav-item-wrapper">
-                    <a id="in-practice-examples" style="cursor: default;" href="#">In Practice Examples</a>
+                    <a id="in-practice-examples" href="{{ site.baseurl }}/in-practice-examples/index/">In Practice Examples</a>
                   </div>
                   <ul>
 
@@ -100,11 +100,13 @@
 
         {% if page.example-of %}
 
-          {% assign examplesback = site.steps | where: "title", page.example-of %}
+          {% assign examplesback = site.practices | where: "title", page.example-of %}
 
-          <div style="margin-top: 3rem;" class="next-prev step">
-            An example of: <a href="{{ examplesback[0].url }}">{{ examplesback[0].title }}</a>
-          </div>
+          {% if examplesback.size > 0 %}
+            <div style="margin-top: 3rem;" class="next-prev step">
+              An example of: <a href="{{ examplesback[0].url }}">{{ examplesback[0].title }}</a>
+            </div>
+          {% endif %}
 
         {% endif %}
 
