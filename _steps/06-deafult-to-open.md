@@ -12,4 +12,4 @@ The nature of government, the complexity of services we deliver, and increasing 
 
 ## In-Practice Examples
 
-* [BC Developers Exchange]({{ site.baseurl }}/steps/in-practice-examples/bcdevelopers-exchange)
+* [BC Developers Exchange]({{ site.baseurl }}/in-practice-examples/bcdevelopers-exchange)

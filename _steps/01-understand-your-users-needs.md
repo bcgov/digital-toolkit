@@ -11,4 +11,4 @@ Building good services starts with a clear understanding of users' needs. Whethe
 
 ### In Practice Examples
 
-* [My Self Serve]({{ site.baseurl }}/steps/in-practice-examples/my-self-serve)
+* [My Self Serve]({{ site.baseurl }}/in-practice-examples/my-self-serve)

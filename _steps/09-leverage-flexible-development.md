@@ -12,4 +12,4 @@ If we design, build and test in ways that aim to get services to market quickly,
 
 ### In-Practice Examples
 
-* [Cloud BC]({{ site.baseurl }}/steps/in-practice-examples/cloudbc)
+* [Cloud BC]({{ site.baseurl }}/in-practice-examples/cloudbc)

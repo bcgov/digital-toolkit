@@ -1,0 +1,10 @@
+---
+title: In Practice Examples
+layout: default
+---
+
+<ul>
+  {% for example in site.in-practice-examples %}
+    <li><a href="{{ example.url }}">{{ example.title }}</a></li>
+  {% endfor %}
+<ul>

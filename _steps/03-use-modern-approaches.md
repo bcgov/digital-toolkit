@@ -13,4 +13,4 @@ Today, we build services in the context of uncertainty, with expectations for fa
 
 ### In-Practice Examples
 
-* [Environmental Assessment Office]({{ site.baseurl }}/steps/in-practice-examples/eao)
+* [Environmental Assessment Office]({{ site.baseurl }}/in-practice-examples/eao)

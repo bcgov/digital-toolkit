@@ -11,4 +11,4 @@ Once we have developed an understanding of user needs, it is our job to design s
 
 ### In Practice Examples
 
-* [Aged Out]({{ site.baseurl }}/steps/in-practice-examples/aged-out)
+* [Aged Out]({{ site.baseurl }}/in-practice-examples/aged-out)

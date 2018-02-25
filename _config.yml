@@ -2,7 +2,7 @@
 title: "Digital Toolkit"
 nav-trigger-text: "Select Navigation"
 contribute-link-text: "Contribute on GitHub"
-steps-name-text: "Good Practises"
+steps-name-text: "Good Practices"
 contribute-link: "https://github.com/bcgov/innovation-toolkit/wiki/Contributing-to-the-Digital-Toolkit"
 
 # Site description
@@ -28,12 +28,12 @@ permalink: pretty
 
 # Collections
 collections:
-  steps:
+  practices:
     output: true
-    permalink: /steps/:path/
+    permalink: /practices/:path/
   in-practice-examples:
     output: true
-    permalink: /steps/in-practice-examples/:name/
+    permalink: /in-practice-examples/:name/
   guides:
     output: true
     permalink: /guides/:path/

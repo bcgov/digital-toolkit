@@ -11,5 +11,5 @@ The best intentions for service outcomes are only as good as the legal and polic
 
 ### In-Practice Examples
 
-* [Home Healthcare Monitoring]({{ site.baseurl }}/steps/in-practice-examples/home-healthcare-monitoring)
+* [Home Healthcare Monitoring]({{ site.baseurl }}/in-practice-examples/home-healthcare-monitoring)
 * [Information Management Act](http://www.bclaws.ca/civix/document/id/lc/statreg/15027)

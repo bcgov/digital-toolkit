@@ -1,18 +1,47 @@
-<!-- BREADCRUMBS -->
-<div id="breadcrumbContainer">
-  <ol class="breadcrumb">
+{% assign url_components = page.url | split: "/" %}
+
+<ol class="breadcrumb">
+
+  {% comment %} Cover your eyes! Here be hacks!! (I'm sorry...) {% endcomment %}
+
+  {% for url_component in url_components %}
+
+    {% if forloop.first %}
+      <li><a href="{{ site.baseurl }}/">Home</a></li>
+      {% continue %}
+    {% endif %}
+
+    {% if forloop.index == 2 %}
+      {% for collection in site.collections %}
+        {% if url_component == collection.label %}
+          <li>
+            <a href="{{ site.baseurl }}/{{ url_component }}/index">
+              {{ url_component | replace: "-", " " | rstrip | lstrip | capitalize_all }}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+      {% continue %}
+    {% endif %}
+
+    {% if forloop.index == 3 %}
+      {% if url_components[3] == "introduction" %}
+        <li>
+          <a href="{{ site.baseurl }}/{{ url_components[1] }}/{{ url_component }}/introduction/">{{ url_component | replace: "-", " " | rstrip | lstrip | capitalize_all }}</a>
+        </li>
+        {% break %}
+      {% else %}
+        <li>
+          <a href="{{ site.baseurl }}/{{ url_components[1] }}/{{ url_component }}/introduction/">{{ url_component | replace: "-", " " | rstrip | lstrip | capitalize_all }}</a>
+        </li>
+        {% continue %}
+      {% endif %}
+    {% endif %}
+
     <li>
-      <a href="#">Home</a>
+      <a href="{{ site.baseurl }}/{{ url_components[1] }}/{{ url_components[2] }}/{{ url_component }}">{{ url_component | replace: "-", " " | rstrip | lstrip | capitalize_all }}</a>
     </li>
-    <li>
-      <a href="#">Breadcrumb Link</a>
-    </li>
-    <li>
-      <a href="#">Breadcrumb Link</a>
-    </li>
-    <li>
-      <a href="#">Breadcrumb Link</a>
-    </li>
-  </ol>
-</div>
-<!-- /#breadcrumbs -->
+
+  {% endfor %}
+
+</ol>

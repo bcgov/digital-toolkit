@@ -12,4 +12,4 @@ The technology tools and platforms that we select should enable staff and contra
 
 ### In-Practice Examples
 
-* [Open 511]({{ site.baseurl }}/steps/in-practice-examples/open511)
+* [Open 511]({{ site.baseurl }}/in-practice-examples/open511)
