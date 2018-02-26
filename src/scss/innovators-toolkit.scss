@@ -33,6 +33,40 @@
   background-position: 98% center;
   background-repeat: no-repeat;
 }
+#result .urlStr span {
+  color: #008000;
+  display: inline-block;
+  width: 100%;
+  word-wrap: break-word;
+}
+.result_item h4.result_item_title {
+  color: #1a5a96;
+  margin-top: 0px !important;
+  margin-bottom: 0em !important;
+  text-decoration: none !important;
+  font-weight: bold;
+  font-size: 23px;
+}
+#result .description {
+  line-height: 18px;
+  word-wrap: break-word;
+}
+#result .snippet, #result .description {
+  line-height: 18px;
+  word-wrap: break-word;
+}
+#result .snippet {
+  padding-bottom: 7px;
+}
+a.result_wrapper {
+  text-decoration: none !important;
+}
+a.result_wrapper h4:hover {
+  color: #0000FF;
+}
+#searchBody {
+  margin-bottom: 2rem;
+}
 
 // BREADCRUMBS
 .breadcrumb>li:last-of-type::after, .breadcrumb>li+li:last-of-type::after {
@@ -69,6 +103,10 @@ a.btn {
 .last-edit {
   margin-top: 2rem;
 }
+#topicTemplate hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 
 // SIDEBAR LOVE
 .contentPageLeftNavigation ul.leftNav li a {
@@ -95,6 +133,16 @@ li.open.current>.leftNav-item-wrapper {
 // CUSTOM "GUIDE" STYLING
 .guide.page .leftNav li ul li:before {
   content: '';
+}
+
+// 404 page
+#searchBody {
+  margin-bottom: 1.25rem;
+}
+#searchBody,
+.search_keywordBox {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 // EXPERIMENTAL ////////////////////////////////////////////////////////////////

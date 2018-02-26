@@ -2,6 +2,7 @@
 title: Conflict of Interest, Privacy & IP
 guide: BC Policy Framework for GitHub
 subsection: Employee Guide
+description: Conflict of interest documentation (when using GitHub)
 ---
 
 ### Conflict of Interest

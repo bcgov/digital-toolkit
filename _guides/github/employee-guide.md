@@ -2,6 +2,7 @@
 title: Employee Guide
 guide: BC Policy Framework for GitHub
 subsection: Employee Guide
+description: Developer's Guide - B.C. Government online corporate branding guidelines for approved use.
 ---
 
 ### Who Is This Guide For?

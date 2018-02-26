@@ -6,6 +6,8 @@ Our hope is that other digital service teams, both inside and outside of the BC 
 
 By developing this material in the open, we hope to encourage expert review and contributions from members of the tech community, furthering our goal of improving how government works through increased civic engagement with tech specialists.
 
+This site was developed using [approved BC Government standards](https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/web-content-development-guides/developers-guide/template) in respect to branding, functionality, and information architecture.
+
 <!-- TOC -->
 
 - [Contribution Instructions](#contribution-instructions)

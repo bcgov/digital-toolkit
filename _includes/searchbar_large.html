@@ -1,0 +1,20 @@
+<p>Try using the search box to find the information you are looking for.</p>
+
+<div class="row col-md-12 col-sm-12" id="searchBody">
+  <div class="searchInputContainer">
+    <span>
+      <div id="searchForm" class="tile-search-flyout">
+        <form action="{{ site.baseurl }}/search" method="get" role="form">
+          <div class="col-md-12 col-xs-12 search_keywordBox">
+            <div class="input-group">
+              <input id="keyword" type="text" class="form-control tile-searchbox" placeholder="Enter your keyword" name="q" value="" autocomplete="off"><!-- onkeyup="searchBoxKeypress(event, 500, 999)" -->
+              <span class="input-group-btn">
+                <button type="submit" class="form-control btn btn-default search_keywordButton">Search</button>
+              </span>
+            </div>
+          </div>
+        </form>
+      </div>
+    </span>
+  </div>
+</div>
