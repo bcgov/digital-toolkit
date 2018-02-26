@@ -78,9 +78,6 @@ a.result_wrapper h4:hover {
 .breadcrumb>li:last-of-type::after, .breadcrumb>li+li:last-of-type::after {
   content: ' ';
 }
-ol.breadcrumb {
-  bottom: 0.5rem;
-}
 #breadcrumbContainer {
   padding-right: 15px;
   padding-left: 15px;
