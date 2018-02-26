@@ -11,7 +11,13 @@
 }
 .navbar-toggle.topic-menu-trigger {
   @media screen and (max-width: 768px) {
-    margin-top: 2rem;
+    margin-top: 1rem;
+  }
+}
+.contentPageLeftNavigation,
+#topicLeftNav {
+  @media (max-width: 768px) {
+    position: static;
   }
 }
 
@@ -74,7 +80,15 @@ a.result_wrapper h4:hover {
 }
 ol.breadcrumb {
   bottom: 0.5rem;
-  // padding-left: 1.666rem;
+}
+#breadcrumbContainer {
+  padding-right: 15px;
+  padding-left: 15px;
+
+  @media (max-width: 767px) {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
 }
 
 // BUTTONS

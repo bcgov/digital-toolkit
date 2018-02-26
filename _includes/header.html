@@ -35,10 +35,14 @@
         <!-- /.header-main-left -->
 
         <!-- "MAIN" TITLE -->
-        <div class="col-sm-8 col-md-8 col-lg-6 hidden-xs">
+        <div class="hidden-xs col-sm-5 col-md-4 col-lg-4">
           <div class="bcgov-title">
             <h1>{{ site.title }}</h1>
           </div>
+        </div>
+
+        <div class="hidden-xs col-sm-4 col-md-6 col-lg-6 header-main-right">
+          {% include searchbar_main.html %}
         </div>
 
         <!-- COLLAPSING (MOBILE) NAVBAR -->
@@ -46,7 +50,7 @@
           <a id="navigation-anchor"></a>
           <ul class="nav navbar-nav">
             <li>
-              <a href="{{ site.baseurl }}/">Home</a>
+              <a href="{{ site.baseurl }}/">{{ site.title }}</a>
             </li>
             <li>
               <a href="{{ site.baseurl }}/#get-started">Take Action</a>
