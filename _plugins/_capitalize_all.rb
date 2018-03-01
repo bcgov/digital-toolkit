@@ -7,7 +7,7 @@ module CapitalizeAll
 
     allwords = words.tr("0-9", "").split(' ')
     # except these words
-    donttouchwords = [ 'the', 'and', 'on', 'to', 'of', 'for' ]
+    donttouchwords = [ 'the', 'and', 'on', 'to', 'of', 'for', 'ii', 'iii', 'iv' ]
     newwords = Array.new
 
     allwords.each do |word|

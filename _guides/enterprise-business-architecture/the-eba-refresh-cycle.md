@@ -15,7 +15,7 @@ The decision was made to refresh the guide twice a year in order to:
 - Summarize the current business and technology needs of service owners as revealed in business plans and IMIT Capital submissions, and
 - Assess the impact of new technologies and common services on the way government will design and deliver services.
 
-![EBA Refresh Cycle]({{ site.baseurl }}/static/img/Refresh_QTimeline.png)
+[![EBA Refresh Cycle]({{ site.baseurl }}/static/img/Refresh_QTimeline.png)]({{ site.baseurl }}/static/img/Refresh_QTimeline.png)
 
 The refresh cycle will consist of two six-month cycles that more or less mirror each other. They will start with a review and research phase where the ASPB team will spend time meeting with stakeholders to collect feedback and reviewing the latest direction of government. With the first draft of the new changes, the ASPB team will take the EBA to the Service Strategic Working Group for a second round of feedback and possibly more edits-this process will be iterative as there may be several engagements along the way. The goal is to gain endorsement from the working group to bring the updated EBA to the Service Delivery Board. The next step then is to have the Service Delivery Board review the EBA. Again, this process will be iterative with time given for several meetings to take place prior to the board’s endorsement and release of the new version. The lists of tasks associated with the lifecycle are as follows:
 

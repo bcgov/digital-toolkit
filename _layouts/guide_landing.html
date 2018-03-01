@@ -6,10 +6,13 @@ layout: default
 
 {% assign guide_types_str = '' %}
 {% for g in site.guides %}
-  {% assign guide_types_str = guide_types_str | append: g.guide | append: '|' %}
+  {% assign guide_types_str = guide_types_str | append: g.guide %}
+  {% unless forloop.last %}
+    {% assign guide_types_str = guide_types_str | append: "zzz" %}
+  {% endunless %}
 {% endfor %}
 
-{% assign guide_types = guide_types_str | split: "|" | uniq %}
+{% assign guide_types = guide_types_str | replace: "zzzzzz", "zzz" | split: "zzz" | uniq %}
 
 <div class="table-responsive">
   <div class="table tiles-container tiles-container-2col level2">
