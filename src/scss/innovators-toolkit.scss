@@ -86,6 +86,11 @@ a.result_wrapper h4:hover {
     margin-bottom: 0;
     padding-bottom: 0;
   }
+
+  @media (min-width: 768px) {
+    margin-top: 3rem;
+    margin-bottom: -2rem;
+  }
 }
 
 // BUTTONS
