@@ -17,6 +17,8 @@ module CapitalizeAll
         newwords.push "OCIO"
       elsif word == "bc"
         newwords.push "BC"
+      elsif word == "api"
+        newwords.push "API"
       elsif word == "ip"
         newwords.push "IP"
       else

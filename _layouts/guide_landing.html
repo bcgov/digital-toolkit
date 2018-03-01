@@ -14,49 +14,51 @@ layout: default
 
 {% assign guide_types = guide_types_str | replace: "zzzzzz", "zzz" | split: "zzz" | uniq %}
 
-<div class="table-responsive">
-  <div class="table tiles-container tiles-container-2col level2">
-    {% for guide_name in guide_types %}
+{% for guide_name in guide_types %}
 
-      {% assign mod = forloop.index | modulo: 2 %}
-      {% if mod != 0 %}
-        <div class="tiles-row"><!-- odd -->
-      {% endif %}
+  {% if forloop.first %}
+    <div class="table-responsive"><div class="table tiles-container tiles-container-2col level2"><!-- Open .table-responsive and .table.tiles.container -->
+  {% endif %}
 
-      {% assign currentguide = site.guides | where: "title", guide_name %}
+  {% assign modifier = forloop.index | modulo: 2 %}
+  {% if modifier != 0 or forloop.first %}
+    <div class="tiles-row"><!-- Open a .tiles-row -->
+  {% endif %}
 
-      <div class="tile col-sm-6">
-        <h3 class="title">
-          <a href="{{ currentguide[0].url }}">{{ guide_name }}</a>
-        </h3>
-        <p class="bc_paragraph">
-          {{ currentguide[0].excerpt | strip_html | rstrip | lstrip }}.
-        </p>
-        <div tabindex="0" class="explore excludeKeywordHighlight">
-          <div class="explore-within">
-            Explore Within
-            <span class="caret"></span>
-          </div>
-          <ul style="display: none;">
+  {% assign currentguide = site.guides | where: "title", guide_name %}
 
-            {% assign sub_guides = site.guides | where: "guide", currentguide[0].title %}
-
-            {% for sub_guide in sub_guides %}
-              <li class="group" style="background: transparent;">
-                <a href="{{sub_guide.url}}" title="{{ sub_guide.title }}">{{ sub_guide.title }}</a>
-              </li>
-            {% endfor %}
-
-          </ul>
-        </div>
+  <div class="tile col-sm-6"><!-- Open a .tile -->
+    <h3 class="title">
+      <a href="{{ currentguide[0].url }}">{{ guide_name }}</a>
+    </h3>
+    <p class="bc_paragraph">
+      {{ currentguide[0].excerpt | strip_html | rstrip | lstrip }}.
+    </p>
+    <div tabindex="0" class="explore excludeKeywordHighlight">
+      <div class="explore-within">
+        Explore Within
+        <span class="caret"></span>
       </div>
+      <ul style="display: none;">
 
-      {% assign floopindex = forloop.index | plus: 1 %}
-      {% assign guide_types_length = guide_types | size %}
-      {% if mod == 0 or floopindex >= guide_types_length %}
-        </div><!-- even or end of loop -->
-      {% endif %}
+        {% assign sub_guides = site.guides | where: "guide", currentguide[0].title %}
 
-    {% endfor %}
-  </div>
-</div>
+        {% for sub_guide in sub_guides %}
+          <li class="group" style="background: transparent;">
+            <a href="{{sub_guide.url}}" title="{{ sub_guide.title }}">{{ sub_guide.title }}</a>
+          </li>
+        {% endfor %}
+
+      </ul>
+    </div>
+  </div><!--Close a .tile -->
+
+  {% if modifier == 0 or forloop.last %}
+    </div><!-- Close a .tiles-row -->
+  {% endif %}
+
+  {% if forloop.last %}
+    </div></div><!-- Close .table-responsive and .table.tiles-container -->
+  {% endif %}
+
+{% endfor %}

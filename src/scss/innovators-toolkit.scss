@@ -82,14 +82,26 @@ a.result_wrapper h4:hover {
   padding-right: 15px;
   padding-left: 15px;
 
+  &.guide-landing {
+    @media (max-width: 767px) {
+      margin-bottom: 1rem;
+    }
+  }
+
   @media (max-width: 767px) {
     margin-bottom: 0;
     padding-bottom: 0;
   }
 
-  @media (min-width: 768px) {
-    margin-top: 3rem;
-    margin-bottom: -2rem;
+  @media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) and (min-width: 767px) {
+    margin-top: 2rem;
+  }
+
+}
+@-moz-document url-prefix() {
+  #breadcrumbContainer {
+    margin-top: initial;
+    margin-bottom: initial;
   }
 }
 
