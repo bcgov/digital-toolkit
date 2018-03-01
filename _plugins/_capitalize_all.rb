@@ -6,6 +6,7 @@ module CapitalizeAll
   def capitalize_all(words)
 
     allwords = words.tr("0-9", "").split(' ')
+    # except these words
     donttouchwords = [ 'the', 'and', 'on', 'to', 'of', 'for' ]
     newwords = Array.new
 
@@ -23,7 +24,11 @@ module CapitalizeAll
       end
     end
 
-    return newwords.join(' ')
+    str = newwords.join(' ')
+    # ensure that at the very least, the first letter of the string is capitalized
+    str[0] = str[0].capitalize
+
+    return str
 
   end
 end
