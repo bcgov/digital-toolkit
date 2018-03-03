@@ -7,11 +7,11 @@ This is a supporting guide to the standards for the development of REST APIs. Th
 
 The contents of this guide rely heavily on the REST API standards work of the:
 
-- Government of Canada Web Standards Office (WSO) Web Interoperability Working Group (WIWG)
-- BC Ministry of Transportation and Infrastructure, Information Management Branch
-- BC Corporate Services for Natural Resources (CSNR)
-- Government of Australia Digital Transformation Office
-- 18F
+* Government of Canada Web Standards Office (WSO) Web Interoperability Working Group (WIWG)
+* BC Ministry of Transportation and Infrastructure, Information Management Branch
+* BC Corporate Services for Natural Resources (CSNR)
+* Government of Australia Digital Transformation Office
+* 18F
 
 The goal of this document is to ensure that the delivery of REST API across the Government of British Columbia (BCGov) is consistent and up to the highest standards by defining a base level of delivery and only describing expansion when further comment is required.
 
@@ -25,9 +25,9 @@ BCGov REST APIs aim to balance a truly RESTful API interface with a positive dev
 
 This guide is organized into three main sections, which describe REST API requirements in order of priority:
 
-- Minimum delivery
-- Optional features
-- Best practices
+* Minimum delivery
+* Optional features
+* Best practices
 
 #### Topics Not Included
 
@@ -35,9 +35,9 @@ There are some subject areas that for various reasons could not be accommodated 
 
 Not covered in this guide are:
 
-- Hosting REST APIs
-- Identity management
-- Security
+* Hosting REST APIs
+* Identity management
+* Security
 
 #### Style Guide
 
@@ -45,7 +45,7 @@ Document code, arguments and other undefined technical statements will be code f
 
 Arguments text will be presented as follows:
 
-- Arguments stated as a header will be followed by a colon ':' as **argument:**
-- Arguments stated as a URI argument will be followed by an the equals sign '=' as **argument=**
-- Arguments stated as a URI path element will be bracketed with forward slashes '/' as **/argument/**
-- Arguments stated as a file format extension will be prefaced with a period '.' as **.arg**
+* Arguments stated as a header will be followed by a colon ':' as `argument:`
+* Arguments stated as a URI argument will be followed by an the equals sign '=' as `argument=`
+* Arguments stated as a URI path element will be bracketed with forward slashes '/' as `/argument/`
+* Arguments stated as a file format extension will be prefaced with a period '.' as `.arg`
