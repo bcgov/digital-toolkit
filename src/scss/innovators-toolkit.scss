@@ -20,6 +20,11 @@
     position: static;
   }
 }
+.navigationRibbon a {
+  @media (min-width: 768px) {
+    display: inline-block;
+  }
+}
 
 // SEARCH
 #main-search {
@@ -35,7 +40,7 @@
   right: 6px;
   float: right;
   width: 30px;
-  background-image: url('../images/search-ico.png');
+  background-image: url("../images/search-ico.png");
   background-position: 98% center;
   background-repeat: no-repeat;
 }
@@ -57,7 +62,8 @@
   line-height: 18px;
   word-wrap: break-word;
 }
-#result .snippet, #result .description {
+#result .snippet,
+#result .description {
   line-height: 18px;
   word-wrap: break-word;
 }
@@ -68,15 +74,16 @@ a.result_wrapper {
   text-decoration: none !important;
 }
 a.result_wrapper h4:hover {
-  color: #0000FF;
+  color: #0000ff;
 }
 #searchBody {
   margin-bottom: 2rem;
 }
 
 // BREADCRUMBS
-.breadcrumb>li:last-of-type::after, .breadcrumb>li+li:last-of-type::after {
-  content: ' ';
+.breadcrumb > li:last-of-type::after,
+.breadcrumb > li + li:last-of-type::after {
+  content: " ";
 }
 #breadcrumbContainer {
   padding-right: 15px;
@@ -93,10 +100,9 @@ a.result_wrapper h4:hover {
     padding-bottom: 0;
   }
 
-  @media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) and (min-width: 767px) {
+  @media all and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) and (min-width: 767px) {
     margin-top: 2rem;
   }
-
 }
 @-moz-document url-prefix() {
   #breadcrumbContainer {
@@ -118,14 +124,15 @@ a.btn {
   }
 }
 .contentPageMainColumn ul>li, // main content
-.contentPageRightColumn ul>li { // right sidebar
+.contentPageRightColumn ul>li {
+  // right sidebar
   padding-left: 15px;
-  background: url('../images/bullet.png') no-repeat scroll 0 8px transparent;
+  background: url("../images/bullet.png") no-repeat scroll 0 8px transparent;
   margin-bottom: 3px;
 }
-#main-content>h1:first-of-type,
-#main-content>h2:first-of-type,
-#main-content>h3:first-of-type {
+#main-content > h1:first-of-type,
+#main-content > h2:first-of-type,
+#main-content > h3:first-of-type {
   margin-top: 0;
 }
 .last-edit {
@@ -149,7 +156,7 @@ a.btn {
     padding-bottom: 1rem;
   }
 }
-li.open.current>.leftNav-item-wrapper {
+li.open.current > .leftNav-item-wrapper {
   font-size: 112.5%;
 }
 
@@ -160,7 +167,7 @@ li.open.current>.leftNav-item-wrapper {
 
 // CUSTOM "GUIDE" STYLING
 .guide.page .leftNav li ul li:before {
-  content: '';
+  content: "";
 }
 
 // 404 page
@@ -175,12 +182,12 @@ li.open.current>.leftNav-item-wrapper {
 
 // EXPERIMENTAL ////////////////////////////////////////////////////////////////
 
-.navigationRibbon .level2Navigation {
-  @media screen and (min-width: 768px) {
-    max-height: 40px;
-    overflow-y: hidden;
-  }
-}
+// .navigationRibbon .level2Navigation {
+//   @media screen and (min-width: 768px) {
+//     max-height: 40px;
+//     overflow-y: hidden;
+//   }
+// }
 
 .contentPageLeftNavigation .leftNav ul li {
   padding-left: 0;

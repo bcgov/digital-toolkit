@@ -1,6 +1,6 @@
 ---
-title: Corporate Enablers - Identity
-guide: Enterprise Business Architecture
+title: Identity
+guide: Corporate Enablers
 ---
 
 **BC Services Card Authentication Service** Owner: Sophia Howse, OCIO, Provincial IDIM Program Description: Secure, convenient identity assurance provided by government issued chip-enabled identity card (BC Services card). Capabilities: Biometric Identity Management, Certificate Identity Management, Key Management.

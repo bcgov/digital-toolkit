@@ -1,6 +1,6 @@
 ---
-title: Corporate Enablers - Cloud and Hosting
-guide: Enterprise Business Architecture
+title: Cloud and Hosting
+guide: Corporate Enablers
 ---
 
 **Data Centre Co-Location Services** Owner: Ian Donaldson, OCIO, Hosting Delivery Description: Data centre services provided by HPAS. Legislation and policy compliant. Capabilities: Facilities Management Services, Utility Based Capacity Reservation.

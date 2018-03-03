@@ -1,6 +1,6 @@
 ---
-title: Corporate Enablers - Citizen & Business
-guide: Enterprise Business Architecture
+title: Citizen & Business
+guide: Corporate Enablers
 ---
 
 **Contact Centre** Owner: Ron Hinshaw, Ministry of Technology, Innovation and Citizens' Services (MTICS), ServiceBC Description: Provides citizens with access to government services in-person and over the phone, through 62 Service BC Centres located throughout the Province, and via the telephone through the Service BC Contact Centre. Capabilities: all services offered by ServiceBC.

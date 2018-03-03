@@ -1,6 +1,6 @@
 ---
-title: Corporate Enablers - Data and Information
-guide: Enterprise Business Architecture
+title: Data and Information
+guide: Corporate Enablers
 ---
 
 **GeoBC** Owner: Andrew Calarco, Ministry of Forests, Lands and Natural Resource Operations Description: GeoBC is a branch of the Ministry of Forests, Lands and Natural Resource Operations which has responsibility for geomatics-related decision support products and services for natural resource sector Ministries, for the operation of the Integrated Land and Resource Registry and for all Provincial base-mapping functions. Capabilities: Base mapping and cadastre, Business innovation and emergency response, Decision support, Resource registry and research.

@@ -1,6 +1,6 @@
 ---
-title: Corporate Enablers - Communication & Collaboration
-guide: Enterprise Business Architecture
+title: Communication & Collaboration
+guide: Corporate Enablers
 ---
 
 **Network BC** Owner: Chris Hauff, OCIO, Network, Communications and Collaboration Services Description: Enterprise Communication services supports voice services to over 2200+ government and broader public sector offices across the province. Services include supporting 40,000 traditional voice lines, voice switches and voicemail systems, contact centres, Interactive Voice Recognition (IVR) and unified communication services. Capabilities: Enterprise Communication Services, Communication and Collaboration Services, Government Enterprise Network Services, Information Communications Technology Planning, Business Management.
