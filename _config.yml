@@ -89,5 +89,6 @@ exclude:
   - CODE OF CONDUCT.md
   - LICENCE
   - README.md
+  - Dockerfile
   - webpack.config.js
   - sync-local-dev.bash # workfile that syncs local to dev site

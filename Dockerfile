@@ -12,7 +12,7 @@ RUN apk update && \
         ca-certificates \
         libc-dev \
         libffi-dev \
-        nodejs \
+        'nodejs>6' \
         'python<3' \
         zlib-dev \
         libxml2 \
