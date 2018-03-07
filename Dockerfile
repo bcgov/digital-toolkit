@@ -1,4 +1,4 @@
-FROM ruby:2.3.0-alpine
+FROM ruby:2.5.0-alpine
 MAINTAINER jonathanbell <jonathanbell.ca@gmail.com>
 
 RUN apk update && \
@@ -19,7 +19,6 @@ RUN apk update && \
         libxml2-dev \
         libxslt \
         libxslt-dev && \
-        ruby-json && \
     gem install nokogiri -N && \
     gem install ffi -v 1.9.21 -N && \
     gem install jekyll -N && \
