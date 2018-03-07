@@ -32,9 +32,11 @@ RUN npm install
 
 RUN npm run build
 
+RUN bundle install
+
 RUN adduser -S jekyll
 
-RUN chown -R jekyll:0 /toolkit && chmod -R 770 /toolkit
+RUN chown -R jekyll:0 /toolkit && chmod -R 775 /toolkit
 
 USER jekyll
 
