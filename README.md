@@ -12,7 +12,7 @@ This site was developed using [approved BC Government standards](https://www2.go
 
 * [Contribute to this Project](#contribute-to-this-project)
 * [Developer Installation](#developer-installation)
-  * [Running Webpack](#running-webpack)
+  * [Watching files for changes](#watching-files-for-changes)
   * [Pull requests for website changes](#pull-requests-for-website-changes)
   * [Static assets and binary files](#static-assets-and-binary-files)
   * [Modifications made to the default BC Gov theme](#modifications-made-to-the-default-bc-gov-theme)
@@ -30,17 +30,12 @@ In order to install this website and the collection of digital guides onto your 
 
 You may install and run this website locally and you may use its source code as the foundation for a project of your own. However, copying and redistributing the source code without modifications is prohibited.
 
-1.  Ensure you have [Node](https://nodejs.org/en/), NPM, [Ruby](https://www.ruby-lang.org/en/documentation/installation/), [Bundler](http://bundler.io) and [Jekyll](https://jekyllrb.com/docs/installation/) installed.
+1.  Ensure you have [Ruby](https://www.ruby-lang.org/en/documentation/installation/), [Bundler](http://bundler.io) and [Jekyll](https://jekyllrb.com/docs/installation/) installed.
 1.  Clone this repository: `git clone https://github.com/bcgov/innovation-toolkit.git`
 1.  Change directory into the project root: `cd innovation-toolkit`
-1.  Install dev dependancies: `npm install && npm run build`
 1.  Serve the site locally: `bundle exec jekyll serve --watch`
 
-### Running Webpack
-
-`npm run build` will run [Webpack](https://webpack.js.org) (via an NPM script) in order to compile SCSS and JS.
-
-`npm run watch` will watch SCSS and JS files in the `src` directory and re-compile CSS and JS when the files are saved.
+### Watching files for changes
 
 Run `bundle exec jekyll serve --watch` in order to serve the site locally and to watch the source files for changes. Re-saving a file will cause the site to be re-generated when using the `--watch` option.
 

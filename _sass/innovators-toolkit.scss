@@ -40,7 +40,7 @@
   right: 6px;
   float: right;
   width: 30px;
-  background-image: url("../images/search-ico.png");
+  background-image: url("../bc-gov-theme-images/search-ico.png");
   background-position: 98% center;
   background-repeat: no-repeat;
 }
@@ -127,7 +127,8 @@ a.btn {
 .contentPageRightColumn ul>li {
   // right sidebar
   padding-left: 15px;
-  background: url("../images/bullet.png") no-repeat scroll 0 8px transparent;
+  background: url("../bc-gov-theme-images/bullet.png") no-repeat scroll 0 8px
+    transparent;
   margin-bottom: 3px;
 }
 #main-content > h1:first-of-type,

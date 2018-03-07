@@ -22,6 +22,8 @@ excerpt_separator: .
 
 # Build settings
 markdown: kramdown
+sass:
+  style: compressed
 
 # URL settings
 permalink: pretty
