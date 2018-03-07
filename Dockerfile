@@ -2,7 +2,7 @@ FROM ruby:2.3.0-alpine
 MAINTAINER sheaphillips <shea.phillips@gmail.com>
 
 RUN apk update \
-  && apk add ruby-dev libpq libgcc ca-certificates make gcc libc-dev libffi-dev \
+  && apk add ruby-dev libpq libgcc ca-certificates make gcc g++ libc-dev libffi-dev \
              nodejs 'python<3' zlib-dev libxml2 libxml2-dev libxslt libxslt-dev \
   && gem install nokogiri -N \
   && gem install jekyll -N \
