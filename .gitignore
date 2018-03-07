@@ -1,6 +1,10 @@
 # Jekyll build folder
 _site/
 
+# Gemfile.lock was preventing OpenShift from running using its own versions of
+# certain gems like `rb-fswatch`, etc.
+Gemfile.lock
+
 # SASS cache folder
 .sass-cache/
 

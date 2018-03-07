@@ -19,26 +19,23 @@ RUN apk update && \
         libxml2-dev \
         libxslt \
         libxslt-dev && \
-    gem install nokogiri -N && \
-    gem install ffi -v 1.9.21 -N && \
-    gem install jekyll -N && \
-    gem install bundler -N
+    gem install ffi -v 1.9.21 && \
+    gem install rb-fsevent && \
+    gem install jekyll bundler
 
 WORKDIR /toolkit
 
 ADD . /toolkit
-
-RUN npm install
-
-RUN npm run build
-
-RUN bundle install
 
 RUN adduser -S jekyll
 
 RUN chown -R jekyll:0 /toolkit && chmod -R 775 /toolkit
 
 USER jekyll
+
+CMD npm install --no-optional
+
+CMD npm run build
 
 EXPOSE 4000
 
