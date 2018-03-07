@@ -3,7 +3,7 @@ MAINTAINER jonathanbell <jonathanbell.ca@gmail.com>
 
 RUN apk update \
   && apk add ruby-dev libpq libgcc ca-certificates make gcc g++ libc-dev \
-    libffi-dev nodejs npm 'python<3' zlib-dev libxml2 libxml2-dev libxslt \
+    libffi-dev nodejs nodejs-npm 'python<3' zlib-dev libxml2 libxml2-dev libxslt \
     libxslt-dev \
   && gem install nokogiri -N \
   && gem install jekyll -N \
