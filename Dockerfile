@@ -19,8 +19,9 @@ RUN apk update && \
         libxslt \
         libxslt-dev && \
     gem install ffi -v 1.9.21 && \
-    gem install rb-fsevent && \
-    gem install jekyll bundler
+    gem install rb-fsevent \
+        jekyll \
+        bundler
 
 WORKDIR /toolkit
 
