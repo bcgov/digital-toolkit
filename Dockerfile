@@ -12,7 +12,6 @@ RUN apk update && \
         ca-certificates \
         libc-dev \
         libffi-dev \
-        'nodejs>6' \
         'python<3' \
         zlib-dev \
         libxml2 \
@@ -32,10 +31,6 @@ RUN adduser -S jekyll
 RUN chown -R jekyll:0 /toolkit && chmod -R 775 /toolkit
 
 USER jekyll
-
-CMD npm install --no-optional
-
-CMD npm run build
 
 EXPOSE 4000
 
