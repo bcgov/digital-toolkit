@@ -1,15 +1,29 @@
-FROM ruby:2.3.0-alpine
+FROM ruby:2.5.0-alpine
 MAINTAINER jonathanbell <jonathanbell.ca@gmail.com>
 
-RUN apk update \
-  && apk add ruby-dev libpq libgcc ca-certificates make gcc g++ libc-dev \
-    libffi-dev nodejs nodejs-npm 'python<3' zlib-dev libxml2 libxml2-dev libxslt \
-    libxslt-dev \
-  && gem install nokogiri -N \
-  && gem install jekyll -N \
-  && gem install github-pages -N \
-  && gem install bundler -N \
-  && apk add ruby-json
+RUN apk update && \
+    apk upgrade && \
+    apk add ruby-dev \
+        make \
+        libpq \
+        libgcc \
+        gcc \
+        g++ \
+        ca-certificates \
+        libc-dev \
+        libffi-dev \
+        'nodejs>8.9.0' \
+        'python<3' \
+        zlib-dev \
+        libxml2 \
+        libxml2-dev \
+        libxslt \
+        libxslt-dev && \
+        ruby-json && \
+    gem install nokogiri -N && \
+    gem install ffi -v 1.9.21 -N && \
+    gem install jekyll -N && \
+    gem install bundler -N
 
 WORKDIR /toolkit
 
