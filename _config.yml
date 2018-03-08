@@ -6,7 +6,7 @@ steps-name-text: "Good Practices"
 contribute-link: "https://github.com/bcgov/digital-toolkit/wiki/Contributing-to-the-Digital-Toolkit"
 
 # Site description
-description: "This toolkit offers a set of steps that can be followed when developing a digital service inside (or outside) the British Columbia Public Service."
+description: "This toolkit offers a set of practices proven to help develop a digital service inside (or outside) the British Columbia Public Service."
 
 # Site emails and contacts
 main-email: "bcdevexchange@gov.bc.ca"
