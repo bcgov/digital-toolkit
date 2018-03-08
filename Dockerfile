@@ -1,4 +1,4 @@
-FROM ruby:2.5.0-alpine
+FROM ruby:2.3.0-alpine
 MAINTAINER jonathanbell <jonathanbell.ca@gmail.com>
 
 RUN apk update && \

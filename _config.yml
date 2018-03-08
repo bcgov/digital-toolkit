@@ -92,5 +92,5 @@ exclude:
   - LICENCE
   - README.md
   - Dockerfile
-  - webpack.config.js
+  - openshift/
   - sync-local-dev.bash # workfile that syncs local to dev site
