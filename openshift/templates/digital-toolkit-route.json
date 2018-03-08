@@ -1,0 +1,57 @@
+{
+    "kind": "Template",
+    "apiVersion": "v1",
+    "metadata": {
+        "name": "innovation-toolkit",
+        "creationTimestamp": null
+    },
+    "objects": [
+        {
+            "kind": "Route",
+            "apiVersion": "v1",
+            "metadata": {
+                "name": "digital-toolkit",
+                "creationTimestamp": null,
+                "labels": {
+                    "app": "innovation-toolkit"
+                },
+                "annotations": {
+                    "haproxy.router.openshift.io/ip_whitelist": "142.0.0.0/8",
+                    "haproxy.router.openshift.io/timeout": "180s"
+                }
+            },
+            "spec": {
+                "host": "digital-toolkit.pathfinder.gov.bc.ca",
+                "to": {
+                    "kind": "Service",
+                    "name": "innovation-toolkit",
+                    "weight": 100
+                },
+                "port": {
+                    "targetPort": "4000-tcp"
+                },
+                "tls": {
+                    "termination": "edge",
+                    "insecureEdgeTerminationPolicy": "Redirect"
+                },
+                "wildcardPolicy": "None"
+            },
+            "status": {
+                "ingress": [
+                    {
+                        "host": "digital-toolkit.pathfinder.gov.bc.ca",
+                        "routerName": "router",
+                        "conditions": [
+                            {
+                                "type": "Admitted",
+                                "status": "True",
+                                "lastTransitionTime": "2018-03-07T23:51:50Z"
+                            }
+                        ],
+                        "wildcardPolicy": "None"
+                    }
+                ]
+            }
+        }
+    ]
+}
