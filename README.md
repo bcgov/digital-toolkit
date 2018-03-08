@@ -66,4 +66,13 @@ For a full list of dependancies, or to use with Docker, see the `Dockerfile`
 
 We pull the publishing source code from [the `os-pages` branch](https://github.com/bcgov/digital-toolkit/tree/os-pages). (Do not delete this branch, the build will break).
 
-The public and employees of the BCPS will make changes to the `master` branch. When these changes have been approved, simply merge them to the `os-pages` branch. This will trigger a webhook that will publish the changes live to <https://digital-toolkit.pathfinder.gov.bc.ca/>.
+The public and employees of the BCPS will make changes to the `master` branch. When these changes have been reviewed and approved, simply merge them to the `os-pages` branch with git or GitHub (instructions for GitHub follow). This will trigger a webhook that will publish the changes live to <https://digital-toolkit.pathfinder.gov.bc.ca/>.
+
+In order to merge changes directly on GitHub:
+
+1.  Visit: <https://github.com/bcgov/digital-toolkit/tree/os-pages>
+1.  Click "Pull Request" or visit: <https://github.com/bcgov/digital-toolkit/compare/os-pages...master>
+1.  Create a pull request, giving details outlining the changes. Here is a great place to disscuss changes with other members of the team. You should see "Able to merge. These branches can be automatically merged." at the top of the page. If not, review the changes well. A conflicting change generally means a big change.
+1.  Optionally, assign reviewers and assignees, and lables.
+1.  Click "Create pull request"
+1.  You now have your pull request! You may disscuss it furthur with your team via the comments box, or, you can click the shiny "Merge pull request" button in order to make your changes live on the `os-pages` branch (aka <https://digital-toolkit.pathfinder.gov.bc.ca/>)
