@@ -20,4 +20,8 @@
 
   <link type="text/css" href="{{ site.baseurl }}/static/css/styles.css" rel="stylesheet" />
 
+  {% if jekyll.environment == "production" %}
+    {% include webtrends.html %}
+  {% endif %}
+
 </head>

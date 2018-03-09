@@ -10,7 +10,7 @@ description: "This toolkit offers a set of practices proven to help develop a di
 
 # Site emails and contacts
 main-email: "bcdevexchange@gov.bc.ca"
-feedback-email: "jim.rabb@gov.bc.ca"
+feedback-email: "asb.cio@gov.bc.ca"
 
 # Site paths - set these in production!
 baseurl: "" # the subpath of your site, e.g. /blog/
