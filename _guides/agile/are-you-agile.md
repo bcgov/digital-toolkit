@@ -1,5 +1,5 @@
 ---
-title: Are you agile? [Alpha]
+title: Are you agile?
 guide: Agile Scrum
 ---
 
