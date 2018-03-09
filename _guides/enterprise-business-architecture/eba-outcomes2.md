@@ -1,5 +1,5 @@
 ---
-title: EBA Outcomes
+title: EBA Outcomes2
 guide: Enterprise Business Architecture
 ---
 
