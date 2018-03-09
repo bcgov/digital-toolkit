@@ -24,5 +24,3 @@ The Blueprint is designed to enable service owners across government to be innov
 ### RELEVANCY
 
 The pace of change in business and technology innovation means we must regularly review the Blueprint and EBA Approach for relevancy to ensure stakeholder value is achieved.
-
-![]({{ site.baseurl }}/static/img/Page-9-Image-5.jpg)
