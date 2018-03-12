@@ -14,7 +14,9 @@ last-edit: March, 2018
 
 ### Who is responsible for Citizens @ the Centre?
 
-At the time, The Deputy Ministers’ Committee on Transformation and Technology (DMCTT) was the committee responsible for setting the strategic vision and direction for how technology capabilities, infrastructure and capital investment are leveraged to support government’s strategic priorities, and citizen expectations for government services. Responsible for the development of Citizens @ the Centre, DMCTT set a vision for being a better government for the citizens of BC.
+At the time, The Deputy Ministers’ Committee on Transformation and Technology (DMCTT) was the committee responsible for setting the strategic vision and direction for how technology capabilities, infrastructure and capital investment are leveraged to support government’s strategic priorities, and citizen expectations for government services. Responsible for the development of Citizens @ the Centre, DMCTT set a vision for being a better government for the citizens of BC.  
+
+(Note: DMCTT is now the Deputy Ministers' Committee on Public Service Innovation DMCPSI.)
 
 ### How was Citizens @ the Centre Developed?
 
