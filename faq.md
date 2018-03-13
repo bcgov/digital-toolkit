@@ -13,7 +13,6 @@ layout: default
 - [Will it answer all my questions?](#will-it-answer-all-my-questions)
   - [Didn't find what you need?](#didnt-find-what-you-need)
 - [Who can contribute to its evolution? Can I? How?](#who-can-contribute-to-its-evolution-can-i-how)
-- [Who's responsible for it? Who's at the other end of that Contact Us link?](#whos-responsible-for-it-whos-at-the-other-end-of-that-contact-us-link)
 
 <!-- /TOC -->
 
@@ -54,7 +53,3 @@ We recognize that not all projects are suitable for these approaches. If you hav
 ### Who can contribute to its evolution? Can I? How?
 
 Anyone can contribute, and just as soon as we have a mechanism for how, we'll share it here.
-
-### Who's responsible for it? Who's at the other end of that Contact Us link?
-
-TBD.

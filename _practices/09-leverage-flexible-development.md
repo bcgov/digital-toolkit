@@ -8,7 +8,6 @@ If we design, build and test in ways that aim to get services to market quickly,
 
 * How can I [hire developers through the Developers Exchange](https://bcdevexchange.org/home)?
 * I want to [procure services use the Short Form RFP](http://www2.gov.bc.ca/gov/content/governments/services-for-government/bc-bid-resources/templates-and-tools/solicitation-templates/short-form-request-for-proposal)
-* How can I [buy cloud services through CloudBC](https://cloudbc.ca/marketplace-3-2/)?
 
 ### In-Practice Examples
 
