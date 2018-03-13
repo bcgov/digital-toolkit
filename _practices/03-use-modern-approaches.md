@@ -8,7 +8,8 @@ Today, we build services in the context of uncertainty, with expectations for fa
 ### Resources
 
 * [How do I get started with Agile?]({{ site.baseurl }}/guides/agile/introduction)
-* [How do I get started with DevOps?]({{ site.baseurl }}/guides/devops/introduction)
+* [How do I get started with DevOps?](https://github.com/BCDevOps/BCDevOps-Guide)
+* [A Beginner's Guide to DevOps](https://dzone.com/articles/what-is-devops-the-beginners-guide-from-logzio), an external intro
 * Use the [Agile vs Waterfall Methodology Decision Tool]({{ site.baseurl }}/static/ms-office/Methodology_Decision_Tool.xlsx) (XLS)
 * [Manage my project using agile tools]({{ site.baseurl }}/guides/agile/introduction/)
 
