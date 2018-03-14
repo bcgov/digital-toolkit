@@ -1,6 +1,6 @@
 ---
 title: How Does it Work?
-guide: All About Digital
+guide: Citizens @ the Centre?
 last-edit: March, 2018
 ---
 
