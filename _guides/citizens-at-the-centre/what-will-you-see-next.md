@@ -1,6 +1,6 @@
 ---
 title: What Will You See Next?
-guide: All About Digital
+guide: Citizens @ the Centre?
 last-edit: March, 2018
 ---
 
