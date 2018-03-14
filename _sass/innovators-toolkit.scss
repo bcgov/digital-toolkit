@@ -118,6 +118,9 @@ a.btn {
 }
 
 // MAIN CONTENT
+#introduction p:first-of-type {
+  margin-top: 0;
+}
 #main-content {
   @media screen and (max-width: 768px) {
     margin-top: 1rem;
