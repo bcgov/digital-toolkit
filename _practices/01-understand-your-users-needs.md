@@ -1,5 +1,6 @@
 ---
 title: Understand your users' needs
+glyphicon: glyphicon-user
 ---
 
 Building good services starts with a clear understanding of users' needs. Whether citizen or government staff, users don’t care how long something takes to build or how many features it has, they only care if it serves their needs. Digital or analog, the needs of people - not constraints of government structures or silos - should inform technical and design decisions. Both qualitative and quantitative techniques (e.g. surveys, personas, field research) are needed to glean the necessary insights into user needs. Services should be continually validated with users, either manually or by collecting digital evidence, and improved as necessary based on that ongoing feedback.

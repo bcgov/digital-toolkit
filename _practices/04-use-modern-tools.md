@@ -1,5 +1,6 @@
 ---
 title: Use modern tools
+glyphicon: glyphicon-cloud
 ---
 
 The technology tools and platforms that we select should enable staff and contractors to work effectively and to build our services to scale easily and cost-effectively. Our choices for hosting infrastructure, databases, software frameworks, programming languages, automation and testing, community development platforms, source code, and transparent project management should seek to avoid vendor lock-in and match what successful modern consumer and enterprise software companies would choose today.

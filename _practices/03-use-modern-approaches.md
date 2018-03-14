@@ -1,5 +1,6 @@
 ---
 title: Use modern approaches to building your solution
+glyphicon: glyphicon-grain
 last-edit: February 20, 2018
 ---
 

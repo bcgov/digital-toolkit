@@ -1,5 +1,6 @@
 ---
 title: Default to open
+glyphicon: glyphicon-eye-open
 ---
 
 The nature of government, the complexity of services we deliver, and increasing citizen expectations, make it increasingly difficult to solve all the problems we face on our own. Being open in our approaches, with our data, and to outside contribution will make our services better. Where appropriate we should make source code and application data available to each other, to the public and to our partners. We will seek out every opportunity to encourage and celebrate public and partner contributions to our projects.

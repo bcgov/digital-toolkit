@@ -1,5 +1,6 @@
 ---
 title: Security and privacy by design
+glyphicon: glyphicon-barcode
 ---
 
 The best intentions for service outcomes are only as good as the legal and policy environment into which they are designed to be deployed. In the context of digital services, often accessed using wireless devices and located in the cloud, and which often necessarily involve the collection and sharing of data and personal information, a public service owner must be cognizant of the associated risks and opportunities. So evaluate what user data and information the service will be providing or storing, and address the security level, legal responsibilities, privacy issues and risks associated with the service in consultation with your Ministry Information Security Officer and other experts.

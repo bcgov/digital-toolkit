@@ -16,6 +16,9 @@ layout: default
 
     <div class="list-group-item">
       <h3 class="list-group-item-heading">
+        {% if step.glyphicon %}
+          <span style="color: #38598a;" class="glyphicon {{ step.glyphicon | rstrip | lstrip }}" aria-hidden="true"></span>
+        {% endif %}
         <a href="{{ step.url }}">{{ step.title }}</a>
       </h3>
       <p class="list-group-item-text">{{ step.excerpt | strip_html | rstrip }}.</p>
