@@ -13,4 +13,4 @@ A Lean approach resulted in the Province’s physicians saving 300,000 hours ann
 
 ### Partners
 
-* BC Pharmacare, Health Insurance BC (HIBC), Health Authorities and physicians
+* [BC Pharmacare](https://www2.gov.bc.ca/gov/content/family-social-supports/seniors/health-safety/health-care-programs-and-services/pharmacare), [Health Insurance BC (HIBC)](https://www2.gov.bc.ca/gov/content/health/about-bc-s-health-care-system/partners/health-insurance-bc), [Health Authorities](https://www2.gov.bc.ca/gov/content/health/about-bc-s-health-care-system/partners/health-authorities) and physicians
