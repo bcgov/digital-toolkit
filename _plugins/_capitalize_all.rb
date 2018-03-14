@@ -1,13 +1,17 @@
 require 'liquid'
 require 'uri'
 
-# Capitalize all words of the input
+# Capitalize (almost) all words of the input
 module CapitalizeAll
   def capitalize_all(words)
 
+    if words == "it product and service design"
+      return "IT Product and Service Design"
+    end
+
     allwords = words.tr("0-9", "").split(' ')
     # except these words
-    donttouchwords = [ 'the', 'and', 'on', 'to', 'of', 'for', 'ii', 'iii', 'iv' ]
+    donttouchwords = [ 'the', 'and', 'on', 'to', 'of', 'for', 'ii', 'iii', 'iv', 'at' ]
     newwords = Array.new
 
     allwords.each do |word|
@@ -21,6 +25,8 @@ module CapitalizeAll
         newwords.push "API"
       elsif word == "ip"
         newwords.push "IP"
+      elsif word == "github"
+        newwords.push "GitHub"
       else
         newwords.push word.capitalize
       end
