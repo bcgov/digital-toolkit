@@ -39,6 +39,7 @@ function eraseCookie(name) {
 }
 
 var surveyIsShown = false;
+var surveyThreshold = $(window).innerHeight() * 0.25;
 
 // Hack the annoying "back to top" thing because we can.
 $(".back-to-top").css("visibility", "hidden");
@@ -53,7 +54,7 @@ var efficientScrollFn = debounce(function() {
 
   // Survey box
   if (
-    $(window).scrollTop() >= 399 &&
+    $(window).scrollTop() >= surveyThreshold &&
     surveyIsShown === false &&
     !readCookie("dontShowSurveyOffering")
   ) {
