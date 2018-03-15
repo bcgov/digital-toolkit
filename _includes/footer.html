@@ -37,4 +37,34 @@
     </div>
   </div>
 </div>
+
+{% if site.show-survey-offer %}
+  <div id="highlightKeywordFloatingBar" class="form-horizontal col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+    <div class="closeHighlightKeywordFloatingBar btn btn-sm">
+      <i class="glyphicon glyphicon-remove closeHighlightBarIcon"></i>
+    </div>
+
+    <div class="highlightFeedbackForm feedbackForm alignCenter">
+
+      <div class="highlightTextMessage">
+        <span id="highlightFeedbackMsg">Please help us improve this content taking our short survey.</span>
+      </div>
+
+      <div id="highlightFeedbackButtons">
+        <a target="_blank" href="{{ site.survey-link | rstrip | lstrip }}" class="form-control btn btn-primary btn-feedback btn-yes">Yes</a>
+        <a href="#" class="form-control btn btn-primary btn-feedback btn-no">No</a>
+      </div>
+
+      <div style="margin-top: 0.5rem;" id="highlightReturnToSearchResults" class="alignCenter">
+        <a style="text-decoration: underline;" class="returnToSearchResults" href="mailto:{{ site.feedback-email }}">Contact us</a>
+        <span class="highlightFeedbackForm highlightFeedbackDoNotShowDidYouFind">
+          <input class="doNotShowDidYouFind" type="checkbox" value="" style="margin-right: 5px; margin-left: 10px;">Don't show this again
+        </span>
+      </div>
+
+    </div>
+
+  </div>
+{% endif %}
 <!-- /#footer -->

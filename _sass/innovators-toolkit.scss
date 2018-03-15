@@ -184,45 +184,52 @@ li.open.current > .leftNav-item-wrapper {
   padding-right: 0;
 }
 
-// EXPERIMENTAL ////////////////////////////////////////////////////////////////
+// SURVEY BOX
+div.alignCenter {
+  text-align: center;
+}
+.feedbackForm {
+  padding-top: 5px;
+}
+#highlightKeywordFloatingBar {
+  display: none; // changes with JS
+  font-size: 15px;
+  position: fixed;
+  bottom: 0px;
+  border: solid 1px #fcba19;
+  padding: 4px 12px 12px 12px;
+  background: white;
+  z-index: 1200;
+  -webkit-box-shadow: 1px -3px 3px 0px rgba(51, 51, 51, 0.15);
+  -moz-box-shadow: 1px -3px 3px 0px rgba(51, 51, 51, 0.15);
+  box-shadow: 1px -3px 3px 0px rgba(51, 51, 51, 0.15);
+}
+#highlightKeywordFloatingBar .closeHighlightKeywordFloatingBar {
+  position: absolute;
+  top: 0px;
+  right: -3px;
+  color: #1a5a96;
+  font-size: larger;
+  z-index: 1201;
+}
+.highlightTextMessage {
+  font-weight: bold;
+  margin: 0px 15px 0px 15px;
+  padding-bottom: 3px;
+}
+#highlightKeywordFloatingBar .btn-primary {
+  background-color: #39598c;
+  border: 0 none;
+  border-radius: 0;
+  margin: 0 5px;
+  width: 120px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 25px;
+}
 
-// .navigationRibbon .level2Navigation {
-//   @media screen and (min-width: 768px) {
-//     max-height: 40px;
-//     overflow-y: hidden;
-//   }
-// }
+// EXPERIMENTAL ////////////////////////////////////////////////////////////////
 
 .contentPageLeftNavigation .leftNav ul li {
   padding-left: 0;
 }
-
-// // numbering for the steps sidebar
-// .numbered.list-group,
-// .leftNav {
-// 	counter-reset: my-badass-counter;
-// }
-// .numbered.list-group h3:before { // This is also on the homepage, used for the "steps"
-// 	content: counter(my-badass-counter);
-//   counter-increment: my-badass-counter;
-//   width: 4.0rem;
-//   height: 4rem;
-//   padding-top: 0.75rem;
-//   font-size: 2rem;
-//   font-weight: bold;
-//   text-align: center;
-//   color: #1a5a96;
-//   border: 0.3rem solid #1a5a96;
-//   display: inline-block;
-//   margin-right: 0.5rem;
-// }
-// .step.page .leftNav li ul li:before {
-//   @media screen and (min-width: 768px) {
-//     content: counter(my-badass-counter);
-//     counter-increment: my-badass-counter;
-//     float: left;
-//     padding-right: 0.25rem;
-//     position: relative;
-//     top: 1px;
-//   }
-// }
