@@ -19,6 +19,8 @@ module CapitalizeAll
         newwords.push word
       elsif word == "ocio"
         newwords.push "OCIO"
+      elsif word == "eba"
+        newwords.push "EBA"
       elsif word == "bc"
         newwords.push "BC"
       elsif word == "api"
