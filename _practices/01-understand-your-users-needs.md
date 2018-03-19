@@ -8,8 +8,9 @@ Building good services starts with a clear understanding of users' needs. Whethe
 ### Resources
 
 * I want to learn about key groups in BC and [population segmentation](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/bc_mtic_-_target_segment_thumbnail_sketch-_2015_06_30.pdf)
-* I want to use tools like [the Citizen Engagement Handbook](https://www2.gov.bc.ca/gov/content/governments/services-for-government/service-experience-digital-delivery/citizen-engagement/ce-handbook)
+* [I want to use tools like the Citizen Engagement Handbook](https://www2.gov.bc.ca/gov/content/governments/services-for-government/service-experience-digital-delivery/citizen-engagement/ce-handbook)
+* [I want to learn about Service Design](https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/services-policies-for-government/service-experience-digital-delivery/service-design-playbook-beta.pdf)
 
 ### In Practice Examples
 
-* [My Self Serve]({{ site.baseurl }}/in-practice-examples/my-self-serve)
+* [MSP Application]({{ site.baseurl }}/in-practice-examples/msp-application)
