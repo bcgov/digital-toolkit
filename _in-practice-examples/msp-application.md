@@ -1,12 +1,14 @@
 ---
 title: MSP Application
 example-of: Understand your users' needs
-last-edit: February, 2018
+last-edit: March, 2018
 ---
 
-Until recently, BC Medical Services Plan applications were mailed in for processing.  That manual processing would take weeks, and regularly involved requests for more information.  Measurement of error rates on MSP applications uncovered a wonderful opportunity.   Processing time could be significantly reduced in many MSP applications if the error rates on the application forms could be brought down.  Working with citizens, an application was designed that made the application process more straightforward and helped processing.    
+Until recently, BC Medical Services Plan applications were mailed in for processing.  That manual processing would take weeks, and regularly involved requests for more information.  Measurement of error rates on MSP applications uncovered a wonderful opportunity.   Processing time could be significantly reduced in many MSP applications if the error rates on the application forms could be brought down.  Working with citizens, an application was designed that made the application process more straightforward and helped processing.
 
-MSP Application: <https://my.gov.bc.ca/msp/application/prepare> 
+
+[MSP Application](https://my.gov.bc.ca/msp/application/prepare)
+
 
 ### Impact
 
