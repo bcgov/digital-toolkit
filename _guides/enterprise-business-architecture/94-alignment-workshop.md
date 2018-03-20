@@ -9,3 +9,5 @@ The Alignment Process consists of two engagements. First is the Alignment worksh
 * **_Team commitment:_** two or three members of the initiative
 * **_Artifact:_** The Alignment Guide
 * **_Stakeholder value:_** Understanding of enterprise alignment and objectives; higher awareness of enablers
+
+[Contact us.]({{ site.baseurl }}/guides/enterprise-business-architecture/99-contacts.md)
