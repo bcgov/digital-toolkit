@@ -8,30 +8,31 @@
 </div>
 
 <div data-order="0">
-  <h2 class="blue-heading-bar">Partners</h2>
-  <div class="promoBox rightColumnBox">
-    <p>This open source project was originally a collaboration of diverse innovators from across government and the private
-      sector, facilitated within and by the Continuous Service Improvement (CSI) Lab in Victoria.</p>
-    <h3>Contacts:</h3>
-    <ul>
-      <li>
-        <a href="https://www.linkedin.com/company/bc-gov-csi-lab/">CSI Lab</a>
-      </li>
-      <li>
-        <a href="https://www2.gov.bc.ca/gov/content/governments/services-for-government/service-experience-digital-delivery/service-design">Service Design</a>
-      </li>
-      <li>
-        <a href="mailto:Asb.cio@gov.bc.ca">OCIO Architecture &amp; Standards</a>
-      </li>
-      <li>
-        <a href="https://bcdevexchange.org/">BCDevExchange</a>
-      </li>
-      <li>
-        <a href="https://data.gov.bc.ca/">DataBC</a>
-      </li>
-      <li>
-        <a href="https://gww.gov.bc.ca/leanbc">LeanBC</a>
-      </li>
-    </ul>
-  </div>
+
+  {% assign guide_types_str = '' %}
+  {% for g in site.guides %}
+    {% assign guide_types_str = guide_types_str | append: g.guide %}
+    {% unless forloop.last %}
+      {% assign guide_types_str = guide_types_str | append: "zzz" %}
+    {% endunless %}
+  {% endfor %}
+
+  {% assign guide_types = guide_types_str | replace: "zzzzzz", "zzz" | split: "zzz" | uniq %}
+
+  {% for guide_name in guide_types %}
+
+    {% if forloop.first %}
+      <h2 class="blue-heading-bar">Innovation Guides</h2><div class="promoBox rightColumnBox"><ul>
+    {% endif %}
+
+    {% assign currentguide = site.guides | where: "title", guide_name %}
+
+    <li><a href="{{ currentguide[0].url }}">{{ guide_name }}</a></li>
+
+    {% if forloop.last %}
+      </ul></div>
+    {% endif %}
+
+  {% endfor %}
+
 </div>
