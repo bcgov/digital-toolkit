@@ -126,6 +126,39 @@ a.btn {
   border-radius: 4px;
 }
 
+// HOMEPAGE
+.homepage-tile .title a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.homepage-tile .tile-text .title {
+  padding: 5px 0 3px 0 !important;
+  margin: 0 !important;
+}
+.homepage-tile .down-arrow-top,
+.homepage-tile .down-arrow-bottom {
+  position: absolute;
+  left: 36px;
+  background: url(https://www2.gov.bc.ca/StaticWebResources/static/gov3/images/down-arrow.png)
+    no-repeat scroll 0 0 transparent;
+  height: 7px;
+  width: 12px;
+}
+.homepage-tile .down-arrow-top {
+  top: 0;
+}
+.homepage-tile .down-arrow-bottom {
+  bottom: 0;
+}
+@media (max-width: 767px) {
+  .homepage-tile .tile-text {
+    padding: 5px 0;
+  }
+}
+
 // MAIN CONTENT
 #introduction p:first-of-type {
   margin-top: 0;
