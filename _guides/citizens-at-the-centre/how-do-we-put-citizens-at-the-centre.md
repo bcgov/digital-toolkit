@@ -1,5 +1,5 @@
 ---
-title: How Does it Work?
+title: How do we put Citizens @ the Centre?
 guide: Citizens @ the Centre?
 last-edit: March, 2018
 ---
