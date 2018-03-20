@@ -8,6 +8,8 @@ DataBC stewards a mature set of products and services, that includes geographic 
 
 BC's investment in data management and infrastructure provides government ministries and agencies, business and citizens with direct access to authoritative data through a wide variety of web application and services.
 
+[Contact DataBC](https://forms.gov.bc.ca/databc-contact-us/)
+
 ## Discover Data
 Use the [BC Data Catalogue](https://www2.gov.bc.ca/gov/content/data/bc-data-catalogue) to explore thousands of B.C. datasets, applications and web services.
 
