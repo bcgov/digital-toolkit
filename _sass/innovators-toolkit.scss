@@ -25,6 +25,15 @@
     display: inline-block;
   }
 }
+#beta-badge {
+  height: auto;
+  position: relative;
+  top: -1px;
+  @media screen and (min-width: 1200px) {
+    min-width: 127px;
+    margin-left: 1rem;
+  }
+}
 
 // SEARCH
 #main-search {
