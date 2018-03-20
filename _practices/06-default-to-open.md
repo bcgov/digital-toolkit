@@ -7,10 +7,11 @@ The nature of government, the complexity of services we deliver, and increasing 
 
 ### Resources
 
-* I want to [make data openly available](http://www.data.gov.bc.ca/)
+* I want to [make data openly available](https://www2.gov.bc.ca/gov/content/data/open-data)
 * I want to [develop openly on Github]({{ site.baseurl }}/guides/github/introduction) so others can collaborate with me
 * What should I consider when [developing Open Source](https://github.com/bcgov/BC-Policy-Framework-For-GitHub/tree/master/BC-Open-Source-Development-Employee-Guide)?
 
 ## In-Practice Examples
 
 * [BC Developers Exchange]({{ site.baseurl }}/in-practice-examples/bcdevelopers-exchange)
+* [DataBC]({{ site.baseurl }}/in-practice-examples/dataBC)
