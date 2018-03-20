@@ -13,5 +13,5 @@ Being data-driven is about using evidence to base the decisions made in the desi
 
 ### In-Practice Examples
 
-* [DataBC]({{ site.baseurl }}/in-practice-examples/dataBC)
+* [DataBC]({{ site.baseurl }}/in-practice-examples/databc)
 * [The "One Tool" (britishcolumbia.ca)]({{ site.baseurl }}/in-practice-examples/one-tool)
