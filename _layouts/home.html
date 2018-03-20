@@ -8,23 +8,39 @@ layout: default
   </div>
 </div>
 
-<h2 id="get-started">Get Started: Review the {{ site.steps-name-text }}</h2>
+<h2 id="get-started" class="blue-heading-bar sortable">
+  <span class="heading-title">Get Started: Review the {{ site.steps-name-text }}</span>
+</h2>
 
-<div class="list-group numbered">
+<div class="homepage-theme-tiles list-group numbered">
 
   {% for step in site.practices %}
 
-    <div class="list-group-item">
-      <h3 class="list-group-item-heading">
-        {% if step.glyphicon %}
-          <span style="color: #38598a;" class="glyphicon {{ step.glyphicon | rstrip | lstrip }}" aria-hidden="true"></span>
-        {% endif %}
-        <a href="{{ step.url }}">{{ step.title }}</a>
-      </h3>
-      <p class="list-group-item-text">{{ step.excerpt | strip_html | rstrip }}.</p>
+    <div class="homepage-tile">
+
+      <div class="tile-icon hidden-xs">
+        {% unless forloop.first %}<div class="down-arrow-top"></div>{% endunless %}
+        <img src="https://www2.gov.bc.ca/StaticWebResources/static/gov3/images/theme/icon/themelist_icons_births.png" alt="Icon for {{ step.title }}">
+        {% unless forloop.last %}<div class="down-arrow-bottom"></div>{% endunless %}
+      </div>
+
+      <div class="tile-content">
+        <div class="tile-text">
+          <h3 class="list-group-item-heading title">
+            <!--{% if step.glyphicon %}
+              <span style="color: #38598a;" class="glyphicon {{ step.glyphicon | rstrip | lstrip }}" aria-hidden="true"></span>
+            {% endif %}-->
+            <a href="{{ step.url }}">{{ step.title }}</a>
+          </h3>
+          <p style="margin: 0 0 10px;" class="list-group-item-text">{{ step.excerpt | strip_html | rstrip }}.</p>
+        </div>
+      </div>
+
     </div>
 
   {% endfor %}
 
 </div>
 <!-- /.list-group.numbered -->
+
+{% include partners.html %}
