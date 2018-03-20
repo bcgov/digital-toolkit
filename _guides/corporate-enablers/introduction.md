@@ -8,8 +8,11 @@ A significant focus of the Enterprise Business Architecture effort is to uncover
 * the efficient way a business process is handled
 * the outstanding design of a citizen service
 * the method by which that service was designed
+* building an interactive map into an application
 * the way a team collaborates
-* effective practises or policy
+* effective practices or policy
+* making data available to the enterprise
+* publishing open data
 * a new "official cities of BC" list that can be used by all business systems
 * the use of BCeID
 * a good way to build an iOS app
@@ -18,7 +21,7 @@ A significant focus of the Enterprise Business Architecture effort is to uncover
 * leveraging great government consulting services that help us work effectively
 * good guidance on the use of cloud computing
 
-This list suggests many kinds of "good work" that can - and should - be shared, across government. Referring to these as "corporate enablers" at this time, they will provide consistency in approach, consistency in building, operating, and delivering services digitally. With a [common set of resources]({{ site.baseurl }}/practices/07-use-common-solutions/) - consulting, procedural, strategic, technical, workshop, - and a set of infrastructure that can be taken for granted, government will reduce risk, reduce cost, and increase consistency, while meeting the expectations of "digital" for citizens of British Columbia.
+This list suggests many kinds of "good work" that can - and should - be shared, across government. Referring to these as "corporate enablers" at this time, they will provide consistency in approach, consistency in building, operating, and delivering services digitally. With a [common set of resources]({{ site.baseurl }}/practices/07-use-common-solutions/) - consulting, procedural, strategic, technical, workshop - and a set of infrastructure that can be taken for granted, government will reduce risk, reduce cost, and increase consistency, while meeting the expectations of "digital" for citizens of British Columbia.
 
 This first iteration, an initial collection, of corporate enablers, has been gathered into the following categories, and will change:
 
