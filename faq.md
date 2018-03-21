@@ -1,24 +1,30 @@
 ---
 title: Frequently Asked Questions
 layout: default
+last-edit: March, 2018
 ---
 
 <!-- TOC -->
 
 - [What is this?](#what-is-this)
+- [Who can contribute to its evolution? Can I? How?](#who-can-contribute-to-its-evolution-can-i-how)
 - [Who's it for?](#whos-it-for)
 - [Why do we need it?](#why-do-we-need-it)
 - [What's in it?](#whats-in-it)
 - [Who built it? How?](#who-built-it-how)
 - [Will it answer all my questions?](#will-it-answer-all-my-questions)
   - [Didn't find what you need?](#didnt-find-what-you-need)
-- [Who can contribute to its evolution? Can I? How?](#who-can-contribute-to-its-evolution-can-i-how)
+
 
 <!-- /TOC -->
 
 ### What is this?
 
 This Toolkit sets out the ten steps a BC Public Service employee can use to design and deliver a next generation service, one that makes use of modern tools and approaches, and does so leveraging the capabilities of groups around government. It identifies and provides contact information for those groups in government with the ability and responsibility to provide the supports necessary to create such a service. And it shares information about the impact of real world BC Government next generation services in action, including how to connect with the government colleagues who have put these services into action, so we can share experiences, learning and our ability to deliver as a connected organization.
+
+### Who can contribute to its evolution? Can I? How?
+
+Anyone within government can contribute.  The more participation and collaboration on these resources there is, the more relevant and valuable it becomes.  Requirements for, and details of, the contribution process can be found in [the Contribution Wiki](https://github.com/bcgov/digital-toolkit/wiki).
 
 ### Who's it for?
 
@@ -48,8 +54,6 @@ Chances are, no, given this toolkit is an alpha - a prototype. In other words, i
 
 #### Didn't find what you need?
 
-We recognize that not all projects are suitable for these approaches. If you have a project that is more suited to a traditional “waterfall” type of approach, please [reference the guidebook]({{ site.baseurl }}/guides/it-product-and-service-design).
+We recognize that not all projects are suitable for these approaches. If you have a project that is more suited to a traditional “waterfall” type of approach, please reference [the IT Product and Service Design guide]({{ site.baseurl }}/guides/it-product-and-service-design) that shows how traditional approaches can leverage an agile methodology.  And along those lines, here is a [collection of resources that helps transition towards an agile approach](https://github.com/bcgov/agile-sdlc/wiki). 
 
-### Who can contribute to its evolution? Can I? How?
 
-Anyone can contribute, and just as soon as we have a mechanism for how, we'll share it here.
