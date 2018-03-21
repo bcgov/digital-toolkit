@@ -4,7 +4,7 @@ guide: Corporate Enablers
 last-edit: March, 2018
 ---
 
-**Network BC** Owner: Colin Coughlin (Acting,) OCIO, Network, Communications and Collaboration Services 
+**Network BC** Owner: Susan Stanford, CITZ, Information Communications Technologies (ICM) 
 Description: Enterprise Communication services supports voice services to over 2200+ government and broader public sector offices across the province. Services include supporting 40,000 traditional voice lines, voice switches and voicemail systems, contact centres, Interactive Voice Recognition (IVR) and unified communication services. 
 Capabilities: Enterprise Communication Services, Communication and Collaboration Services, Government Enterprise Network Services, Information Communications Technology Planning, Business Management.
 
