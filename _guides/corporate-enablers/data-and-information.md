@@ -12,7 +12,7 @@ Capabilities: Base mapping and cadastre, Business innovation and emergency respo
 
 **Data BC** Owner: Elaine Dawson, Government Communications and Public Engagement 
 
-Description: [DataBC](https://data.gov.bc.ca/) is focused on managing B.C. Government data as a strategic asset that meets the needs of citizens, businesses, ministries and the broader public sector. The organization is responsible for encouraging and facilitating the B.C. Government data management model, expressed in the Data Custodianship Guidelines, and is also a key agent for sharing data, providing value-added services, e.g., Open Data Policy and the B.C. Spatial Data Infrastructure, and advising government data-related initiatives.  [See the DataBC guide.]({{ site.baseurl }}/guides/dataBC-products-and-services)
+Description: [DataBC](https://data.gov.bc.ca/) is focused on managing B.C. Government data as a strategic asset that meets the needs of citizens, businesses, ministries and the broader public sector. The organization is responsible for encouraging and facilitating the B.C. Government data management model, expressed in the Data Custodianship Guidelines, and is also a key agent for sharing data, providing value-added services, e.g., Open Data Policy and the B.C. Spatial Data Infrastructure, and advising government data-related initiatives.  [See the DataBC guide.]({{ site.baseurl }}/guides/databc-products-and-services)
 
 Capabilities: BC Data Catalogue and metadata, Open Data, BC Geographic (Data) Warehouse, data management, map platforms and services, address geocoding and route planning, web services and API management
 
