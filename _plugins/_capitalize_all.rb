@@ -5,6 +5,7 @@ require 'uri'
 module CapitalizeAll
   def capitalize_all(words)
 
+    # Here be hacks!
     if words == "it product and service design"
       return "IT Product and Service Design"
     end
@@ -14,6 +15,7 @@ module CapitalizeAll
     donttouchwords = [ 'the', 'and', 'on', 'to', 'of', 'for', 'ii', 'iii', 'iv', 'at' ]
     newwords = Array.new
 
+    # Cover your eyes...
     allwords.each do |word|
       if donttouchwords.include? word
         newwords.push word
@@ -29,13 +31,19 @@ module CapitalizeAll
         newwords.push "IP"
       elsif word == "github"
         newwords.push "GitHub"
+      elsif word == "databc"
+        newwords.push "DataBC"
+      elsif word == "paybc"
+        newwords.push "PayBC"
+      elsif word == "cloudbc"
+        newwords.push "CloudBC"
       else
         newwords.push word.capitalize
       end
     end
 
     str = newwords.join(' ')
-    # ensure that at the very least, the first letter of the string is capitalized
+    # Ensure that at the very least, the first letter of the string is capitalized
     str[0] = str[0].capitalize
 
     return str

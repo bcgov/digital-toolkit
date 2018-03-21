@@ -17,7 +17,18 @@ feedback-email: "asb.cio@gov.bc.ca"
 show-survey-offer: true
 survey-link: "https://www.surveymonkey.com/"
 
-# Site paths - set these in production!
+# Beta mode
+# Set `beta-mode` to true in order to display the "beta badge" in the header
+# and to place the site into "beta mode"
+beta-mode: true
+# Create this badge at: https://shields.io/#your-badge
+beta-badge: "https://img.shields.io/badge/Status%20%3D%20-Beta-orange.svg"
+
+#
+# Advanced options follow ######################################################
+#
+
+# Site paths
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://digital-toolkit.pathfinder.gov.bc.ca/" # the base hostname & protocol for your site
 
@@ -98,4 +109,3 @@ exclude:
   - README.md
   - Dockerfile
   - openshift/
-  - sync-local-dev.bash # workfile that syncs local to dev site
