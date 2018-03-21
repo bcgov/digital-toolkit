@@ -72,20 +72,22 @@ It is the responsibility of the scrum master to ensure that the above coursework
 
 ### Make Sure Your Scrum Team is at AMM-Level 0
 
-It is important that you create a team that satisfies the conditions of the Agile Maturity Matrix (AMM) Level 0 because it is at this maturity level that your team will qualify for the OCIO Agile (Mode 2) Exception. The exception enables you to run your product team in an agile fashion and co-develop software with the private sector.
+It is important that you create a team that satisfies the conditions of the [Agile Maturity Matrix]({{ site.baseurl }}/static/img/AMM.jpg) (AMM) Level 0 because it is at this maturity level that your team will qualify for the OCIO Agile (Mode 2) Exemption. The exemption enables you to run your product team in an agile fashion and co-develop software with the private sector.
 
 To achieve AMM Level 0 there are a minimum number of roles dedicated to the product scrum team:
 
 1. A dedicated executive **sponsor**.
-1. A dedicated **product owner** as described in the [US Digital Services](https://playbook.cio.gov/) Playbook.
+1. A dedicated **product owner** as described in the [US Digital Services](https://playbook.cio.gov/) Playbook (refer to Play 6.)
 1. A **developer** who is capable of working with our private sector partners at the code level.
 1. A **user experience resource** who understands user-centered research and design.
 
-### Exception To Chapter 12: Standard For Running An Agile Team
+### Exemption To Chapter 12: Standard For Running An Agile Team
 
-To effectively participant in agile projects, government product teams need to ensure that they have staff capable of working at the application code level. The primary purpose for this capability is to ensure that the function of a team qualified receiver (as prescribed in [Chapter 6 of the Core Policy Manual](http://www.fin.gov.bc.ca/ocg/fmb/manuals/CPM/06_Procurement.htm)) is fulfilled.
+*At time of writing, [Chapter 12 of the Core Policy Manual](https://www2.gov.bc.ca/gov/content/governments/policies-for-government/core-policy/policies/im-it-management#1232) (12.3.5) restricts  development of information systems to the private sector.  To do otherwise currently requires an exemption to Chapter 12.  The following paragraphs explain requirements to achieve that exemption.*
 
-The government staff must be able apply design, architectural and coding standards to the work that is submitted from both the broader public sector and private sector community partners in an open source procurement model or otherwise. Government staff will also be required to co-create code with this broader development community as well as work with user experience teams to develop proof of concepts and working prototypes. The government staff is also required to support the ongoing technology innovation of modern agile tool sets. To be compliant with this exception (and standard) your product development team must conform to the AMM-Level 0.
+To effectively participant in agile projects, government product teams need to ensure that they have staff capable of working at the application code level. The primary purpose for this capability is to ensure that the function of a team qualified receiver (as prescribed in [Chapter 6 of the Core Policy Manual](https://www2.gov.bc.ca/gov/content/governments/policies-for-government/core-policy/policies/procurement)) is fulfilled.
+
+The government staff must be able apply design, architectural and coding standards to the work that is submitted from both the broader public sector and private sector community partners in an open source procurement model or otherwise. Government staff will also be required to co-create code with this broader development community as well as work with user experience teams to develop proof of concepts and working prototypes. The government staff is also required to support the ongoing technology innovation of modern agile tool sets. To be compliant with this exemption (and standard) your product development team must conform to the AMM-Level 0.
 
 ### Make Sure You Can Scale Your Team
 
