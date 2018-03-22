@@ -43,7 +43,7 @@ As in any situation where you are changing a broad direction or goals, it is imp
 
 ### Finance Stakeholders
 
-- You will need to scale your product team using government’s private sector partners quickly and there will be no fixed requirements. To do this you will need the understanding, support and help from your finance team.
+- You will need to scale your product team using government’s private sector partners quickly and there will be no fixed requirements. You will need the understanding, support and help from your finance team to accommodate those unknown, uncertain requirements.
 
 ### Management Team Stakeholders
 
