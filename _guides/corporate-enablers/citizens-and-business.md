@@ -4,7 +4,7 @@ guide: Corporate Enablers
 last-edit: March, 2018
 ---
 
-**Contact Centre** Owner: Ron Hinshaw, Ministry of Technology, Innovation and Citizens' Services (MTICS), ServiceBC 
+**Contact Centre** Owner: Ron Hinshaw, Ministry of Citizens' Services (CITZ), ServiceBC 
 Description: Provides citizens with access to government services in-person and over the phone, through 62 Service BC Centres located throughout the Province, and via the telephone through the Service BC Contact Centre. 
 
 Capabilities: all services offered by ServiceBC.
@@ -21,13 +21,13 @@ Description: Provides statistical information and analysis on the economic, soci
 
 Capabilities: Data collection, data gathering, collation, data combination, data examination and analysis, trend identification and inference, analysis summarization and reporting, business intelligence, economic and business impact assessments, population and demographic estimates and trends, work environment surveys, development of indicators on labour and social conditions, tabulation of international exports and imports, post-secondary research and accountability.
 
-**BC OnLine** Owner: Carol Prest, MTICS, ServiceBC 
+**BC OnLine** Owner: Carol Prest, CITZ, ServiceBC 
 
 Description: BC Online is government's electronic service delivery channel for online access to information products and services, and provides convenient online access to government information products, filings and registrations for private and public sector business customers. 
 
 Capabilities: Everything that ServiceBC / ContactCentre / Service Delivery does, but online.
 
-**BC Registries** Owner: Carol Prest, MTICS, ServiceBC 
+**BC Registries** Owner: Carol Prest, CITZ, ServiceBC 
 
 Description: All registrations of businesses, not-for-profit societies, cooperatives, personal property and manufactured homes are administered and supported by BC Registries and Online Services. 
 

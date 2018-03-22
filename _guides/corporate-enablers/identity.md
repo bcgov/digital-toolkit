@@ -5,6 +5,7 @@ last-edit: March, 2018
 ---
 
 **BC Services Card Authentication Service** Owner: Sophia Howse, Service BC, Provincial IDIM Program, Ministry of Citizens' Services
+
 Description: Secure, convenient identity assurance provided by government-issued chip-enabled identity card (BC Services card).
 The BC Services Card provides access to government services. It replaces the CareCard for access to health care services. The card can be used for access to:
 - Medical Services Plan (MSP) benefits
@@ -21,6 +22,7 @@ Capabilities: Citizen Identity Management, Web Access Management.
 
 
 **BCeID Authentication Service** Owner: Sophia Howse, Service BC, Provincial IDIM Program, Ministry of Citizens' Services 
+
 Description:  Individuals or users representing businesses and organizations can access online government services using their BCeID and password. Privacy and security legislation and best practices require the BCeID Program to protect the privacy and security of data when using online government services. The different types of BCeID accounts balance the need to provide ease of access with appropriate privacy and security protection.
 
 
