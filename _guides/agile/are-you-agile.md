@@ -9,5 +9,5 @@ In the Decision Tool below, you'll see references to "bimodal." This refers to a
 
 ### Are you agile? Try these resources.
 
-* The[Canadian Digital Service](https://digital.canada.ca/)
+* The [Canadian Digital Service](https://digital.canada.ca/)
 * [Methodology Decision Tool]({{ site.baseurl }}/static/ms-office/Methodology_Decision_Tool.xlsx) (XLS)
