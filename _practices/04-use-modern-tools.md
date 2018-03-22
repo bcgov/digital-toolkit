@@ -11,7 +11,7 @@ The technology tools and platforms that we select should enable staff and contra
 * I want to [develop APIs]({{ site.baseurl }}/guides/rest-api-development-standard/introduction/) so that others can reuse and integrate with my service
 * I want to [manage my project using Agile tools]({{ site.baseurl }}/guides/agile/introduction)
 * I want to [use open version control]({{ site.baseurl }}/guides/github/introduction), a modern Technology Stack, and [continous integration]({{ site.baseurl }}/steps/10-achieve-continuous-improvement)
-* How can I [leverage agile in project that uses a traditional aproach]({{ site.baseurl }}/guides/it-product-and-service-design/introduction/)?
+* How can I [leverage agile in a project that uses a traditional aproach]({{ site.baseurl }}/guides/it-product-and-service-design/introduction/)?
 * What resources are there to [help my team transition to agile](https://github.com/bcgov/agile-sdlc/wiki)?
 
 ### In-Practice Examples
