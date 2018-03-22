@@ -21,7 +21,7 @@ The DevExchange now acts as a sort of "living lab" for learning how to use moder
 
 * DevOps Pathfinder
 * [Service Design Playbook](https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/services-policies-for-government/service-experience-digital-delivery/service-design-playbook-beta.pdf)
-* [Agile Guidebook](({{ site.baseurl }}/_guides/agile)
+* [Agile Guidebook]({{ site.baseurl }}/_guides/agile)
 
 ### Code
 
