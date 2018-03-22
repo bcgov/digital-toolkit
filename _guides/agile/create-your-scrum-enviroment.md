@@ -17,7 +17,7 @@ guide: Agile Scrum
 
 Not only should the scrum teams be prepared for the inevitable cultural shift, but the organization as a whole needs to understand the product team’s behaviour so that they can interact and communicate effectively. For example, as the scrum team responds to demands from the ministry service or program they may need to rapidly scale on a temporary basis by interacting with government’s vendor partners. They will need to do this quickly and often without being able to reference defined requirements. Therefore, product teams need to collaborate closely with their colleagues in finance to ensure an appropriate level of service and comfort.
 
-_Tips and tricks can be found in the Agile Wiki. Identifying all the key stakeholders and involving them in the transformation to agile is the responsibility of the product team._
+_Tips and tricks can be found in [the Agile Wiki](https://github.com/bcgov/agile-sdlc/wiki). Identifying all the key stakeholders and involving them in the transformation to agile is the responsibility of the product team._
 
 Get support from your:
 
@@ -43,7 +43,7 @@ As in any situation where you are changing a broad direction or goals, it is imp
 
 ### Finance Stakeholders
 
-- You will need to scale your product team using government’s private sector partners quickly and there will be no fixed requirements. To do this you will need the understanding, support and help from your finance team.
+- You will need to scale your product team using government’s private sector partners quickly and there will be no fixed requirements. You will need the understanding, support and help from your finance team to accommodate those unknown, uncertain requirements.
 
 ### Management Team Stakeholders
 

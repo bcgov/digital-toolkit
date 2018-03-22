@@ -1,16 +1,17 @@
 ---
 title: Align with Agile and Scrum
 guide: Agile Scrum
+last-edit: March, 2018
 ---
 
 ### Figure Out Why You Want To Become Agile
 
 Agile is a mindset backed by methodologies that leaves a trail of techniques. For our purposes, any software method is considered agile if it follows the [manifesto](http://agilemanifesto.org/principles.html), which states:
 
-* Individual and interactions over processes and tools
-* Working software over comprehensive documentation
-* Customer collaboration over contract negotiation
-* Responding to change over following a plan
+* **Individual and interactions** over **processes and tools**
+* **Working software** over **comprehensive documentation**
+* **Customer collaboration** over **contract negotiation**
+* **Responding to change** over **following a plan**
 
 And while there is value on the items to the right, the items on the left are valued more.
 
@@ -44,7 +45,7 @@ These are critical behaviours that will improve the understanding of business ne
 
 Scrum is a process framework that has been used to manage complex product development since the early 1990s. Scrum is not a process or a technique for building products; rather, it is a framework within which you can employ various processes and techniques.
 
-Scrum makes clear the relative efficacy of your product management and development practices so that you can improve. The scrum framework consists of scrum teams and their associated roles, events, artifacts, and rules. For more information please visit the [Scrum Alliance Resources](https://www.scrumalliance.org/why-scrum/scrum-guide).
+Scrum makes clear the relative efficacy of your product management and development practices so that you can improve. The scrum framework consists of scrum teams and their associated roles, events, artifacts, and rules. For more information please visit the [Scrum Alliance Resources](https://www.scrumalliance.org/learn-about-scrum/resources).
 
 ![Agile Methods Used]({{ site.baseurl }}/static/img/agile_methods_used.jpg)
 
@@ -54,4 +55,4 @@ Retrieved from: <https://blogs.versionone.com/agile_management/2015/06/02/is-ext
 
 ### Complete a Value Proposition Canvas
 
-A value proposition canvas (for example, [Strategyzer](http://www.businessmodelgeneration.com/canvas/vpc)) enables you to describe and design an overview of what a customer needs and why. It is perfect, for example, as part of a business model review to document or present pains and gains of specific products for specific customer segments. As such, it helps to create a very good basis for product design.
+A value proposition canvas (one example is [Strategyzer](http://www.businessmodelgeneration.com/canvas/vpc), but there are well over 800,000 other hits in Google search results) enables you to describe and design an overview of what a customer needs and why. It is perfect, for example, as part of a business model review to document or present pains and gains of specific products for specific customer segments. As such, it helps to create a very good basis for product design.
