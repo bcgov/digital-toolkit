@@ -1,6 +1,7 @@
 ---
 title: Use common solutions
 glyphicon: glyphicon-th
+last-edit: April, 2018
 ---
 
 By sharing capacities, ideas and resources across agencies, and by re-using common systems and processes, we can accelerate time to market, reduce costs and offer consistency across our services. This is reflected in the principles of "[government-as-a-platform]({{ site.baseurl }}/in-practice-examples/gov-as-a-platform)" and "build-once, use many times". To do so, we will  seek out common services - like identity, payments, booking appointments and the development and sharing of software code - to be standardized as platform offerings. Wherever possible, we will Incorporate open standards and common government solution, building services that are consistent with the user experience of the rest of GOV.BC.CA, and publish content using the corporate content management system.
