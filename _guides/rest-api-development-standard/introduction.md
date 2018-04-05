@@ -7,6 +7,7 @@ This is a supporting guide to the standards for the development of REST APIs. Th
 
 The contents of this guide rely heavily on the REST API standards work of the:
 
+* BC Ministry of Jobs, Trade, and Technology DataBC Branch
 * Government of Canada Web Standards Office (WSO) Web Interoperability Working Group (WIWG)
 * BC Ministry of Transportation and Infrastructure, Information Management Branch
 * BC Corporate Services for Natural Resources (CSNR)
