@@ -30,7 +30,7 @@ Get support from your:
 - Get your ADM on board.
 - Get an executive sponsor at the Executive Director level.
 - Develop a vision for your agile transformation i.e. what is the value proposition for your organization? (Refer to the Business Model Canvas for ideas).
-- Facilitate a dedicated self-organizing team. That is, ensure that your team will have access to a system such as GitHub, ZenHub, JIRA or Trello so that traceability and transparency can occur.
+- Facilitate a dedicated self-organizing team. That is, ensure that your team will have access to a system such as GitHub, ZenHub, JIRA or Trello so that traceability and transparency can occur.  Traditional tools in use today, like CA PPM, are evolving to accommodate more agile practices, and may also be appropriate.
 - Engage your finance team to gain support for flexible team scaling on a time and materials basis.
 - Work with your organization's management teams and share your vision and goals.
 - Choose a methodology i.e. Scrum, Kanban.
