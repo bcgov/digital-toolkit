@@ -7,8 +7,8 @@ Being data-driven is about using evidence to base the decisions made in the desi
 
 ### Resources
 
-* I want to learn about [Data Analytics and Big Data](http://data-driven-decision-making-guide.pathfinder.bcgov/)
-* What is the [Enterprise Business Architecture](http://eba-guide.pathfinder.bcgov/) (EBA)?
+* I want to learn about [Data Analytics and Big Data]({{ site.baseurl }}/guides/data-driven-decision-making/introduction)
+* What is the [Enterprise Business Architecture]({{ site.baseurl }}/guides/enterprise-business-architecture/introduction) (EBA)?
 * How do I perform Web Analytics for my service?
 
 ### In-Practice Examples
