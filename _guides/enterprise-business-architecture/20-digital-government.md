@@ -1,5 +1,5 @@
 ---
-title: Digital Government1
+title: Digital Government
 guide: Enterprise Business Architecture
 ---
 
