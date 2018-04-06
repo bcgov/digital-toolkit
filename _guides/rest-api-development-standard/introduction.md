@@ -1,6 +1,7 @@
 ---
 title: REST API Development Standard
 guide: REST API Development Standard
+logo: restapi.jpg
 ---
 
 This is a supporting guide to the standards for the development of REST APIs. This guide supports the standards of the Government of British Columbia, approved by the Chief Information Officer (CIO) and available as the [REST API Development Standard Guide](http://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/rest_api_development_standard.pdf).
@@ -34,8 +35,11 @@ This guide is organized into three main sections, which describe REST API requir
 
 There are some subject areas that for various reasons could not be accommodated in the time available. At some future point more topics will be addressed.
 
-Not covered in this guide are:
+Topics not covered in this guide today, but certainly planned, are:
 
+* API documentation 
+* API consoles
+* an API Registry
 * Hosting REST APIs
 * Identity management
 * Security

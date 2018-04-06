@@ -34,6 +34,13 @@
     margin-left: 1rem;
   }
 }
+.banner-wrapper {
+  margin-bottom: 2rem;
+
+  img {
+    width: 100%;
+  }
+}
 
 // SEARCH
 #main-search {
@@ -127,6 +134,10 @@ a.btn {
 }
 
 // HOMEPAGE
+.homepage-tile {
+  border-bottom: 0;
+  height: auto;
+}
 .homepage-tile .title a {
   text-decoration: none;
 
@@ -134,9 +145,13 @@ a.btn {
     text-decoration: underline;
   }
 }
-.homepage-tile .tile-text .title {
-  padding: 5px 0 3px 0 !important;
-  margin: 0 !important;
+.homepage-tile .tile-text {
+  padding-left: 0;
+  height: auto;
+  .title {
+    padding: 5px 0 3px 0 !important;
+    margin: 0 !important;
+  }
 }
 .homepage-tile .down-arrow-top,
 .homepage-tile .down-arrow-bottom {
@@ -211,9 +226,29 @@ li.open.current > .leftNav-item-wrapper {
   text-align: right;
 }
 
-// CUSTOM "GUIDE" STYLING
+// CUSTOM "GUIDE" STYLING AND GUIDE LANDING PAGE
 .guide.page .leftNav li ul li:before {
   content: "";
+}
+
+.table-responsive.guides {
+  .title {
+    margin-top: 0 !important; // only set this if we are displaying one "table cell" per row
+  }
+}
+
+.guide-landing-image {
+  width: 110px;
+  display: inline-block;
+
+  img {
+    width: 90px;
+  }
+}
+
+.guide-landing-details {
+  width: 80%;
+  display: inline-block;
 }
 
 // 404 page
