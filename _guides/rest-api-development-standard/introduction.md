@@ -34,8 +34,11 @@ This guide is organized into three main sections, which describe REST API requir
 
 There are some subject areas that for various reasons could not be accommodated in the time available. At some future point more topics will be addressed.
 
-Not covered in this guide are:
+Topics not covered in this guide today, but certainly planned, are:
 
+* API documentation 
+* API consoles
+* an API Registry
 * Hosting REST APIs
 * Identity management
 * Security
