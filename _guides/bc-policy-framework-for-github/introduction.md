@@ -1,6 +1,7 @@
 ---
 title: BC Policy Framework for GitHub
 guide: BC Policy Framework for GitHub
+logo: github.jpg
 ---
 
 The BCGov GitHub Organization represents an ongoing effort to enable public & private sector, as well as citizen developers, the ability to collaborate on, leverage and integrate technology assets outside of the typical government procurement/contract model.

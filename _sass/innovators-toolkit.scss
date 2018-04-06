@@ -218,9 +218,29 @@ li.open.current > .leftNav-item-wrapper {
   text-align: right;
 }
 
-// CUSTOM "GUIDE" STYLING
+// CUSTOM "GUIDE" STYLING AND GUIDE LANDING PAGE
 .guide.page .leftNav li ul li:before {
   content: "";
+}
+
+.table-responsive.guides {
+  .title {
+    margin-top: 0 !important; // only set this if we are displaying one "table cell" per row
+  }
+}
+
+.guide-landing-image {
+  width: 110px;
+  display: inline-block;
+
+  img {
+    width: 90px;
+  }
+}
+
+.guide-landing-details {
+  width: 80%;
+  display: inline-block;
 }
 
 // 404 page
