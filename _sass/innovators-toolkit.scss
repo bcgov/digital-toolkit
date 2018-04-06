@@ -134,6 +134,10 @@ a.btn {
 }
 
 // HOMEPAGE
+.homepage-tile {
+  border-bottom: 0;
+  height: auto;
+}
 .homepage-tile .title a {
   text-decoration: none;
 
@@ -141,9 +145,13 @@ a.btn {
     text-decoration: underline;
   }
 }
-.homepage-tile .tile-text .title {
-  padding: 5px 0 3px 0 !important;
-  margin: 0 !important;
+.homepage-tile .tile-text {
+  padding-left: 0;
+  height: auto;
+  .title {
+    padding: 5px 0 3px 0 !important;
+    margin: 0 !important;
+  }
 }
 .homepage-tile .down-arrow-top,
 .homepage-tile .down-arrow-bottom {
