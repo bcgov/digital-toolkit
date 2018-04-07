@@ -30,7 +30,7 @@ layout: default
       </h3>
       {% if currentguide[0].logo %}
         <div class="guide-landing-image">
-            <img alt="{{ currentguide[0].title }} logo" aria-hidden="true" src="{{ site.baseurl }}/static/logos/{{ currentguide[0].logo }}" />
+          <a href="{{ currentguide[0].url }}"><img alt="{{ currentguide[0].title }} logo" aria-hidden="true" src="{{ site.baseurl }}/static/logos/{{ currentguide[0].logo }}" /></a>
         </div>
       {% endif %}
       <div class="guide-landing-details">

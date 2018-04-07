@@ -1,6 +1,7 @@
 ---
 title: Enterprise Business Architecture
 guide: Enterprise Business Architecture
+logo: eba.jpg
 ---
 
 In 2015-16, The Deputy Minister’s Council for Transformation and Technology (DMCTT) asked the Government Chief Information Officer to produce an Enterprise Business Architecture (EBA) framework that reflected an agreed upon set of business and technology decisions that government had collectively made to help direct service transformation. The Enterprise Business Architecture Blueprint for the Government of British Columbia and the EBA Alignment Framework Diagram are a clear set of strategic, business, and technical guidelines that both service owners and technologists in government should use when making decisions about the creation of new services.

@@ -1,6 +1,7 @@
 ---
 title: Corporate Enablers
 guide: Corporate Enablers
+logo: corporateenablers.jpg
 ---
 
 A significant focus of the Enterprise Business Architecture effort is to uncover good work across the enterprise and encourage its re-use. That "good work" can take many forms, and may look like these:

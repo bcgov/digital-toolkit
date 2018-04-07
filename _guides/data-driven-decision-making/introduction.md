@@ -1,6 +1,7 @@
 ---
 title: Data-Driven Decision Making
 guide: Data-Driven Decision Making
+logo: datadrivendecisionmaking.jpg
 ---
 
 What is "data science"? A google search of that question generates 460,000,000 hits, and the first page of that search is populated with a variety of inconsistent definitions. So, to add another to the pile, here's some of my thoughts as I try to make sense of this.
@@ -19,13 +20,13 @@ In 1965, Deming wrote about the "Principles of Professional Statistical Practice
 
 (Alternate from 1979, better written)
 
-> *"The data of an experiment consist of much more than a mean and its standard deviation. The user of the results in order to understand them may require not only the original data, but also a description or reference to the method of investigation, the date, place, the duration of the test, a record of the faults discovered during the test, the amount of nonresponse by class, and any side-effects observed.
+> \*"The data of an experiment consist of much more than a mean and its standard deviation. The user of the results in order to understand them may require not only the original data, but also a description or reference to the method of investigation, the date, place, the duration of the test, a record of the faults discovered during the test, the amount of nonresponse by class, and any side-effects observed.
 
 > That Statistiscian has an obligation to help his client to perceive in advance the limitations of any study that is contemplated.
 
 > An important question to ask before the plans for a study go too far is this: What will the results refer to? How do you propose to use them? The answer(s) sometimes can bring forth drastic modification of the plan."
 >
-> "Some Contributions to Statistical Inference and Practice", by W. E Deming, Ch. 20 in Quantitative Techniques for Evaluating the Behavior of Psychiatric Patients. Burdock, 1979*
+> "Some Contributions to Statistical Inference and Practice", by W. E Deming, Ch. 20 in Quantitative Techniques for Evaluating the Behavior of Psychiatric Patients. Burdock, 1979\*
 
 In 1974, Peter Naur published _Concise Survey of Computer Methods_, wherein he uses the term "data science". It took some time, but the term has really caught on lately.
 
