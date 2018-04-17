@@ -4,7 +4,7 @@ guide: BC Policy Framework for GitHub
 subsection: How To Info
 ---
 
-The BCGov Organization on GitHub.com is the **only approved venue** for Open Source collaboration on Province Of British Columbia files.
+The BCGov Organization on GitHub.com is the **only approved venue** for Open Source collaboration on Province of British Columbia files.
 
 To get started as a BC Government employee or contractor on a BC Government Open Source Project, you will need to [create a GitHub account](https://github.com/join) (ideally using your name (FirstnameLastname) but we're flexible on this one) **and** link the account to your "work" email.
 

@@ -1,7 +1,7 @@
 ---
 title: Frequently Asked Questions
 layout: default
-last-edit: March, 2018
+last-edit: April, 2018
 ---
 
 <!-- TOC -->
@@ -31,7 +31,7 @@ It's for everyone in the BC Public Service with an interest in providing the bes
 
 ### Why do we need it?
 
-This Toolkit was build in response to an identified need around government, from all levels of the organization. It responds to the observation that while numerous groups in the BC Public have been working on next generation service offerings, a comprehensive how-to guide didn't exist, meaning that each next work unit seeking to design their own service often found themselves doing so in isolation, coming up with their own solutions net new. Folks weren't clear on who was doing what in government, what services were available from which parties, and how to go about following the steps necessary design and delivery a next generation service. This Toolkit seeks to connect those dots, illuminate this work, and identify the gaps that we as an organization should be seeking to fill. Happily, the process of compiling this Toolkit has already catalyzed the process of filling those gaps and better connecting the great work going on around the BC Public Service.
+This Toolkit was build in response to an identified need around government, from all levels of the organization. It responds to the observation that while numerous groups in the BC Public Service have been working on next generation service offerings, a comprehensive how-to guide didn't exist, meaning that each next work unit seeking to design their own service often found themselves doing so in isolation, coming up with their own solutions net new. Folks weren't clear on who was doing what in government, what services were available from which parties, and how to go about following the steps necessary to design and delivery a next generation service. This Toolkit seeks to connect those dots, illuminate this work, and identify the gaps that we as an organization should be seeking to fill. Happily, the process of compiling this Toolkit has already catalyzed the process of filling those gaps and better connecting the great work going on around the BC Public Service.
 
 ### What's in it?
 
@@ -45,7 +45,7 @@ The front layer provides a navigation guide for all users, and for the user new 
 
 ### Who built it? How?
 
-The Toolkit was built by a cross-government team committed to connecting and bolstering the capacity of our organization. It was developed as a quick proof of concept, leveraging open source material, in two agile sprints - i.e. four short weeks - to support the vision articulated in Citizens @ the Centre.
+The Toolkit was built by a cross-government team committed to connecting and bolstering the capacity of our organization. It was originally developed in 2016 as a quick proof of concept, leveraging open source material, in two agile sprints - i.e. four short weeks - to support the vision articulated in Citizens @ the Centre.  In early 2018, the Architecture, Standards & Planning branch (ASPB) of the Office of the Chief Information Officer (OCIO) leveraged the innovative [Code With Us](https://bcdevexchange.org/codewithus) procurement to secure resources to complete the build and refine content, over five one-week sprints.
 
 ### Will it answer all my questions?
 
@@ -53,4 +53,4 @@ Chances are, no, given this toolkit is an alpha - a prototype. In other words, i
 
 #### Didn't find what you need?
 
-We recognize that not all projects are suitable for these approaches. If you have a project that is more suited to a traditional “waterfall” type of approach, please reference [the IT Product and Service Design guide]({{ site.baseurl }}/guides/it-product-and-service-design) that shows how traditional approaches can leverage an agile methodology. And along those lines, here is a [collection of resources that helps transition towards an agile approach](https://github.com/bcgov/agile-sdlc/wiki).
+We recognize that not all projects are suitable for these approaches. If you have a project that is more suited to a traditional “waterfall” type of approach, please reference [the IT Product and Service Design guide]({{ site.baseurl }}/guides/it-product-and-service-design) that shows how traditional approaches can leverage an agile methodology. And along those lines, here is a [collection of resources that helps transition towards an agile approach](https://github.com/bcgov/agile-sdlc/wiki).  Also, you're welcome to submit your own content to this collection via Github - click any of the "Contribution" links.

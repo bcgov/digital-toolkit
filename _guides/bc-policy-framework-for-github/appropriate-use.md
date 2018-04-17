@@ -2,9 +2,10 @@
 title: Appropriate Use
 guide: BC Policy Framework for GitHub
 subsection: Employee Guide
+last-edit: March, 2016
 ---
 
-* When working on BC government projects, ensure your primary email address is set to _public.servant_@gov.bc.ca_._ Simply put, use your work address for any work done in your professional capacity.
+* When working on BC Government projects, ensure your primary email address is set to _public.servant_@gov.bc.ca_._ Simply put, use your work address for any work done in your professional capacity.
 * When you use any of the social media features of GitHub, making comments, forum posts please refer to the [Social Media Guidelines](http://www.gov.bc.ca/citz/citizens_engagement/some_guidelines_master.pdf) for appropriate conduct online.
 * Ensure you follow the conventions when you create, fork, modify and submit pull requests as described in the CONTRIBUTING.md file for each repository.
 * Ensure you adhere to the minimum content requirements for establishing [README](https://github.com/bcgov/BC-Policy-Framework-For-GitHub/blob/master/BC-Gov-Org-HowTo/SAMPLE-README.md) [CONTRIBUTING](https://github.com/bcgov/BC-Policy-Framework-For-GitHub/blob/master/BC-Gov-Org-HowTo/SAMPLE-CONTRIBUTING.md) and [LICENSE](https://github.com/bcgov/BC-Policy-Framework-For-GitHub/blob/master/BC-Gov-Org-HowTo/using-licenses.md) files.

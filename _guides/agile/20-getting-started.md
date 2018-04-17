@@ -7,7 +7,7 @@ The BC tech sector has embraced the value-driven approach of agile development a
 
 As such, the development and delivery of software has evolved over the past decade to include processes that permit a constant stream of new features to be delivered daily while maintaining functionality, stability and usability standards. In addition, new ways of approaching the creation of enterprise solutions have emerged where design drives architecture and functional code is written based on preconceived tests (i.e. test-driven development).
 
-With this in mind, we have identified 20 key steps that, if followed together, will help the BC government build more effective products.
+With this in mind, we have identified 20 key steps that, if followed together, will help the BC Government build more effective products.
 
 ### Key Steps to Agile Scrum Development in the BC Government
 

@@ -2,9 +2,10 @@
 title: IT Product and Service Design
 guide: IT Product and Service Design
 logo: servicedesign.jpg
+Last-edit: March, 2016
 ---
 
-This guide is a key deliverable produced under the IT Product and Service Design Initiative being executed by Technology Solutions (TS) within the Office of the Chief Information Officer (OCIO) at the Ministry of Technology, Innovation and Citizens’ Services (MTICS).
+This guide is a key deliverable produced under the IT Product and Service Design Initiative being executed by Technology Solutions (TS) within the Office of the Chief Information Officer (OCIO) at the Ministry of (at the time of writing) Technology, Innovation and Citizens’ Services (MTICS, now known as Ministry of Citizens' Services - CITZ.)
 
 ### Purpose
 

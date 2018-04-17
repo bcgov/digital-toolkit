@@ -7,7 +7,7 @@ description: Developer's Guide - B.C. Government online corporate branding guide
 
 ### Who Is This Guide For?
 
-The information and direction provided in this guide is for BC government employees and contractors who will be accessing GitHub as part of their work.
+The information and direction provided in this guide is for BC Government employees and contractors who will be accessing GitHub as part of their work.
 
 This document has been signed off by the GCIO and is a companion to the Open Source Development Standard. Feedback and suggestions for improvement are welcome using the GitHub issues functionality.
 
