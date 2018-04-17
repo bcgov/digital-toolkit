@@ -27,7 +27,7 @@ You may have a code development initiative that you’d like to manage as an ope
 
 ### 3. Contributing to an outside project
 
-There may be circumstances in which it is useful and appropriate for employees to make contributions to non-BC government repositories as a part of their work. In these cases, key considerations include:
+There may be circumstances in which it is useful and appropriate for employees to make contributions to non-BC Government repositories as a part of their work. In these cases, key considerations include:
 
 * Making sure contributions are relevant and are of a size and scope consistent with your priorities (this may involve checking with your supervisor)
 * Making sure the licensing provisions of the project you are contributing to are appropriate (for example, it is licensed under an OSI approved license and that you are not required to assign copyright to the project).
@@ -36,4 +36,4 @@ There may be circumstances in which it is useful and appropriate for employees t
 * If the project is using a reciprocal or "copyleft" license, such as GPL or Mozilla, you must ensure you understand the requirements for publishing any modifications you make to the code
 * Confirm your authority to license.
 
-Employees may also make contributions of non-BC government owned intellectual property rights outside their professional roles by using their personal email linked to their GitHub account.
+Employees may also make contributions of non-BC Government owned intellectual property rights outside their professional roles by using their personal email linked to their GitHub account.
