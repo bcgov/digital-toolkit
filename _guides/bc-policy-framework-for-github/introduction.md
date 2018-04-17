@@ -8,7 +8,7 @@ The BCGov GitHub Organization represents an ongoing effort to enable public & pr
 
 ### BC Developers' Policy and Guideline Documents
 
-_All the information a BC government employee could ever want about GitHub._
+_All the information a BC Government employee could ever want about GitHub._
 
 This repo's content is focused on providing information, examples and guidelines to facilitate the creation and governance of BCGov Open Source projects. We don't want to duplicate the good work GitHub has done with their own [online guides](https://guides.github.com/). Our focus is giving BC Government people and projects the info they need to get started on GitHub while remaining compliant with BC standards and policies.
 
