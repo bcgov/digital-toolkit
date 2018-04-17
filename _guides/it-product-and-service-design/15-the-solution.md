@@ -1,6 +1,7 @@
 ---
 title: The Solution
 guide: IT Product and Service Design
+last-edit: March, 2016
 ---
 
 To address current-state challenges and to move towards the desired future state, the IT Product and Service Design Initiative is iteratively developing the following components:
