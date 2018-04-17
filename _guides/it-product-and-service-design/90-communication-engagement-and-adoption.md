@@ -1,6 +1,7 @@
 ---
 title: Communication, Engagement and Adoption
 guide: IT Product and Service Design
+last-edit: March, 2016
 ---
 
 Success for this initiative means:
