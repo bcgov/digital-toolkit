@@ -10,7 +10,7 @@ If you're consuming code or other material, take note of whether the licence att
 
 If you're planning to contribute to an existing, outside project, be sure to understand the licence applied to that project and what it requires of contributors. If the project seeks an assignment of copyright or submission of a separate contributor agreement, you must contact Legal Services Branch prior to taking any action.
 
-If you're initiating a project or releasing previously created materials, you need to be aware that the Province can only license rights that it is in a legal position to grant to others. The Province's intellectual property rights in the content must be, at a minimum, equal to the rights under which the content will be licensed to third parties. Within the BC government, four 'open' licences are approved for use that will likely cover the majority of projects coming forward. These licences are:
+If you're initiating a project or releasing previously created materials, you need to be aware that the Province can only license rights that it is in a legal position to grant to others. The Province's intellectual property rights in the content must be, at a minimum, equal to the rights under which the content will be licensed to third parties. Within the BC Government, four 'open' licences are approved for use that will likely cover the majority of projects coming forward. These licences are:
 
 * Apache 2 for publishing code
 * Creative Commons International 4.0 (CC BY) for use with other documentation, artistic resources and educational material
@@ -21,7 +21,7 @@ Use of these licences is encouraged as they are widely accepted. Following a con
 
 ### Authority to License
 
-Under provincial policy, any licensing of BC government owned Intellectual Property requires the approval of the Intellectual Property Program (IPP), unless a ministry has either specific legislative authority or Treasury Board approval that enables them to license the intellectual property rights of the Province to third parties. When IPP is the authority for the licensing, IPP will work with you to find the best fit to meet the licensing needs of the project.
+Under provincial policy, any licensing of BC Government owned Intellectual Property requires the approval of the Intellectual Property Program (IPP), unless a ministry has either specific legislative authority or Treasury Board approval that enables them to license the intellectual property rights of the Province to third parties. When IPP is the authority for the licensing, IPP will work with you to find the best fit to meet the licensing needs of the project.
 
 IPP's approval process involves an examination of the development history of the content. This takes the form of a conversation and can be a very quick process. Initial questions include:
 
