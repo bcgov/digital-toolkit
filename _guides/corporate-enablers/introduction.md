@@ -2,6 +2,7 @@
 title: Corporate Enablers
 guide: Corporate Enablers
 logo: corporateenablers.jpg
+last-edit: Aprilt, 2018
 ---
 
 A significant focus of the Enterprise Business Architecture effort is to uncover good work across the enterprise and encourage its re-use. That "good work" can take many forms, and may look like these:
@@ -26,14 +27,13 @@ This list suggests many kinds of "good work" that can - and should - be shared, 
 
 This first iteration, an initial collection, of corporate enablers, has been gathered into the following categories, and will change:
 
-* Financial - programs, procedures, workflows, services, and technical interfaces that facilitate financial-related interactions
-* Identity - who am I and what can I do?
-* Cloud & Hosting - services and platforms and software
-* Data & Information - being more open while ensuring privacy and security; more access to the right information
-* Communication & Collaboration - enabling people to work together on a common objective
-* Citizen & Business - a collection of enablers with a distinct "outward focus"
-* Device & Productivity - the right tools for the job
-* Human Resources - a significant focus of "Where Ideas Work"
-* Digital Implementation - the tools and technical bits that will specifically target MyGov and digital delivery to citizens
+* Citizen & Business - This collection of enablers with a distinct "outward focus" includes Contact Centre, FrontCounter BC, BC Stats, BC Online, and BC Registries.
+* Cloud & Hosting - services and platforms and software - all of these services: Data Centre Co-location, Managed Hosting, and CloudBC.
+* Communication & Collaboration - This set enables people to work together on common objectives, and includes Network BC, Collaboration Software, Unified Device Management, and Device Services.
+* Data & Information - being more open while ensuring privacy and security; more access to the right information.  This category includes GeoBC, DataBC, the Data Innovation Program, and BC Stats.
+* Financial - including Corporate Financial System (CFS), and PayBC.  These are programs, procedures, workflows, services, and technical interfaces that facilitate financial-related interactions.
+* Human Resources - a significant focus of "Where Ideas Work", enablers in this catagory include Recruitment Management System, Corporate Humna Resources Information & Payroll System (CHIPS), The Learning Centre, and Time Leave and Management (TLAM.)
+* Identity - who am I and what can I do?  This includes both BC Services Card and BCeID Authentication Services
 
-These categories will change as the concept of corporate enablers evolves. Each is described in more detail in the following pages.
+
+These categories will change as the concept of corporate enablers evolves. Each is described in more detail through the links on the left.
