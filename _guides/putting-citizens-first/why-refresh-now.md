@@ -1,6 +1,6 @@
 ---
 title: Continuous Refresh
-guide: Citizens @ the Centre?
+guide: Putting Citizens first
 last-edit: March, 2018
 ---
 

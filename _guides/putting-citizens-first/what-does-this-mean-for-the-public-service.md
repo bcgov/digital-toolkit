@@ -1,6 +1,6 @@
 ---
 title: What Does This Mean for the Public Service?
-guide: Citizens @ the Centre?
+guide: Putting Citizens First
 last-edit: March, 2018
 ---
 

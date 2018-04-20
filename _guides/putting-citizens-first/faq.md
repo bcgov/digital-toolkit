@@ -1,6 +1,6 @@
 ---
 title: Frequently Asked Questions
-guide: Citizens @ the Centre?
+guide: Putting Citizens First
 last-edit: March, 2018
 ---
 
@@ -24,4 +24,4 @@ In 2015, groups across government connected to share stories, strategies and pri
 
 ### What happened to Citizens @ the Centre?
 
-The concept and importance of delivering services to citizens digitally remains.  This is emphasized within the most recent corporate plan for the BC public Service, Where Ideas Work, where Citizens @ the Centre remains a relevant body of work (see goal 3 in that plan) guiding us all in our delivery of services to the citizens of British columbia.
+The concept and importance of delivering services to citizens digitally remains.  This is emphasized within the most recent corporate plan for the BC public Service, [Where Ideas Work](https://gww.gov.bc.ca/org/corp-plan/where-ideas-work), where Citizens @ the Centre remains a relevant body of work (see goal 3 in that plan) guiding us all in our delivery of services to the citizens of British columbia.

@@ -1,6 +1,6 @@
 ---
 title: What Will You See Next?
-guide: Citizens @ the Centre?
+guide: Putting citizens First
 last-edit: March, 2018
 ---
 

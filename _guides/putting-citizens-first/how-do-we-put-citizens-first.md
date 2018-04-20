@@ -1,6 +1,6 @@
 ---
 title: How do we put Citizens @ the Centre?
-guide: Citizens @ the Centre?
+guide: Putting Citizens First
 last-edit: March, 2018
 ---
 
