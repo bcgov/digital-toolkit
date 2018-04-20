@@ -1,6 +1,6 @@
 ---
 title: Continuous Refresh
-guide: Putting Citizens first
+guide: Putting Citizens First
 last-edit: March, 2018
 ---
 
