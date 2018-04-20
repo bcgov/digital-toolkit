@@ -1,5 +1,5 @@
 ---
-title: Putting Citizens first
+title: Putting Citizens First
 guide: Putting Citizens First
 last-edit: April, 2018
 logo: wiw.jpg

@@ -1,6 +1,6 @@
 ---
 title: What Will You See Next?
-guide: Putting citizens First
+guide: Putting Citizens First
 last-edit: March, 2018
 ---
 
