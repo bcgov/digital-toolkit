@@ -1,6 +1,6 @@
 ---
-title: Citizens @ the Centre?
-guide: Citizens @ the Centre?
+title: Putting Citizens first
+guide: Putting Citizens First
 logo: wiw.jpg
 ---
 
