@@ -14,8 +14,8 @@ feedback-email: "asb.cio@gov.bc.ca"
 
 # Site survey
 # Set `show-survey-offer` to `false` in order to remove survey from site
-show-survey-offer: false
-survey-link: "https://www.surveymonkey.com/"
+show-survey-offer: true
+survey-link: "https://www.surveymonkey.com/r/8J7Y3MX"
 
 # Beta mode
 # Set `beta-mode` to true in order to display the "beta badge" in the header
