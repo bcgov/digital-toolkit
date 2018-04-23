@@ -1,5 +1,5 @@
 ---
-title: How do we put Citizens @ the Centre?
+title: How do we put Citizens first?
 guide: Putting Citizens First
 last-edit: March, 2018
 ---
