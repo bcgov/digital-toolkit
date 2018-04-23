@@ -11,7 +11,7 @@ Contact: Todd Wilson [@kelpisland on GitHub](https://github.com/kelpisland)
 
 ### Impact
 
-The DevExchange now acts as a sort of "living lab" for learning how to use modern approaches. Over time, tech companies are starting to use B.C public sector digital resources in their own product innovations, and conversely, the B.C. Public sector is starting to improve its own services by collaborating with the tech sector.
+The DevExchange now acts as a sort of "living lab" for learning how to use modern approaches. Over time, tech companies are starting to use BC public sector digital resources in their own product innovations, and conversely, the BC Public sector is starting to improve its own services by collaborating with the tech sector.
 
 ### Partners
 
