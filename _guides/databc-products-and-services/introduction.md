@@ -38,7 +38,7 @@ Connect your own mapping tool to [BC Map Services](https://www2.gov.bc.ca/gov/co
 
 ## Location Services
 
-Enhance your applications and imrpvoe your data by using BC location services.
+Enhance your applications and improve your data by using BC location services.
 
 * [BC Physical Address Geocoder](www2.gov.bc.ca/gov/content?id=118DD57CD9674D57BDBD511C2E78DC0D)
 * [Geomark Web Service](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/location-services/geomark-webservice)
