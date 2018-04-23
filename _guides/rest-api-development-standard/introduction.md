@@ -39,9 +39,7 @@ There is keen interest in an API Registry, which is one immediate focus of DataB
 API-related topics on the roadmap also include:
 
 * API consoles
-* Hosting REST APIs
-* Identity management
-* Security
+* API Gateways, Hosting, and API Key management
 
 #### Style Guide
 
