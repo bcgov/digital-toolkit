@@ -27,4 +27,4 @@ We have a resource that describes proven digital practices for government servic
 
 
 ### Code
-[Digital Toolkit code](<https://github.com/bcgov/digital-toolkit>)
+[Digital Toolkit](<https://github.com/bcgov/digital-toolkit>)
