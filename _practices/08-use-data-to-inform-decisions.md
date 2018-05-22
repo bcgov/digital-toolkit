@@ -16,3 +16,4 @@ Being data-driven is about using evidence to base the decisions made in the desi
 
 * [DataBC]({{ site.baseurl }}/in-practice-examples/databc)
 * [iMapBC](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/imapbc)
+* [HectaresBC]({{ site.baseurl }}/in-practice-examples/hectaresbc)
