@@ -26,11 +26,7 @@ title: Search
           "content": {{ page.content | strip_html | strip_newlines | lstrip | jsonify }},
           "description": "{{ page.description | xml_escape }}",
           "url": "{{ page.url | xml_escape }}"
-        }
-
-        // {% unless forloop.last %}
-          ,
-        // {% endunless %}
+        },
 
       {% endfor %}
     {% endfor %}
