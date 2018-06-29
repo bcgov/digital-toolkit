@@ -28,9 +28,9 @@ title: Search
           "url": "{{ page.url | xml_escape }}"
         }
 
-        {% unless forloop.last %}
+        // {% unless forloop.last %}
           ,
-        {% endunless %}
+        // {% endunless %}
 
       {% endfor %}
     {% endfor %}
