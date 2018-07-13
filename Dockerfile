@@ -33,6 +33,6 @@ RUN chown -R jekyll:0 /toolkit && chmod -R 775 /toolkit
 
 USER jekyll
 
-EXPOSE 4000
+EXPOSE 2015
 
 RUN JEKYLL_ENV=production jekyll build
