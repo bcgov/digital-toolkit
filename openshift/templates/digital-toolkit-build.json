@@ -5,15 +5,18 @@
         "name": "innovation-toolkit",
         "creationTimestamp": null
     },
+    "labels": {
+        "template":"toolkit-jekyll"
+    },
     "objects": [
         {
             "kind": "BuildConfig",
             "apiVersion": "v1",
             "metadata": {
-                "name": "innovation-toolkit",
+                "name": "${NAME}-jekyll${NAME_SUFFIX}",
                 "creationTimestamp": null,
                 "labels": {
-                    "app": "innovation-toolkit"
+                    "app": "${APP_NAME}"
                 },
                 "annotations": {
                     "openshift.io/generated-by": "OpenShiftNewApp"
@@ -46,7 +49,7 @@
                     "type": "Git",
                     "git": {
                         "uri": "https://github.com/bcgov/digital-toolkit.git",
-                        "ref": "os-pages"
+                        "ref": "develop"
                     }
                 },
                 "strategy": {
@@ -61,7 +64,7 @@
                 "output": {
                     "to": {
                         "kind": "ImageStreamTag",
-                        "name": "innovation-toolkit:latest"
+                        "name": "${NAME}-jekyll${NAME_SUFFIX}:latest"
                     }
                 },
                 "resources": {
@@ -85,11 +88,11 @@
             "kind": "ImageStream",
             "apiVersion": "v1",
             "metadata": {
-                "name": "innovation-toolkit",
+                "name": "${NAME}",
                 "generation": 1,
                 "creationTimestamp": null,
                 "labels": {
-                    "app": "innovation-toolkit"
+                    "app": "${APP_NAME}"
                 },
                 "annotations": {
                     "openshift.io/generated-by": "OpenShiftNewApp"
@@ -118,6 +121,27 @@
             "status": {
                 "dockerImageRepository": ""
             }
+        }
+    ],
+    "parameters": [
+        {
+            "name": "APP_NAME",
+            "displayName": "Name",
+            "description": "Application name used for grouping objects in the openshift console. You should keep this as default unless your know what your doing.",
+            "required": true,
+            "value": "innovation-toolkit"
+        },{
+            "name": "NAME",
+            "displayName": "Name",
+            "description": "The name assigned to all of the objects defined in this template. You should keep this as default unless your know what your doing.",
+            "required": true,
+            "value": "innovation-toolkit"
+        },{
+            "name": "NAME_SUFFIX",
+            "displayName": "Name",
+            "description": "The suffix for all created objects",
+            "required": false,
+            "value": ""
         }
     ]
 }
