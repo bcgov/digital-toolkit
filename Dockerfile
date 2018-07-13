@@ -35,4 +35,4 @@ USER jekyll
 
 EXPOSE 4000
 
-CMD JEKYLL_ENV=production jekyll build
+RUN JEKYLL_ENV=production jekyll build
