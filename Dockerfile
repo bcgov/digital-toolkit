@@ -35,4 +35,4 @@ USER jekyll
 
 EXPOSE 4000
 
-CMD JEKYLL_ENV=production jekyll serve --host 0.0.0.0
+CMD JEKYLL_ENV=production jekyll build
