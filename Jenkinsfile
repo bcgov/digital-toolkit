@@ -2,7 +2,7 @@ import groovy.json.JsonOutput
 
 def APP_NAME = 'innovation-toolkit'
 def CADDY_BUILD_CONFIG = 'innovation-toolkit-caddy'
-def CADDY_IMAGESTREAM_NAME = APP_NAME
+def CADDY_IMAGESTREAM_NAME = CADDY_BUILD_CONFIG
 def TAG_NAMES = ['dev', 'prod']
 
 node('master') {
