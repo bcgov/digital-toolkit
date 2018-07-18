@@ -11,3 +11,4 @@ Update in the `develop` branch will trigger Jenkins pipeline:
     2.3 Deploy to Development environment
     
 4. Wait for approval to deploy to Production environment
+5. Deploy to production
