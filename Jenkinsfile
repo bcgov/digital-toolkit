@@ -30,7 +30,7 @@ node('master') {
 
   stage('Approval') {
     timeout(time: 1, unit: 'DAYS') {
-      input message: "Deploy to test?", submitter: 'authenticated'
+      input message: "Deploy to production?", submitter: 'authenticated'
     }
     node ('master') {
       stage('Promotion') {
