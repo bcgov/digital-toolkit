@@ -24,7 +24,7 @@
             "type": "Git",
             "git": {
               "uri": "https://github.com/bcgov/digital-toolkit.git",
-              "ref": "develop"
+              "ref": "os-pages"
             }
           },
           "strategy": {
