@@ -1,6 +1,6 @@
 ## Deployment Flow:
 
-Update in the `develop` branch will trigger Jenkins pipeline:
+Update in the `os-pages` branch will trigger Jenkins pipeline:
 1. Checkout the source from Github
 2. Build images:
     
