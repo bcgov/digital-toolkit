@@ -47,7 +47,7 @@
                             "from": {
                                 "kind": "ImageStreamTag",
                                 "namespace": "ocio-guides-tools",
-                                "name": "innovation-toolkit-caddy:latest"
+                                "name": "innovation-toolkit-caddy:prod"
                             }
                         }
                     }

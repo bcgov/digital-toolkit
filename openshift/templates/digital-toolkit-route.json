@@ -21,14 +21,14 @@
                 }
             },
             "spec": {
-                "host": "digital-toolkit.pathfinder.gov.bc.ca",
+                "host": "digital-toolkit-dev.pathfinder.gov.bc.ca",
                 "to": {
                     "kind": "Service",
-                    "name": "innovation-toolkit",
+                    "name": "innovation-toolkit-caddy",
                     "weight": 100
                 },
                 "port": {
-                    "targetPort": "4000-tcp"
+                    "targetPort": "2015-tcp"
                 },
                 "tls": {
                     "termination": "edge",
@@ -39,7 +39,7 @@
             "status": {
                 "ingress": [
                     {
-                        "host": "digital-toolkit.pathfinder.gov.bc.ca",
+                        "host": "digital-toolkit-dev.pathfinder.gov.bc.ca",
                         "routerName": "router",
                         "conditions": [
                             {

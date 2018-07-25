@@ -47,16 +47,16 @@
                 "runPolicy": "Serial",
                 "source": {
                     "type": "Dockerfile",
-                    "dockerfile": "FROM bcgov-s2i-caddy\nCOPY _site /var/www/html/",
+                    "dockerfile": "FROM bcgov-s2i-caddy\nCOPY /toolkit/_site /var/www/html/",
                     "images": [
                         {
                             "from": {
                                 "kind": "ImageStreamTag",
-                                "name": "${NAME}-jekyll${NAME_SUFFIX}:latest"
+                                "name": "innovation-toolkit-jekyll:latest"
                             },
                             "paths": [
                                 {
-                                    "sourcePath": "/opt/app-root/src/_site",
+                                    "sourcePath": "/toolkit",
                                     "destinationDir": "./"
                                 }
                             ]
