@@ -20,8 +20,9 @@ RUN apk update && \
         libxslt-dev && \
     gem install ffi -v 1.9.21 && \
     gem install rb-fsevent \
-        jekyll \
-        bundler
+        bundler && \
+    gem install jekyll -v 3.7.3
+        
 
 WORKDIR /toolkit
 
@@ -33,6 +34,6 @@ RUN chown -R jekyll:0 /toolkit && chmod -R 775 /toolkit
 
 USER jekyll
 
-EXPOSE 4000
+EXPOSE 2015
 
-CMD JEKYLL_ENV=production jekyll serve --host 0.0.0.0
+RUN JEKYLL_ENV=production jekyll build

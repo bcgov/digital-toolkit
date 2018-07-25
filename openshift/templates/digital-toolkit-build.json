@@ -54,14 +54,14 @@
                     "dockerStrategy": {
                         "from": {
                             "kind": "ImageStreamTag",
-                            "name": "ruby:2.3.0-alpine"
+                            "name": "docker-registry.default.svc:5000/ocio-guides-tools/ruby:2.3.0-alpine"
                         }
                     }
                 },
                 "output": {
                     "to": {
                         "kind": "ImageStreamTag",
-                        "name": "innovation-toolkit:latest"
+                        "name": "innovation-toolkit-jekyll:latest"
                     }
                 },
                 "resources": {
@@ -85,7 +85,7 @@
             "kind": "ImageStream",
             "apiVersion": "v1",
             "metadata": {
-                "name": "innovation-toolkit",
+                "name": "innovation-toolkit-jekyll",
                 "generation": 1,
                 "creationTimestamp": null,
                 "labels": {
@@ -105,7 +105,7 @@
                         "annotations": null,
                         "from": {
                             "kind": "DockerImage",
-                            "name": "172.50.0.2:5000/guides/innovation-toolkit:latest"
+                            "name": "172.50.0.2:5000/ocio-guides-tools/innovation-toolkit-jekyll:latest"
                         },
                         "generation": null,
                         "importPolicy": {},

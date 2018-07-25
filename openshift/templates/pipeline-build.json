@@ -1,0 +1,46 @@
+{
+    "kind": "Template",
+    "apiVersion": "v1",
+    "metadata": {
+        "name": "innovation-toolkit",
+        "creationTimestamp": null
+    },
+    "objects": [
+      {
+        "kind": "BuildConfig",
+        "apiVersion": "v1",
+        "metadata": {
+          "name": "innovation-toolkit-pipeline",
+          "creationTimestamp": null,
+          "labels": {
+            "app": "innovation-toolkit-pipeline",
+            "name": "innovation-toolkit-pipeline",
+            "template": "innovation-toolkit-pipeline"
+          }
+        },
+        "spec": {
+          "runPolicy": "Parallel",
+          "source": {
+            "type": "Git",
+            "git": {
+              "uri": "https://github.com/bcgov/digital-toolkit.git",
+              "ref": "os-pages"
+            }
+          },
+          "strategy": {
+            "type": "JenkinsPipeline",
+            "jenkinsPipelineStrategy": {
+              "jenkinsfilePath": "Jenkinsfile"
+            }
+          },
+          "output": {},
+          "resources": {},
+          "postCommit": {},
+          "nodeSelector": null
+        },
+        "status": {
+          "lastVersion": 0
+        }
+      }
+    ]
+}
