@@ -7,7 +7,7 @@ example-of: Put your user and their needs at the centre of your design
 
 ### Impact
 
-Agedout.com uses modern, interactive technology to guide users through “Quests.” As the youth proceed through the quests, they earn badges for their learning. Youth are then able to put the badges towards real life rewards, such as computers from Best Buy. \[Metrics forthcoming.\] This approach has the potential to expand to other Ministries, the Quests functionality and methodology being shared with partners in an example of gov-as-a-platform.
+Agedout.com uses modern, interactive technology to guide users through “Quests.” As the youth proceed through the quests, they earn badges for their learning. Youth are then able to put the badges towards real life rewards, such as computers from Best Buy. \[Metrics forthcoming.\] This approach has the potential to expand to other Ministries, the Quests functionality and methodology being shared with partners in an example of gov-as-a-platform...
 
 ### Partners
 
