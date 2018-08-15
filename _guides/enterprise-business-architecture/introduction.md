@@ -1,5 +1,5 @@
 ---
-title: Enterprise Business Architecture 2.0
+title: Enterprise Business Architecture
 guide: Enterprise Business Architecture
 logo: eba.jpg
 ---
