@@ -32,7 +32,7 @@ This first iteration, an initial collection, of corporate enablers, has been gat
 * Communication & Collaboration - This set enables people to work together on common objectives, and includes Network BC, Collaboration Software, Unified Device Management, and Device Services.
 * Data & Information - being more open while ensuring privacy and security; more access to the right information.  This category includes GeoBC, DataBC, the Data Innovation Program, and BC Stats.
 * Financial - including Corporate Financial System (CFS), and PayBC.  These are programs, procedures, workflows, services, and technical interfaces that facilitate financial-related interactions.
-* Human Resources - a significant focus of "Where Ideas Work", enablers in this catagory include Recruitment Management System, Corporate Human Resources Information & Payroll System (CHIPS), The Learning Centre, and Time Leave and Management (TLAM.)
+* Human Resources - a significant focus of "Where Ideas Work", enablers in this category include Recruitment Management System, Corporate Human Resources Information & Payroll System (CHIPS), The Learning Centre, and Time Leave and Management (TLAM.)
 * Identity - who am I and what can I do?  This includes both BC Services Card and BCeID Authentication Services
 
 
