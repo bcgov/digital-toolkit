@@ -16,7 +16,7 @@ Description: [DataBC](https://data.gov.bc.ca/) is focused on managing B.C. Gover
 
 Capabilities: BC Data Catalogue and metadata, Open Data, BC Geographic (Data) Warehouse, data management, map platforms and services, address geocoding and route planning, web services and API management
 
-**Data Innovation Program** Owner: Genevieve Lambert, Data Systems & Services, Integrated Data Division, JTT 
+**Data Innovation Program** Owner: Genevieve Lambert, Data Systems & Services, Integrated Data Division, OCIO 
 
 Description: The Data Innovation Program provides a safe and trusted place for integrated, responsible, analysis of BC Government data to help solve high priority public sector problems.  The program fosters innovation and collaboration between government, researchers, the private sector and citizens.
 
